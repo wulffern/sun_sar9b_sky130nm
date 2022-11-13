@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+
+*.so
+*.run
+*.pdf
+*.ext
+*.gds
+.cache
+.local/
+output*/
+work/
+build/
