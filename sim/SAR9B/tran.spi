@@ -159,7 +159,7 @@ unset askquit
 #ifdef Debug
 tran 1n 250n
 
-hardcopy {cicfname}.ps allv
+hardcopy {cicname}.ps allv
 *quit
 #else
 *nbpt=64 => 8u

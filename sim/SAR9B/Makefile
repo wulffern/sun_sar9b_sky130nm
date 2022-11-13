@@ -32,7 +32,7 @@ test:
 	${MAKE} typical OPT="Debug"
 
 TB=tran
-VIEW=Sch
+VIEW=Lay
 
 OPT=
 
