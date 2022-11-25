@@ -47,9 +47,9 @@
 *.option TNOM=27 GMIN=1e-15 reltol=1e-6 abstol=1e-6
 *vntol=1u abstol=1p trtol=7 method=trap chgtol=1e-16
 #ifdef Debug
-.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-12
+.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter  gmin=1e-12
 #else
-.option reltol=1e-5 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
+.option reltol=1e-5 srcsteps=1 ramptime=10n noopiter  gmin=1e-15
 #endif
 
 *----------------------------------------------------------------

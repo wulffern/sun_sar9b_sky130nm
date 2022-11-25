@@ -76,7 +76,7 @@
         "gamma" : 200,
         "grid" : 5,
         "spiceunit":1,
-        "techlib" : "sky130A",
+        "techlib" : "sky130B",
         "devices" : {
             "mresM1" : { "name" : "sky130_fd_pr__res_generic_l1",
                          "devicetype" : "R",
@@ -102,7 +102,7 @@
         },
         "symbol_lib" : "cpdk",
         "symbol_libs" : ["../../cpdk/design/cic_wbulk",
-                         "$PDK_ROOT/sky130A/libs.tech/xschem/sky130_fd_pr"
+                         "$PDK_ROOT/sky130B/libs.tech/xschem/sky130_fd_pr"
                         ]
     },
     "rules" : {
