@@ -56534,12 +56534,12 @@
     "info": {
         "arguments": "/Users/wulff/lpro/aicex/ip/sun_sar9b_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_SAR9B_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.4-74-g535694b",
+        "hash": "0.1.5",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_SAR9B_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.4+ built on Fri Nov 25 21:34:47 CET 2022"
+        "version": "0.1.5 built on Sun Dec 25 13:11:04 CET 2022"
     }
 }
