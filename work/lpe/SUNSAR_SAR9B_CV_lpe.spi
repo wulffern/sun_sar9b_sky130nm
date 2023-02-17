@@ -1,0 +1,1864 @@
+* NGSPICE file created from SUNSAR_SAR9B_CV.ext - technology: sky130B
+
+.subckt SUNSAR_SAR9B_CV SAR_IP SAR_IN SARN SARP DONE D<8> D<7> D<6> D<5> D<4> D<3>
++ D<2> D<1> D<0> EN CK_SAMPLE CK_SAMPLE_BSSW VREF AVDD AVSS
+R0 XA0/CP0 XDAC1/XC128b<2>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R1 XA0/CP0 XDAC1/XC128b<2>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R2 XA0/CP0 XDAC1/XC128b<2>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R3 XA0/CP0 XDAC1/XC128b<2>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R4 XA0/CP0 XDAC1/XC128b<2>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R5 XA0/CP0 XDAC1/XC128b<2>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R6 XA2/CP0 XDAC1/X16ab/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R7 D<5> XDAC1/X16ab/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R8 D<5> XDAC1/X16ab/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R9 D<5> XDAC1/X16ab/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R10 D<5> XDAC1/X16ab/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R11 XA3/CP0 XDAC1/X16ab/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R12 XA1/CP0 XDAC1/XC64a<0>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R13 XA1/CP0 XDAC1/XC64a<0>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R14 XA1/CP0 XDAC1/XC64a<0>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R15 XA1/CP0 XDAC1/XC64a<0>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R16 XA1/CP0 XDAC1/XC64a<0>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R17 XA1/CP0 XDAC1/XC64a<0>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R18 XA0/CP1 XDAC1/XC0/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R19 XA0/CP1 XDAC1/XC0/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R20 XA0/CP1 XDAC1/XC0/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R21 XA0/CP1 XDAC1/XC0/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R22 XA0/CP1 XDAC1/XC0/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R23 XA0/CP1 XDAC1/XC0/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R24 XA0/CP0 XDAC1/XC1/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R25 XA0/CP0 XDAC1/XC1/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R26 XA0/CP0 XDAC1/XC1/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R27 XA0/CP0 XDAC1/XC1/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R28 XA0/CP0 XDAC1/XC1/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R29 XA0/CP0 XDAC1/XC1/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R30 D<7> XDAC1/XC64b<1>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R31 D<7> XDAC1/XC64b<1>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R32 D<7> XDAC1/XC64b<1>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R33 D<7> XDAC1/XC64b<1>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R34 D<7> XDAC1/XC64b<1>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R35 D<7> XDAC1/XC64b<1>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R36 XA0/CP1 XDAC1/XC128a<1>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R37 XA0/CP1 XDAC1/XC128a<1>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R38 XA0/CP1 XDAC1/XC128a<1>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R39 XA0/CP1 XDAC1/XC128a<1>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R40 XA0/CP1 XDAC1/XC128a<1>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R41 XA0/CP1 XDAC1/XC128a<1>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R42 D<6> XDAC1/XC32a<0>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R43 D<2> XDAC1/XC32a<0>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R44 XDAC1/XC32a<0>/C1A AVSS sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R45 D<1> XDAC1/XC32a<0>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R46 D<3> XDAC1/XC32a<0>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R47 D<4> XDAC1/XC32a<0>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R48 XA0/CN0 XDAC2/XC128b<2>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R49 XA0/CN0 XDAC2/XC128b<2>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R50 XA0/CN0 XDAC2/XC128b<2>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R51 XA0/CN0 XDAC2/XC128b<2>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R52 XA0/CN0 XDAC2/XC128b<2>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R53 XA0/CN0 XDAC2/XC128b<2>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R54 XA2/CN0 XDAC2/X16ab/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R55 XA3/CN1 XDAC2/X16ab/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R56 XA3/CN1 XDAC2/X16ab/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R57 XA3/CN1 XDAC2/X16ab/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R58 XA3/CN1 XDAC2/X16ab/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R59 XA3/CN0 XDAC2/X16ab/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R60 XA1/CN0 XDAC2/XC64a<0>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R61 XA1/CN0 XDAC2/XC64a<0>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R62 XA1/CN0 XDAC2/XC64a<0>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R63 XA1/CN0 XDAC2/XC64a<0>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R64 XA1/CN0 XDAC2/XC64a<0>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R65 XA1/CN0 XDAC2/XC64a<0>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R66 D<8> XDAC2/XC0/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R67 D<8> XDAC2/XC0/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R68 D<8> XDAC2/XC0/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R69 D<8> XDAC2/XC0/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R70 D<8> XDAC2/XC0/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R71 D<8> XDAC2/XC0/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R72 XA0/CN0 XDAC2/XC1/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R73 XA0/CN0 XDAC2/XC1/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R74 XA0/CN0 XDAC2/XC1/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R75 XA0/CN0 XDAC2/XC1/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R76 XA0/CN0 XDAC2/XC1/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R77 XA0/CN0 XDAC2/XC1/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R78 XA1/CN1 XDAC2/XC64b<1>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R79 XA1/CN1 XDAC2/XC64b<1>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R80 XA1/CN1 XDAC2/XC64b<1>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R81 XA1/CN1 XDAC2/XC64b<1>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R82 XA1/CN1 XDAC2/XC64b<1>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R83 XA1/CN1 XDAC2/XC64b<1>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R84 D<8> XDAC2/XC128a<1>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R85 D<8> XDAC2/XC128a<1>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R86 D<8> XDAC2/XC128a<1>/XRES1A/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R87 D<8> XDAC2/XC128a<1>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R88 D<8> XDAC2/XC128a<1>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R89 D<8> XDAC2/XC128a<1>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R90 XA2/CN1 XDAC2/XC32a<0>/XRES16/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R91 XA6/CN0 XDAC2/XC32a<0>/XRES2/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R92 XDAC2/XC32a<0>/C1A AVSS sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R93 XA7/CN0 XDAC2/XC32a<0>/XRES1B/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R94 XA5/CN0 XDAC2/XC32a<0>/XRES4/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+R95 XA4/CN0 XDAC2/XC32a<0>/XRES8/B sky130_fd_pr__res_generic_l1 w=380000u l=300000u
+X0 XA20/XA9/A XA20/XA11/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=1.49591e+14p ps=8.019e+08u w=1.08e+06u l=180000u
+X1 AVDD XA20/XA12/Y XA20/XA9/A AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X2 XA20/XA10/MN1/S XA20/XA11/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.27156e+14p ps=1.2177e+09u w=1.08e+06u l=180000u
+X3 XA20/XA9/A XA20/XA12/Y XA20/XA10/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X4 XA20/XA11/MP1/S CK_SAMPLE AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X5 XA20/XA11/Y DONE XA20/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X6 XA20/XA11/Y CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X7 AVSS DONE XA20/XA11/Y AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X8 XA20/XA12/Y XA8/CEO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X9 XA20/XA12/Y XA8/CEO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X10 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X11 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X12 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X13 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X14 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X15 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X16 AVDD XA20/XA9/A XA20/XA1/MP0/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X17 XA20/XA1/MP0/S XA20/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X18 XA20/XA1/MP0/S SARP XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X19 XA20/XA1/MP0/S SARP XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X20 XA20/XA1/MP0/S SARP XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X21 XA20/XA1/MP0/S SARP XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X22 AVDD XA20/XA9/Y XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=7.50668e+14p pd=1.4145e+09u as=0p ps=0u w=1.08e+06u l=180000u
+X23 XA20/XA1/MP0/S SARP XA20/XA1/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X24 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X25 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X26 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X27 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X28 AVDD XA20/XA9/Y XA20/XA3/N1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X29 XA20/XA2/N2 XA20/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X30 AVDD AVDD XA20/XA2/N2 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X31 XA20/XA3/N1 XA20/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X32 XA20/XA3a/A XA20/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X33 XA20/XA2/N2 SARP XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X34 AVDD XA20/XA3/CO XA20/XA3a/A AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X35 XA20/XA3/N1 SARP XA20/XA2/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X36 XA20/XA3a/A XA20/XA3/CO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X37 XA20/XA2/N2 SARP XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X38 AVDD XA20/XA3/CO XA20/XA3a/A AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X39 XA20/XA3/N1 SARP XA20/XA2/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X40 XA20/XA3a/A XA20/XA3/CO XA20/XA2/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X41 XA20/XA2/N2 SARP XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X42 AVDD XA20/XA9/Y XA20/XA3/N1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X43 XA20/XA3/N2 XA20/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X44 AVDD AVDD XA20/XA3/N2 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X45 XA20/XA3/N1 XA20/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X46 XA20/XA3/CO XA20/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X47 XA20/XA3/N2 SARN XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X48 AVDD XA20/XA3a/A XA20/XA3/CO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X49 XA20/XA3/N1 SARN XA20/XA3/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X50 XA20/XA3/CO XA20/XA3a/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X51 XA20/XA3/N2 SARN XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X52 AVDD XA20/XA3a/A XA20/XA3/CO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X53 XA20/XA3/N1 SARN XA20/XA3/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X54 XA20/XA3/CO XA20/XA3a/A XA20/XA3/N2 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X55 XA20/XA3/N2 SARN XA20/XA3/N1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X56 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X57 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X58 AVDD XA20/XA9/A XA20/XA4/MP0/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X59 XA20/XA4/MP0/S XA20/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X60 XA20/XA4/MP0/S SARN XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X61 XA20/XA4/MP0/S SARN XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X62 XA20/XA4/MP0/S SARN XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X63 XA20/XA4/MP0/S SARN XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X64 AVDD XA20/XA9/Y XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X65 XA20/XA4/MP0/S SARN XA20/XA4/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X66 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X67 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X68 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X69 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X70 XA20/CNO XA20/XA3a/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X71 AVDD XA20/XA3a/A XA20/CNO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X72 XA20/CNO XA20/XA3a/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X73 XA20/CNO XA20/XA3a/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X74 AVDD XA20/XA3a/A XA20/CNO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X75 AVSS XA20/XA3a/A XA20/CNO AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X76 XA20/CNO XA20/XA3a/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X77 AVSS XA20/XA3a/A XA20/CNO AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X78 XA20/CPO XA20/XA3/CO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X79 AVDD XA20/XA3/CO XA20/CPO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X80 XA20/CPO XA20/XA3/CO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X81 XA20/CPO XA20/XA3/CO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X82 AVDD XA20/XA3/CO XA20/CPO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X83 AVSS XA20/XA3/CO XA20/CPO AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X84 XA20/CPO XA20/XA3/CO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X85 AVSS XA20/XA3/CO XA20/CPO AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X86 XA20/XA9/Y XA20/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X87 XA20/XA9/Y XA20/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X88 SARP XB1/M4/G SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=4.9248e+12p pd=2.64e+07u as=5.5404e+12p ps=2.97e+07u w=1.08e+06u l=180000u
+X89 SARP XB1/M4/G SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X90 SARP XB1/M4/G SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X91 SARP XB1/M4/G SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X92 SARN XA0/CEIN SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=4.9248e+12p pd=2.64e+07u as=0p ps=0u w=1.08e+06u l=180000u
+R96 XB1/XA4/GNG XB1/XCAPB1/XCAPB0/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R97 XB1/XCAPB1/XCAPB0/m3_252_308# XB1/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R98 XB1/XA4/GNG XB1/XCAPB1/XCAPB1/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R99 XB1/XCAPB1/XCAPB1/m3_252_308# XB1/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R100 XB1/XA4/GNG XB1/XCAPB1/XCAPB2/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R101 XB1/XCAPB1/XCAPB2/m3_252_308# XB1/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R102 XB1/XA4/GNG XB1/XCAPB1/XCAPB3/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R103 XB1/XCAPB1/XCAPB3/m3_252_308# XB1/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R104 XB1/XA4/GNG XB1/XCAPB1/XCAPB4/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R105 XB1/XCAPB1/XCAPB4/m3_252_308# XB1/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+X93 SARN XA0/CEIN SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X94 SARN XA0/CEIN SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X95 SARN XA0/CEIN SAR_IP AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X96 XB1/CKN CK_SAMPLE_BSSW AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X97 XB1/CKN CK_SAMPLE_BSSW AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X98 XB1/XA1/Y XB1/XA1/MP0/G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X99 XB1/XA1/MP0/G XB1/XA1/MP0/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X100 XB1/XA2/MP0/G XB1/XA2/MP0/G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X101 XA0/CEIN XB1/XA2/MP0/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X102 XB1/XA3/B AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X103 AVDD XB1/CKN XB1/XA3/MP0/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X104 SAR_IP XB1/CKN XB1/XA3/B AVDD sky130_fd_pr__pfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X105 AVSS XB1/CKN XB1/XA3/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X106 XB1/XA3/B XB1/CKN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X107 SAR_IP XB1/XA3/MP0/S XB1/XA3/B AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X108 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X109 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X110 XB1/XA4/GNG XB1/CKN XB1/M4/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X111 AVDD XB1/M4/G XB1/XA4/GNG AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X112 XB1/XA4/MN1/S XB1/CKN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X113 XB1/M4/G XB1/XA1/Y XB1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X114 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X115 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X116 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X117 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X118 XA0/XA11/A XA0/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X119 XA0/XA11/A XA0/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X120 XA0/XA11/MP1/S XA0/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X121 XA0/XA12/A XA0/CEIN XA0/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X122 XA0/XA12/A XA0/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X123 AVSS XA0/CEIN XA0/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X124 XA0/CEO XA0/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X125 XA0/CEO XA0/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X126 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X127 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X128 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X129 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X130 AVDD EN XA0/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X131 XA0/XA1/XA1/MP2/S XA20/CNO XA1/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X132 XA0/XA1/XA1/MP3/S XA20/CPO XA0/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X133 XA0/XA1/XA1/MN2/S EN XA0/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X134 AVDD XA0/XA1/XA1/MP3/G XA0/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X135 XA0/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X136 AVSS XA20/CPO XA0/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X137 XA1/EN XA0/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X138 XA0/XA1/XA2/Y XA1/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X139 XA0/XA1/XA2/Y XA1/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X140 XA0/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X141 XA0/XA1/XA4/MP2/S EN XA0/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X142 XA0/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X143 XA0/XA4/A EN XA0/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X144 XA0/XA1/XA4/MN2/S XA0/XA1/XA2/Y XA0/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X145 XA0/XA4/A EN XA0/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X146 XA0/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X147 XA0/XA1/XA5/MP2/S EN XA0/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X148 XA0/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X149 XA0/XA2/A EN XA0/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X150 XA0/XA1/XA5/MN2/S XA0/XA1/XA2/Y XA0/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X151 XA0/XA2/A EN XA0/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X152 D<8> XA0/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=8.86464e+13p ps=4.752e+08u w=1.08e+06u l=180000u
+X153 VREF XA0/XA2/A D<8> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X154 D<8> XA0/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X155 D<8> XA0/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X156 VREF XA0/XA2/A D<8> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X157 AVSS XA0/XA2/A D<8> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X158 D<8> XA0/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X159 AVSS XA0/XA2/A D<8> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X160 XA0/CP1 D<8> VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X161 VREF D<8> XA0/CP1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X162 XA0/CP1 D<8> VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X163 XA0/CP1 D<8> AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X164 VREF D<8> XA0/CP1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X165 AVSS D<8> XA0/CP1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X166 XA0/CP1 D<8> AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X167 AVSS D<8> XA0/CP1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X168 XA0/CP0 XA0/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X169 VREF XA0/XA4/A XA0/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X170 XA0/CP0 XA0/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X171 XA0/CP0 XA0/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X172 VREF XA0/XA4/A XA0/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X173 AVSS XA0/XA4/A XA0/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X174 XA0/CP0 XA0/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X175 AVSS XA0/XA4/A XA0/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X176 XA0/CN0 XA0/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X177 VREF XA0/CP0 XA0/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X178 XA0/CN0 XA0/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X179 XA0/CN0 XA0/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X180 VREF XA0/CP0 XA0/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X181 AVSS XA0/CP0 XA0/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X182 XA0/CN0 XA0/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X183 AVSS XA0/CP0 XA0/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X184 XA0/XA6/MP1/S XA0/CN0 XA0/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X185 AVDD XA0/CN0 XA0/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X186 XA0/XA6/MP3/S XA0/CP1 AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X187 XA0/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X188 XA0/XA9/B XA0/CP1 XA0/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X189 AVSS CK_SAMPLE XA0/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X190 XA0/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X191 XA0/XA9/B CK_SAMPLE XA0/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X192 XA0/XA9/A XA1/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X193 XA0/XA9/A XA1/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X194 XA0/DONE XA0/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X195 XA0/DONE XA0/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X196 XA0/XA9/Y XA0/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X197 AVDD XA0/XA9/B XA0/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X198 XA0/XA9/MN1/S XA0/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X199 XA0/XA9/Y XA0/XA9/B XA0/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X200 SARN XB2/M4/G SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=5.5404e+12p ps=2.97e+07u w=1.08e+06u l=180000u
+X201 SARN XB2/M4/G SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X202 SARN XB2/M4/G SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X203 SARN XB2/M4/G SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X204 SARP XA0/CEIN SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+R106 XB2/XA4/GNG XB2/XCAPB1/XCAPB0/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R107 XB2/XCAPB1/XCAPB0/m3_252_308# XB2/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R108 XB2/XA4/GNG XB2/XCAPB1/XCAPB1/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R109 XB2/XCAPB1/XCAPB1/m3_252_308# XB2/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R110 XB2/XA4/GNG XB2/XCAPB1/XCAPB2/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R111 XB2/XCAPB1/XCAPB2/m3_252_308# XB2/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R112 XB2/XA4/GNG XB2/XCAPB1/XCAPB3/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R113 XB2/XCAPB1/XCAPB3/m3_252_308# XB2/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R114 XB2/XA4/GNG XB2/XCAPB1/XCAPB4/m3_9828_132# sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+R115 XB2/XCAPB1/XCAPB4/m3_252_308# XB2/XA3/B sky130_fd_pr__res_generic_m3 w=440000u l=360000u
+X205 SARP XA0/CEIN SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X206 SARP XA0/CEIN SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X207 SARP XA0/CEIN SAR_IN AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X208 XB2/CKN CK_SAMPLE_BSSW AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X209 XB2/CKN CK_SAMPLE_BSSW AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X210 XB2/XA1/Y XB2/XA1/MP0/G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X211 XB2/XA1/MP0/G XB2/XA1/MP0/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X212 XB2/XA2/MP0/G XB2/XA2/MP0/G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X213 XA0/CEIN XB2/XA2/MP0/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X214 XB2/XA3/B AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X215 AVDD XB2/CKN XB2/XA3/MP0/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X216 SAR_IN XB2/CKN XB2/XA3/B AVDD sky130_fd_pr__pfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X217 AVSS XB2/CKN XB2/XA3/MP0/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X218 XB2/XA3/B XB2/CKN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X219 SAR_IN XB2/XA3/MP0/S XB2/XA3/B AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X220 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X221 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X222 XB2/XA4/GNG XB2/CKN XB2/M4/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X223 AVDD XB2/M4/G XB2/XA4/GNG AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X224 XB2/XA4/MN1/S XB2/CKN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X225 XB2/M4/G XB2/XA1/Y XB2/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X226 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X227 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X228 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X229 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X230 XA1/XA11/A XA1/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X231 XA1/XA11/A XA1/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X232 XA1/XA11/MP1/S XA1/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X233 XA1/XA12/A XA0/CEO XA1/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X234 XA1/XA12/A XA1/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X235 AVSS XA0/CEO XA1/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X236 XA1/CEO XA1/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X237 XA1/CEO XA1/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X238 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X239 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X240 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X241 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X242 AVDD EN XA1/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X243 XA1/XA1/XA1/MP2/S XA20/CNO XA2/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X244 XA1/XA1/XA1/MP3/S XA20/CPO XA1/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X245 XA1/XA1/XA1/MN2/S XA1/EN XA1/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X246 AVDD XA1/XA1/XA1/MP3/G XA1/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X247 XA1/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X248 AVSS XA20/CPO XA1/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X249 XA2/EN XA1/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X250 XA1/XA1/XA2/Y XA2/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X251 XA1/XA1/XA2/Y XA2/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X252 XA1/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X253 XA1/XA1/XA4/MP2/S EN XA1/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X254 XA1/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X255 XA1/XA4/A EN XA1/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X256 XA1/XA1/XA4/MN2/S XA1/XA1/XA2/Y XA1/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X257 XA1/XA4/A XA1/EN XA1/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X258 XA1/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X259 XA1/XA1/XA5/MP2/S EN XA1/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X260 XA1/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X261 XA1/XA2/A EN XA1/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X262 XA1/XA1/XA5/MN2/S XA1/XA1/XA2/Y XA1/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X263 XA1/XA2/A XA1/EN XA1/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X264 XA1/CN1 XA1/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X265 VREF XA1/XA2/A XA1/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X266 XA1/CN1 XA1/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X267 XA1/CN1 XA1/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X268 VREF XA1/XA2/A XA1/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X269 AVSS XA1/XA2/A XA1/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X270 XA1/CN1 XA1/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X271 AVSS XA1/XA2/A XA1/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X272 D<7> XA1/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X273 VREF XA1/CN1 D<7> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X274 D<7> XA1/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X275 D<7> XA1/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X276 VREF XA1/CN1 D<7> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X277 AVSS XA1/CN1 D<7> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X278 D<7> XA1/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X279 AVSS XA1/CN1 D<7> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X280 XA1/CP0 XA1/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X281 VREF XA1/XA4/A XA1/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X282 XA1/CP0 XA1/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X283 XA1/CP0 XA1/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X284 VREF XA1/XA4/A XA1/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X285 AVSS XA1/XA4/A XA1/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X286 XA1/CP0 XA1/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X287 AVSS XA1/XA4/A XA1/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X288 XA1/CN0 XA1/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X289 VREF XA1/CP0 XA1/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X290 XA1/CN0 XA1/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X291 XA1/CN0 XA1/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X292 VREF XA1/CP0 XA1/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X293 AVSS XA1/CP0 XA1/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X294 XA1/CN0 XA1/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X295 AVSS XA1/CP0 XA1/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X296 XA1/XA6/MP1/S XA1/CN0 XA1/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X297 AVDD XA1/CN0 XA1/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X298 XA1/XA6/MP3/S D<7> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X299 XA1/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X300 XA1/XA9/B D<7> XA1/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X301 AVSS CK_SAMPLE XA1/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X302 XA1/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X303 XA1/XA9/B CK_SAMPLE XA1/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X304 XA1/XA9/A XA2/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X305 XA1/XA9/A XA2/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X306 XA1/DONE XA1/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X307 XA1/DONE XA1/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X308 XA1/XA9/Y XA1/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X309 AVDD XA1/XA9/B XA1/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X310 XA1/XA9/MN1/S XA1/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X311 XA1/XA9/Y XA1/XA9/B XA1/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X312 XA2/XA11/A XA2/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X313 XA2/XA11/A XA2/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X314 XA2/XA11/MP1/S XA2/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X315 XA2/XA12/A XA1/CEO XA2/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X316 XA2/XA12/A XA2/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X317 AVSS XA1/CEO XA2/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X318 XA2/CEO XA2/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X319 XA2/CEO XA2/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X320 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X321 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X322 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X323 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X324 AVDD EN XA2/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X325 XA2/XA1/XA1/MP2/S XA20/CNO XA3/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X326 XA2/XA1/XA1/MP3/S XA20/CPO XA2/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X327 XA2/XA1/XA1/MN2/S XA2/EN XA2/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X328 AVDD XA2/XA1/XA1/MP3/G XA2/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X329 XA2/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X330 AVSS XA20/CPO XA2/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X331 XA3/EN XA2/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X332 XA2/XA1/XA2/Y XA3/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X333 XA2/XA1/XA2/Y XA3/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X334 XA2/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X335 XA2/XA1/XA4/MP2/S EN XA2/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X336 XA2/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X337 XA2/XA4/A EN XA2/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X338 XA2/XA1/XA4/MN2/S XA2/XA1/XA2/Y XA2/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X339 XA2/XA4/A XA2/EN XA2/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X340 XA2/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X341 XA2/XA1/XA5/MP2/S EN XA2/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X342 XA2/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X343 XA2/XA2/A EN XA2/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X344 XA2/XA1/XA5/MN2/S XA2/XA1/XA2/Y XA2/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X345 XA2/XA2/A XA2/EN XA2/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X346 XA2/CN1 XA2/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X347 VREF XA2/XA2/A XA2/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X348 XA2/CN1 XA2/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X349 XA2/CN1 XA2/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X350 VREF XA2/XA2/A XA2/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X351 AVSS XA2/XA2/A XA2/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X352 XA2/CN1 XA2/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X353 AVSS XA2/XA2/A XA2/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X354 D<6> XA2/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X355 VREF XA2/CN1 D<6> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X356 D<6> XA2/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X357 D<6> XA2/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X358 VREF XA2/CN1 D<6> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X359 AVSS XA2/CN1 D<6> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X360 D<6> XA2/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X361 AVSS XA2/CN1 D<6> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X362 XA2/CP0 XA2/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X363 VREF XA2/XA4/A XA2/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X364 XA2/CP0 XA2/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X365 XA2/CP0 XA2/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X366 VREF XA2/XA4/A XA2/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X367 AVSS XA2/XA4/A XA2/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X368 XA2/CP0 XA2/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X369 AVSS XA2/XA4/A XA2/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X370 XA2/CN0 XA2/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X371 VREF XA2/CP0 XA2/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X372 XA2/CN0 XA2/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X373 XA2/CN0 XA2/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X374 VREF XA2/CP0 XA2/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X375 AVSS XA2/CP0 XA2/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X376 XA2/CN0 XA2/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X377 AVSS XA2/CP0 XA2/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X378 XA2/XA6/MP1/S XA2/CN0 XA2/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X379 AVDD XA2/CN0 XA2/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X380 XA2/XA6/MP3/S D<6> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X381 XA2/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X382 XA2/XA9/B D<6> XA2/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X383 AVSS CK_SAMPLE XA2/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X384 XA2/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X385 XA2/XA9/B CK_SAMPLE XA2/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X386 XA2/XA9/A XA3/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X387 XA2/XA9/A XA3/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X388 XA2/DONE XA2/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X389 XA2/DONE XA2/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X390 XA2/XA9/Y XA2/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X391 AVDD XA2/XA9/B XA2/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X392 XA2/XA9/MN1/S XA2/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X393 XA2/XA9/Y XA2/XA9/B XA2/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X394 XA3/XA11/A XA3/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X395 XA3/XA11/A XA3/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X396 XA3/XA11/MP1/S XA3/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X397 XA3/XA12/A XA2/CEO XA3/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X398 XA3/XA12/A XA3/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X399 AVSS XA2/CEO XA3/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X400 XA3/CEO XA3/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X401 XA3/CEO XA3/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X402 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X403 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X404 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X405 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X406 AVDD EN XA3/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X407 XA3/XA1/XA1/MP2/S XA20/CNO XA4/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X408 XA3/XA1/XA1/MP3/S XA20/CPO XA3/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X409 XA3/XA1/XA1/MN2/S XA3/EN XA3/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X410 AVDD XA3/XA1/XA1/MP3/G XA3/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X411 XA3/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X412 AVSS XA20/CPO XA3/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X413 XA4/EN XA3/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X414 XA3/XA1/XA2/Y XA4/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X415 XA3/XA1/XA2/Y XA4/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X416 XA3/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X417 XA3/XA1/XA4/MP2/S EN XA3/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X418 XA3/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X419 XA3/XA4/A EN XA3/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X420 XA3/XA1/XA4/MN2/S XA3/XA1/XA2/Y XA3/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X421 XA3/XA4/A XA3/EN XA3/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X422 XA3/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X423 XA3/XA1/XA5/MP2/S EN XA3/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X424 XA3/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X425 XA3/XA2/A EN XA3/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X426 XA3/XA1/XA5/MN2/S XA3/XA1/XA2/Y XA3/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X427 XA3/XA2/A XA3/EN XA3/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X428 XA3/CN1 XA3/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X429 VREF XA3/XA2/A XA3/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X430 XA3/CN1 XA3/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X431 XA3/CN1 XA3/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X432 VREF XA3/XA2/A XA3/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X433 AVSS XA3/XA2/A XA3/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X434 XA3/CN1 XA3/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X435 AVSS XA3/XA2/A XA3/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X436 D<5> XA3/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X437 VREF XA3/CN1 D<5> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X438 D<5> XA3/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X439 D<5> XA3/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X440 VREF XA3/CN1 D<5> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X441 AVSS XA3/CN1 D<5> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X442 D<5> XA3/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X443 AVSS XA3/CN1 D<5> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X444 XA3/CP0 XA3/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X445 VREF XA3/XA4/A XA3/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X446 XA3/CP0 XA3/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X447 XA3/CP0 XA3/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X448 VREF XA3/XA4/A XA3/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X449 AVSS XA3/XA4/A XA3/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X450 XA3/CP0 XA3/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X451 AVSS XA3/XA4/A XA3/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X452 XA3/CN0 XA3/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X453 VREF XA3/CP0 XA3/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X454 XA3/CN0 XA3/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X455 XA3/CN0 XA3/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X456 VREF XA3/CP0 XA3/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X457 AVSS XA3/CP0 XA3/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X458 XA3/CN0 XA3/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X459 AVSS XA3/CP0 XA3/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X460 XA3/XA6/MP1/S XA3/CN0 XA3/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X461 AVDD XA3/CN0 XA3/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X462 XA3/XA6/MP3/S D<5> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X463 XA3/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X464 XA3/XA9/B D<5> XA3/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X465 AVSS CK_SAMPLE XA3/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X466 XA3/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X467 XA3/XA9/B CK_SAMPLE XA3/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X468 XA3/XA9/A XA4/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X469 XA3/XA9/A XA4/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X470 XA3/DONE XA3/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X471 XA3/DONE XA3/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X472 XA3/XA9/Y XA3/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X473 AVDD XA3/XA9/B XA3/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X474 XA3/XA9/MN1/S XA3/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X475 XA3/XA9/Y XA3/XA9/B XA3/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X476 XA4/XA11/A XA4/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X477 XA4/XA11/A XA4/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X478 XA4/XA11/MP1/S XA4/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X479 XA4/XA12/A XA3/CEO XA4/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X480 XA4/XA12/A XA4/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X481 AVSS XA3/CEO XA4/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X482 XA4/CEO XA4/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X483 XA4/CEO XA4/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X484 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X485 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X486 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X487 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X488 AVDD EN XA4/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X489 XA4/XA1/XA1/MP2/S XA20/CNO XA5/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X490 XA4/XA1/XA1/MP3/S XA20/CPO XA4/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X491 XA4/XA1/XA1/MN2/S XA4/EN XA4/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X492 AVDD XA4/XA1/XA1/MP3/G XA4/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X493 XA4/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X494 AVSS XA20/CPO XA4/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X495 XA5/EN XA4/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X496 XA4/XA1/XA2/Y XA5/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X497 XA4/XA1/XA2/Y XA5/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X498 XA4/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X499 XA4/XA1/XA4/MP2/S EN XA4/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X500 XA4/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X501 XA4/XA4/A EN XA4/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X502 XA4/XA1/XA4/MN2/S XA4/XA1/XA2/Y XA4/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X503 XA4/XA4/A XA4/EN XA4/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X504 XA4/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X505 XA4/XA1/XA5/MP2/S EN XA4/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X506 XA4/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X507 XA4/XA2/A EN XA4/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X508 XA4/XA1/XA5/MN2/S XA4/XA1/XA2/Y XA4/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X509 XA4/XA2/A XA4/EN XA4/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X510 XA4/CN1 XA4/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X511 VREF XA4/XA2/A XA4/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X512 XA4/CN1 XA4/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X513 XA4/CN1 XA4/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X514 VREF XA4/XA2/A XA4/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X515 AVSS XA4/XA2/A XA4/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X516 XA4/CN1 XA4/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X517 AVSS XA4/XA2/A XA4/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X518 D<4> XA4/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X519 VREF XA4/CN1 D<4> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X520 D<4> XA4/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X521 D<4> XA4/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X522 VREF XA4/CN1 D<4> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X523 AVSS XA4/CN1 D<4> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X524 D<4> XA4/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X525 AVSS XA4/CN1 D<4> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X526 XA4/CP0 XA4/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X527 VREF XA4/XA4/A XA4/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X528 XA4/CP0 XA4/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X529 XA4/CP0 XA4/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X530 VREF XA4/XA4/A XA4/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X531 AVSS XA4/XA4/A XA4/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X532 XA4/CP0 XA4/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X533 AVSS XA4/XA4/A XA4/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X534 XA4/CN0 XA4/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X535 VREF XA4/CP0 XA4/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X536 XA4/CN0 XA4/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X537 XA4/CN0 XA4/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X538 VREF XA4/CP0 XA4/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X539 AVSS XA4/CP0 XA4/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X540 XA4/CN0 XA4/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X541 AVSS XA4/CP0 XA4/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X542 XA4/XA6/MP1/S XA4/CN0 XA4/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X543 AVDD XA4/CN0 XA4/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X544 XA4/XA6/MP3/S D<4> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X545 XA4/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X546 XA4/XA9/B D<4> XA4/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X547 AVSS CK_SAMPLE XA4/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X548 XA4/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X549 XA4/XA9/B CK_SAMPLE XA4/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X550 XA4/XA9/A XA5/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X551 XA4/XA9/A XA5/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X552 XA4/DONE XA4/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X553 XA4/DONE XA4/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X554 XA4/XA9/Y XA4/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X555 AVDD XA4/XA9/B XA4/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X556 XA4/XA9/MN1/S XA4/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X557 XA4/XA9/Y XA4/XA9/B XA4/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X558 XA5/XA11/A XA5/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X559 XA5/XA11/A XA5/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X560 XA5/XA11/MP1/S XA5/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X561 XA5/XA12/A XA4/CEO XA5/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X562 XA5/XA12/A XA5/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X563 AVSS XA4/CEO XA5/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X564 XA5/CEO XA5/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X565 XA5/CEO XA5/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X566 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X567 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X568 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X569 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X570 AVDD EN XA5/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X571 XA5/XA1/XA1/MP2/S XA20/CNO XA6/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X572 XA5/XA1/XA1/MP3/S XA20/CPO XA5/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X573 XA5/XA1/XA1/MN2/S XA5/EN XA5/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X574 AVDD XA5/XA1/XA1/MP3/G XA5/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X575 XA5/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X576 AVSS XA20/CPO XA5/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X577 XA6/EN XA5/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X578 XA5/XA1/XA2/Y XA6/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X579 XA5/XA1/XA2/Y XA6/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X580 XA5/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X581 XA5/XA1/XA4/MP2/S EN XA5/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X582 XA5/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X583 XA5/XA4/A EN XA5/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X584 XA5/XA1/XA4/MN2/S XA5/XA1/XA2/Y XA5/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X585 XA5/XA4/A XA5/EN XA5/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X586 XA5/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X587 XA5/XA1/XA5/MP2/S EN XA5/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X588 XA5/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X589 XA5/XA2/A EN XA5/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X590 XA5/XA1/XA5/MN2/S XA5/XA1/XA2/Y XA5/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X591 XA5/XA2/A XA5/EN XA5/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X592 XA5/CN1 XA5/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X593 VREF XA5/XA2/A XA5/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X594 XA5/CN1 XA5/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X595 XA5/CN1 XA5/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X596 VREF XA5/XA2/A XA5/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X597 AVSS XA5/XA2/A XA5/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X598 XA5/CN1 XA5/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X599 AVSS XA5/XA2/A XA5/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X600 D<3> XA5/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X601 VREF XA5/CN1 D<3> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X602 D<3> XA5/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X603 D<3> XA5/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X604 VREF XA5/CN1 D<3> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X605 AVSS XA5/CN1 D<3> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X606 D<3> XA5/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X607 AVSS XA5/CN1 D<3> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X608 XA5/CP0 XA5/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X609 VREF XA5/XA4/A XA5/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X610 XA5/CP0 XA5/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X611 XA5/CP0 XA5/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X612 VREF XA5/XA4/A XA5/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X613 AVSS XA5/XA4/A XA5/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X614 XA5/CP0 XA5/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X615 AVSS XA5/XA4/A XA5/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X616 XA5/CN0 XA5/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X617 VREF XA5/CP0 XA5/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X618 XA5/CN0 XA5/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X619 XA5/CN0 XA5/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X620 VREF XA5/CP0 XA5/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X621 AVSS XA5/CP0 XA5/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X622 XA5/CN0 XA5/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X623 AVSS XA5/CP0 XA5/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X624 XA5/XA6/MP1/S XA5/CN0 XA5/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X625 AVDD XA5/CN0 XA5/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X626 XA5/XA6/MP3/S D<3> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X627 XA5/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X628 XA5/XA9/B D<3> XA5/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X629 AVSS CK_SAMPLE XA5/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X630 XA5/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X631 XA5/XA9/B CK_SAMPLE XA5/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X632 XA5/XA9/A XA6/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X633 XA5/XA9/A XA6/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X634 XA5/DONE XA5/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X635 XA5/DONE XA5/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X636 XA5/XA9/Y XA5/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X637 AVDD XA5/XA9/B XA5/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X638 XA5/XA9/MN1/S XA5/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X639 XA5/XA9/Y XA5/XA9/B XA5/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X640 XA6/XA11/A XA6/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X641 XA6/XA11/A XA6/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X642 XA6/XA11/MP1/S XA6/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X643 XA6/XA12/A XA5/CEO XA6/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X644 XA6/XA12/A XA6/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X645 AVSS XA5/CEO XA6/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X646 XA6/CEO XA6/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X647 XA6/CEO XA6/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X648 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X649 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X650 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X651 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X652 AVDD EN XA6/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X653 XA6/XA1/XA1/MP2/S XA20/CNO XA7/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X654 XA6/XA1/XA1/MP3/S XA20/CPO XA6/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X655 XA6/XA1/XA1/MN2/S XA6/EN XA6/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X656 AVDD XA6/XA1/XA1/MP3/G XA6/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X657 XA6/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X658 AVSS XA20/CPO XA6/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X659 XA7/EN XA6/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X660 XA6/XA1/XA2/Y XA7/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X661 XA6/XA1/XA2/Y XA7/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X662 XA6/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X663 XA6/XA1/XA4/MP2/S EN XA6/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X664 XA6/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X665 XA6/XA4/A EN XA6/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X666 XA6/XA1/XA4/MN2/S XA6/XA1/XA2/Y XA6/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X667 XA6/XA4/A XA6/EN XA6/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X668 XA6/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X669 XA6/XA1/XA5/MP2/S EN XA6/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X670 XA6/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X671 XA6/XA2/A EN XA6/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X672 XA6/XA1/XA5/MN2/S XA6/XA1/XA2/Y XA6/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X673 XA6/XA2/A XA6/EN XA6/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X674 XA6/CN1 XA6/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X675 VREF XA6/XA2/A XA6/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X676 XA6/CN1 XA6/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X677 XA6/CN1 XA6/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X678 VREF XA6/XA2/A XA6/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X679 AVSS XA6/XA2/A XA6/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X680 XA6/CN1 XA6/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X681 AVSS XA6/XA2/A XA6/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X682 D<2> XA6/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X683 VREF XA6/CN1 D<2> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X684 D<2> XA6/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X685 D<2> XA6/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X686 VREF XA6/CN1 D<2> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X687 AVSS XA6/CN1 D<2> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X688 D<2> XA6/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X689 AVSS XA6/CN1 D<2> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X690 XA6/CP0 XA6/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X691 VREF XA6/XA4/A XA6/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X692 XA6/CP0 XA6/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X693 XA6/CP0 XA6/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X694 VREF XA6/XA4/A XA6/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X695 AVSS XA6/XA4/A XA6/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X696 XA6/CP0 XA6/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X697 AVSS XA6/XA4/A XA6/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X698 XA6/CN0 XA6/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X699 VREF XA6/CP0 XA6/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X700 XA6/CN0 XA6/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X701 XA6/CN0 XA6/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X702 VREF XA6/CP0 XA6/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X703 AVSS XA6/CP0 XA6/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X704 XA6/CN0 XA6/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X705 AVSS XA6/CP0 XA6/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X706 XA6/XA6/MP1/S XA6/CN0 XA6/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X707 AVDD XA6/CN0 XA6/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X708 XA6/XA6/MP3/S D<2> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X709 XA6/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X710 XA6/XA9/B D<2> XA6/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X711 AVSS CK_SAMPLE XA6/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X712 XA6/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X713 XA6/XA9/B CK_SAMPLE XA6/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X714 XA6/XA9/A XA7/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X715 XA6/XA9/A XA7/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X716 XA6/DONE XA6/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X717 XA6/DONE XA6/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X718 XA6/XA9/Y XA6/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X719 AVDD XA6/XA9/B XA6/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X720 XA6/XA9/MN1/S XA6/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X721 XA6/XA9/Y XA6/XA9/B XA6/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X722 XA7/XA11/A XA7/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X723 XA7/XA11/A XA7/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X724 XA7/XA11/MP1/S XA7/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X725 XA7/XA12/A XA6/CEO XA7/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X726 XA7/XA12/A XA7/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X727 AVSS XA6/CEO XA7/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X728 XA7/CEO XA7/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X729 XA7/CEO XA7/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X730 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X731 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X732 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X733 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X734 AVDD EN XA7/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X735 XA7/XA1/XA1/MP2/S XA20/CNO XA8/EN AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X736 XA7/XA1/XA1/MP3/S XA20/CPO XA7/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X737 XA7/XA1/XA1/MN2/S XA7/EN XA7/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X738 AVDD XA7/XA1/XA1/MP3/G XA7/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X739 XA7/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X740 AVSS XA20/CPO XA7/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X741 XA8/EN XA7/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X742 XA7/XA1/XA2/Y XA8/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X743 XA7/XA1/XA2/Y XA8/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X744 XA7/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X745 XA7/XA1/XA4/MP2/S EN XA7/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X746 XA7/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X747 XA7/XA4/A EN XA7/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X748 XA7/XA1/XA4/MN2/S XA7/XA1/XA2/Y XA7/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X749 XA7/XA4/A XA7/EN XA7/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X750 XA7/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X751 XA7/XA1/XA5/MP2/S EN XA7/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X752 XA7/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X753 XA7/XA2/A EN XA7/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X754 XA7/XA1/XA5/MN2/S XA7/XA1/XA2/Y XA7/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X755 XA7/XA2/A XA7/EN XA7/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X756 XA7/CN1 XA7/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X757 VREF XA7/XA2/A XA7/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X758 XA7/CN1 XA7/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X759 XA7/CN1 XA7/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X760 VREF XA7/XA2/A XA7/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X761 AVSS XA7/XA2/A XA7/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X762 XA7/CN1 XA7/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X763 AVSS XA7/XA2/A XA7/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X764 D<1> XA7/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X765 VREF XA7/CN1 D<1> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X766 D<1> XA7/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X767 D<1> XA7/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X768 VREF XA7/CN1 D<1> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X769 AVSS XA7/CN1 D<1> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X770 D<1> XA7/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X771 AVSS XA7/CN1 D<1> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X772 XA7/CP0 XA7/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X773 VREF XA7/XA4/A XA7/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X774 XA7/CP0 XA7/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X775 XA7/CP0 XA7/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X776 VREF XA7/XA4/A XA7/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X777 AVSS XA7/XA4/A XA7/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X778 XA7/CP0 XA7/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X779 AVSS XA7/XA4/A XA7/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X780 XA7/CN0 XA7/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X781 VREF XA7/CP0 XA7/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X782 XA7/CN0 XA7/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X783 XA7/CN0 XA7/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X784 VREF XA7/CP0 XA7/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X785 AVSS XA7/CP0 XA7/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X786 XA7/CN0 XA7/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X787 AVSS XA7/CP0 XA7/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X788 XA7/XA6/MP1/S XA7/CN0 XA7/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X789 AVDD XA7/CN0 XA7/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X790 XA7/XA6/MP3/S D<1> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X791 XA7/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X792 XA7/XA9/B D<1> XA7/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X793 AVSS CK_SAMPLE XA7/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X794 XA7/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X795 XA7/XA9/B CK_SAMPLE XA7/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X796 XA7/XA9/A XA8/EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X797 XA7/XA9/A XA8/EN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X798 XA7/DONE XA7/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X799 XA7/DONE XA7/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X800 XA7/XA9/Y XA7/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X801 AVDD XA7/XA9/B XA7/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X802 XA7/XA9/MN1/S XA7/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X803 XA7/XA9/Y XA7/XA9/B XA7/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X804 XA8/XA11/A XA8/XA9/Y AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X805 XA8/XA11/A XA8/XA9/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X806 XA8/XA11/MP1/S XA8/XA11/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X807 XA8/XA12/A XA7/CEO XA8/XA11/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X808 XA8/XA12/A XA8/XA11/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X809 AVSS XA7/CEO XA8/XA12/A AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X810 XA8/CEO XA8/XA12/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X811 XA8/CEO XA8/XA12/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X812 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X813 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X814 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X815 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X816 AVDD EN XA8/XA1/XA1/MP3/G AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X817 XA8/XA1/XA1/MP2/S XA20/CNO XA8/ENO AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X818 XA8/XA1/XA1/MP3/S XA20/CPO XA8/XA1/XA1/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X819 XA8/XA1/XA1/MN2/S XA8/EN XA8/XA1/XA1/MP3/G AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X820 AVDD XA8/XA1/XA1/MP3/G XA8/XA1/XA1/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X821 XA8/XA1/XA1/MN2/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X822 AVSS XA20/CPO XA8/XA1/XA1/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X823 XA8/ENO XA8/XA1/XA1/MP3/G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X824 XA8/XA1/XA2/Y XA8/ENO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X825 XA8/XA1/XA2/Y XA8/ENO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X826 XA8/XA1/XA4/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X827 XA8/XA1/XA4/MP2/S EN XA8/XA1/XA4/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X828 XA8/XA1/XA4/MN1/S XA20/CPO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X829 XA8/XA4/A EN XA8/XA1/XA4/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X830 XA8/XA1/XA4/MN2/S XA8/XA1/XA2/Y XA8/XA1/XA4/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X831 XA8/XA4/A XA8/EN XA8/XA1/XA4/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X832 XA8/XA1/XA5/MP1/S EN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X833 XA8/XA1/XA5/MP2/S EN XA8/XA1/XA5/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X834 XA8/XA1/XA5/MN1/S XA20/CNO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X835 XA8/XA2/A EN XA8/XA1/XA5/MP2/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X836 XA8/XA1/XA5/MN2/S XA8/XA1/XA2/Y XA8/XA1/XA5/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X837 XA8/XA2/A XA8/EN XA8/XA1/XA5/MN2/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X838 XA8/CN1 XA8/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X839 VREF XA8/XA2/A XA8/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X840 XA8/CN1 XA8/XA2/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X841 XA8/CN1 XA8/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X842 VREF XA8/XA2/A XA8/CN1 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X843 AVSS XA8/XA2/A XA8/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X844 XA8/CN1 XA8/XA2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X845 AVSS XA8/XA2/A XA8/CN1 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X846 D<0> XA8/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X847 VREF XA8/CN1 D<0> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X848 D<0> XA8/CN1 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X849 D<0> XA8/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.4624e+12p pd=1.32e+07u as=0p ps=0u w=1.08e+06u l=180000u
+X850 VREF XA8/CN1 D<0> AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X851 AVSS XA8/CN1 D<0> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X852 D<0> XA8/CN1 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X853 AVSS XA8/CN1 D<0> AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X854 XA8/CP0 XA8/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X855 VREF XA8/XA4/A XA8/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X856 XA8/CP0 XA8/XA4/A VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X857 XA8/CP0 XA8/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X858 VREF XA8/XA4/A XA8/CP0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X859 AVSS XA8/XA4/A XA8/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X860 XA8/CP0 XA8/XA4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X861 AVSS XA8/XA4/A XA8/CP0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X862 XA8/CN0 XA8/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X863 VREF XA8/CP0 XA8/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X864 XA8/CN0 XA8/CP0 VREF AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X865 XA8/CN0 XA8/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X866 VREF XA8/CP0 XA8/CN0 AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X867 AVSS XA8/CP0 XA8/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X868 XA8/CN0 XA8/CP0 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X869 AVSS XA8/CP0 XA8/CN0 AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X870 XA8/XA6/MP1/S XA8/CN0 XA8/XA9/B AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X871 AVDD XA8/CN0 XA8/XA6/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X872 XA8/XA6/MP3/S D<0> AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X873 XA8/XA6/MN1/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X874 XA8/XA9/B D<0> XA8/XA6/MP3/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X875 AVSS CK_SAMPLE XA8/XA6/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X876 XA8/XA6/MN3/S CK_SAMPLE AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X877 XA8/XA9/B CK_SAMPLE XA8/XA6/MN3/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X878 XA8/XA9/A XA8/ENO AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X879 XA8/XA9/A XA8/ENO AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X880 DONE XA8/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X881 DONE XA8/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X882 XA8/XA9/Y XA8/XA9/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X883 AVDD XA8/XA9/B XA8/XA9/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X884 XA8/XA9/MN1/S XA8/XA9/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X885 XA8/XA9/Y XA8/XA9/B XA8/XA9/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+C0 AVDD XA7/CN1 1.68fF
+C1 AVDD XA1/CN1 1.76fF
+C2 XDAC2/X16ab/XRES8/B SARN 26.30fF
+C3 AVDD XA0/XA4/A 1.79fF
+C4 AVDD XB1/XA3/B 2.19fF
+C5 XDAC2/XC32a<0>/XRES2/B XDAC2/XC32a<0>/XRES8/B 0.52fF
+C6 XDAC2/XC0/XRES4/B XDAC2/XC0/XRES8/B 0.57fF
+C7 XA3/XA2/A XA3/CN1 0.61fF
+C8 AVDD XA8/CN1 1.74fF
+C9 XDAC1/XC1/XRES1A/B SARP 3.25fF
+C10 XA5/CN1 XA5/XA4/A 0.58fF
+C11 AVDD XA1/XA11/A 0.54fF
+C12 D<7> XA1/CP0 6.70fF
+C13 XDAC1/XC32a<0>/XRES1B/B XDAC1/XC32a<0>/XRES4/B 0.45fF
+C14 XDAC2/XC1/XRES16/B SARN 53.18fF
+C15 D<3> XA5/CN0 1.95fF
+C16 XDAC2/XC0/XRES1A/B XDAC2/XC64b<1>/XRES1B/B 0.63fF
+C17 XA2/CN1 XA1/CN1 4.84fF
+C18 AVDD SARN 0.65fF
+C19 VREF XA8/CN0 0.52fF
+C20 SARN SAR_IN 0.99fF
+C21 AVDD XA7/XA9/B 0.86fF
+C22 XDAC1/XC128a<1>/XRES2/B XDAC1/XC128a<1>/XRES8/B 0.52fF
+C23 XA4/EN AVDD 4.17fF
+C24 XDAC2/XC0/XRES2/B SARN 6.34fF
+C25 XDAC1/XC128b<2>/XRES1A/B SARP 3.25fF
+C26 SARN XDAC2/XC128a<1>/XRES4/B 13.88fF
+C27 XDAC1/X16ab/XRES2/B XDAC1/X16ab/XRES8/B 0.52fF
+C28 XA0/CP1 SARP 0.77fF
+C29 AVDD XA4/XA9/Y 0.67fF
+C30 XDAC2/X16ab/XRES4/B SARN 13.88fF
+C31 AVDD XA2/XA11/A 0.54fF
+C32 XA2/CN0 XA3/CN0 2.64fF
+C33 XA7/CN0 D<1> 3.33fF
+C34 XA2/CP0 XA3/CP0 0.98fF
+C35 SARN XDAC2/XC64b<1>/XRES16/B 53.19fF
+C36 AVDD DONE 2.23fF
+C37 AVDD XA6/XA11/A 0.54fF
+C38 XDAC2/XC128b<2>/XRES16/B SARN 53.19fF
+C39 XDAC1/XC32a<0>/XRES2/B XDAC1/XC32a<0>/XRES8/B 0.52fF
+C40 VREF XA7/EN 0.80fF
+C41 XDAC2/XC1/XRES8/B SARN 26.30fF
+C42 SAR_IP SARN 0.63fF
+C43 XA0/CEIN SARN 0.54fF
+C44 XA0/CN0 D<8> 4.87fF
+C45 D<4> XA4/CN1 0.41fF
+C46 AVDD XB2/XA4/GNG 3.77fF
+C47 XDAC1/XC1/XRES2/B SARP 6.34fF
+C48 D<7> XA1/CN0 0.49fF
+C49 XDAC1/XC128b<2>/XRES2/B SARP 6.34fF
+C50 XDAC2/XC128b<2>/XRES1B/B XDAC2/XC128b<2>/XRES4/B 0.45fF
+C51 XDAC1/XC128b<2>/XRES4/B XDAC1/XC128b<2>/XRES8/B 0.57fF
+C52 AVDD XA8/CN0 1.18fF
+C53 VREF XA3/EN 0.80fF
+C54 XA20/XA4/MP0/S AVDD 0.58fF
+C55 SARP SARN 6.35fF
+C56 XA4/EN XA20/CNO 0.91fF
+C57 VREF XA6/EN 0.80fF
+C58 XDAC1/XC1/XRES8/B XDAC1/XC1/XRES2/B 0.52fF
+C59 AVDD XA0/XA11/A 0.54fF
+C60 AVDD XB2/M4/G 0.71fF
+C61 SAR_IN XB2/M4/G 0.55fF
+C62 AVDD XA5/XA2/A 1.45fF
+C63 SARN XDAC2/XC128a<1>/XRES1B/B 3.52fF
+C64 XDAC2/X16ab/XRES1B/B SARN 3.52fF
+C65 XDAC2/XC64a<0>/XRES4/B XDAC2/XC64a<0>/XRES8/B 0.57fF
+C66 AVDD XA1/XA12/A 0.53fF
+C67 XDAC1/XC64b<1>/XRES8/B SARP 26.30fF
+C68 XDAC2/XC128b<2>/XRES8/B XDAC2/XC128b<2>/XRES2/B 0.52fF
+C69 AVDD XA0/XA9/A 0.81fF
+C70 XA2/CN0 XA1/CN0 3.70fF
+C71 XDAC2/XC1/XRES4/B SARN 13.88fF
+C72 XA20/XA9/A SARN 0.88fF
+C73 XDAC1/X16ab/XRES4/B XDAC1/X16ab/XRES8/B 0.57fF
+C74 XDAC1/XC128a<1>/XRES1A/B XDAC1/XC32a<0>/XRES1B/B 0.63fF
+C75 VREF EN 1.63fF
+C76 XA7/EN D<2> 0.42fF
+C77 AVDD XA7/XA11/A 0.54fF
+C78 AVDD XA20/XA3a/A 3.98fF
+C79 XA4/EN D<5> 0.43fF
+C80 VREF XA4/CP0 0.69fF
+C81 XDAC1/XC0/XRES16/B SARP 53.19fF
+C82 VREF XA8/EN 0.80fF
+C83 AVDD XA7/EN 4.94fF
+C84 XDAC2/XC0/XRES1B/B XDAC2/XC0/XRES4/B 0.46fF
+C85 D<7> XA0/CP1 2.23fF
+C86 XA3/EN D<6> 0.41fF
+C87 XA8/CN0 XA8/CP0 0.46fF
+C88 XDAC2/XC64b<1>/XRES1A/B XDAC2/XC64b<1>/XRES16/B 0.53fF
+C89 XDAC1/XC64a<0>/XRES1A/B XDAC1/XC64a<0>/XRES16/B 0.53fF
+C90 XA0/CP1 XA1/EN 0.41fF
+C91 XA6/CN1 XA6/XA4/A 0.58fF
+C92 XA3/CP0 XA3/XA4/A 0.55fF
+C93 XA20/XA3/N1 AVDD 0.97fF
+C94 XA4/CN0 XA4/CP0 0.55fF
+C95 AVDD XA4/XA12/A 0.53fF
+C96 XDAC2/XC128a<1>/XRES1A/B XDAC2/XC128a<1>/XRES16/B 0.53fF
+C97 AVDD XA3/EN 4.83fF
+C98 XA2/CP0 VREF 0.75fF
+C99 SARN XDAC2/XC128a<1>/XRES1A/B 3.25fF
+C100 XA2/XA4/A XA2/CP0 0.55fF
+C101 XDAC2/X16ab/XRES1A/B SARN 3.25fF
+C102 XDAC1/XC64b<1>/XRES4/B SARP 13.88fF
+C103 AVDD XA5/CEO 0.79fF
+C104 AVDD XA6/EN 4.13fF
+C105 AVDD XA1/XA4/A 1.79fF
+C106 AVDD XA0/XA12/A 0.53fF
+C107 XDAC1/XC1/XRES1A/B XDAC1/XC1/XRES16/B 0.53fF
+C108 XDAC1/XC64b<1>/XRES1A/B SARP 3.25fF
+C109 AVDD XA8/XA11/A 0.54fF
+C110 XDAC1/XC1/XRES1B/B XDAC1/XC1/XRES4/B 0.45fF
+C111 XDAC2/X16ab/XRES1A/B XDAC2/X16ab/XRES16/B 0.53fF
+C112 XDAC1/XC128a<1>/XRES4/B XDAC1/XC128a<1>/XRES8/B 0.57fF
+C113 XA20/XA1/MP0/S AVDD 0.57fF
+C114 XB2/CKN XB2/XA3/MP0/S 0.52fF
+C115 D<7> XA1/CN1 0.99fF
+C116 AVDD XA6/XA2/A 1.45fF
+C117 VREF XA3/CP0 0.75fF
+C118 XA4/XA2/A XA4/CN1 0.56fF
+C119 XDAC1/XC128a<1>/XRES8/B SARP 26.30fF
+C120 AVDD XA3/XA9/Y 0.66fF
+C121 AVDD XA5/XA9/Y 0.66fF
+C122 XDAC1/X16ab/XRES1B/B SARP 3.52fF
+C123 AVDD XB2/XA3/B 2.19fF
+C124 XA4/XA4/A XA4/CP0 0.51fF
+C125 AVDD XA4/XA11/A 0.54fF
+C126 AVDD EN 30.14fF
+C127 AVDD XA8/XA12/A 0.53fF
+C128 XDAC2/XC1/XRES1B/B SARN 3.52fF
+C129 XDAC2/XC64b<1>/XRES2/B XDAC2/XC64b<1>/XRES16/B 0.55fF
+C130 XDAC1/XC64a<0>/XRES2/B XDAC1/XC64a<0>/XRES16/B 0.55fF
+C131 XDAC2/X16ab/XRES1B/B XDAC2/XC64b<1>/XRES1A/B 0.63fF
+C132 XDAC2/XC0/XRES2/B XDAC2/XC0/XRES8/B 0.52fF
+C133 XA20/CNO XA7/EN 0.85fF
+C134 XDAC1/XC32a<0>/XRES8/B SARP 26.30fF
+C135 AVDD XA5/XA12/A 0.53fF
+C136 AVDD XA4/CP0 1.70fF
+C137 XA1/CN0 XA0/CN0 7.39fF
+C138 XA1/XA2/A XA1/CN1 0.61fF
+C139 AVDD XA8/EN 4.18fF
+C140 XA3/XA11/A AVDD 0.54fF
+C141 XDAC1/XC64b<1>/XRES16/B SARP 53.19fF
+C142 XDAC2/XC128a<1>/XRES2/B XDAC2/XC128a<1>/XRES16/B 0.55fF
+C143 XDAC2/XC64a<0>/XRES16/B SARN 53.19fF
+C144 XA5/EN XA6/EN 1.75fF
+C145 XA0/CP1 D<8> 1.16fF
+C146 SARN XDAC2/XC128a<1>/XRES2/B 6.34fF
+C147 XDAC2/XC128b<2>/XRES8/B SARN 26.30fF
+C148 XA1/CP0 XA1/CN0 4.27fF
+C149 XA2/CP0 D<6> 7.18fF
+C150 XDAC1/XC128b<2>/XRES1B/B XDAC1/XC128b<2>/XRES4/B 0.45fF
+C151 XA0/CP0 VREF 0.75fF
+C152 AVDD XA7/XA2/A 1.45fF
+C153 XDAC1/XC64b<1>/XRES2/B SARP 6.34fF
+C154 XA2/XA9/Y AVDD 0.67fF
+C155 XA20/CNO XA3/EN 0.85fF
+C156 XDAC2/XC1/XRES1A/B XDAC2/XC1/XRES16/B 0.53fF
+C157 XA20/CNO XA6/EN 0.92fF
+C158 XA2/CP0 AVDD 1.85fF
+C159 SARN XDAC2/XC32a<0>/XRES16/B 53.19fF
+C160 XDAC2/XC64a<0>/XRES1A/B XDAC2/XC1/XRES1B/B 0.63fF
+C161 XDAC1/XC1/XRES2/B XDAC1/XC1/XRES16/B 0.55fF
+C162 XA7/CN1 XA7/XA4/A 0.58fF
+C163 XDAC1/X16ab/XRES1A/B SARP 3.25fF
+C164 AVDD XA7/XA1/XA1/MP3/G 0.71fF
+C165 AVDD XA8/XA2/A 1.48fF
+C166 XDAC2/XC64a<0>/XRES1B/B XDAC2/XC64a<0>/XRES4/B 0.45fF
+C167 EN XA5/EN 0.94fF
+C168 XDAC1/XC64b<1>/XRES1B/B SARP 3.52fF
+C169 XDAC2/XC64a<0>/XRES16/B XDAC2/XC64a<0>/XRES1A/B 0.53fF
+C170 XA4/EN XA20/CPO 0.63fF
+C171 XA1/CN1 D<8> 4.69fF
+C172 AVDD XA3/CP0 1.83fF
+C173 AVDD XA4/XA1/XA1/MP3/G 0.72fF
+C174 XA0/XA4/A D<8> 0.61fF
+C175 AVDD XA6/XA9/Y 0.67fF
+C176 XDAC1/XC32a<0>/XRES4/B SARP 13.88fF
+C177 AVDD XA20/XA9/Y 3.00fF
+C178 XDAC1/XC0/XRES1A/B XDAC1/XC0/XRES16/B 0.53fF
+C179 XA20/CNO EN 2.69fF
+C180 D<4> D<3> 5.81fF
+C181 AVDD XA6/CEO 1.62fF
+C182 XDAC2/XC128b<2>/XRES4/B SARN 13.88fF
+C183 XA0/CP1 XA0/CN0 0.45fF
+C184 XDAC1/XC128b<2>/XRES2/B XDAC1/XC128b<2>/XRES8/B 0.52fF
+C185 AVDD XA8/XA1/XA1/MP3/G 0.74fF
+C186 XA2/XA9/B AVDD 0.86fF
+C187 XA20/CNO XA8/EN 0.89fF
+C188 SARN D<8> 0.84fF
+C189 XA8/CN1 XA8/XA4/A 0.58fF
+C190 AVDD XA0/XA9/B 0.86fF
+C191 VREF XA5/CP0 0.69fF
+C192 XDAC2/XC1/XRES2/B XDAC2/XC1/XRES16/B 0.55fF
+C193 AVDD XA1/XA9/A 0.81fF
+C194 D<3> XA5/CN1 0.41fF
+C195 XA0/CP0 AVDD 1.85fF
+C196 XDAC1/X16ab/XRES2/B SARP 6.34fF
+C197 XA20/XA3/N1 XA20/XA3/N2 0.51fF
+C198 XDAC2/X16ab/XRES2/B XDAC2/X16ab/XRES8/B 0.52fF
+C199 XDAC1/XC64a<0>/XRES16/B SARP 53.19fF
+C200 XDAC2/XC64a<0>/XRES16/B XDAC2/XC64a<0>/XRES2/B 0.55fF
+C201 VREF XA4/CN0 0.64fF
+C202 XA0/CN0 XA1/CN1 1.91fF
+C203 EN XA8/ENO 0.74fF
+C204 XDAC1/XC128a<1>/XRES1B/B XDAC1/XC128a<1>/XRES4/B 0.45fF
+C205 XDAC1/XC1/XRES1A/B XB1/XA4/GNG 0.74fF
+C206 XDAC1/XC0/XRES2/B XDAC1/XC0/XRES16/B 0.55fF
+C207 XDAC1/XC128a<1>/XRES1B/B SARP 3.52fF
+C208 XDAC2/XC0/XRES16/B SARN 53.20fF
+C209 XDAC1/X16ab/XRES8/B SARP 26.30fF
+C210 AVDD XA3/XA4/A 1.79fF
+C211 SARN XA0/CN0 0.92fF
+C212 VREF CK_SAMPLE 1.80fF
+C213 XDAC1/XC32a<0>/XRES1B/B SARP 3.52fF
+C214 SARP XA20/XA9/Y 0.43fF
+C215 XA20/XA3a/A XA20/XA3/CO 1.45fF
+C216 D<5> XA2/CP0 3.57fF
+C217 XDAC2/XC1/XRES2/B XDAC2/XC1/XRES8/B 0.52fF
+C218 VREF D<6> 1.23fF
+C219 XDAC2/XC128b<2>/XRES1B/B SARN 3.52fF
+C220 VREF D<2> 1.25fF
+C221 AVDD XA4/CEO 1.42fF
+C222 VREF XA6/CP0 0.69fF
+C223 AVDD XA5/CP0 1.68fF
+C224 XA20/CPO XA7/EN 0.54fF
+C225 D<5> XA3/CP0 7.14fF
+C226 AVDD VREF 63.55fF
+C227 XA2/XA4/A AVDD 1.79fF
+C228 XA20/XA9/A XA20/XA9/Y 2.03fF
+C229 AVDD XB2/CKN 1.96fF
+C230 XB1/CKN XB1/XA3/MP0/S 0.52fF
+C231 XA2/EN EN 0.93fF
+C232 XA0/CP0 SARP 0.91fF
+C233 XDAC1/XC128a<1>/XRES1A/B SARP 3.25fF
+C234 XDAC1/XC64b<1>/XRES1B/B XDAC1/XC0/XRES1A/B 0.63fF
+C235 AVDD XA4/CN0 5.47fF
+C236 XDAC2/XC128a<1>/XRES1A/B XDAC2/XC32a<0>/XRES1B/B 0.63fF
+C237 XDAC2/XC128b<2>/XRES1A/B SARN 3.25fF
+C238 VREF XA2/CN1 0.69fF
+C239 XDAC1/X16ab/XRES4/B SARP 13.88fF
+C240 XA2/XA4/A XA2/CN1 0.61fF
+C241 XDAC1/XC64a<0>/XRES1B/B SARP 3.52fF
+C242 XA20/CPO XA3/EN 0.54fF
+C243 XA1/CN0 XA1/CN1 2.40fF
+C244 XA20/CPO XA6/EN 0.63fF
+C245 XB1/XA3/B XB1/XA4/GNG 422.73fF
+C246 XA1/EN EN 0.98fF
+C247 XDAC1/XC128b<2>/XRES16/B SARP 53.19fF
+C248 XA0/CP0 D<5> 0.43fF
+C249 XA2/CN1 XA4/CN0 0.56fF
+C250 XDAC2/XC64b<1>/XRES4/B XDAC2/XC64b<1>/XRES8/B 0.57fF
+C251 VREF XA7/CP0 0.69fF
+C252 AVDD CK_SAMPLE 6.01fF
+C253 VREF XA5/EN 0.80fF
+C254 XDAC2/XC128a<1>/XRES4/B XDAC2/XC128a<1>/XRES8/B 0.57fF
+C255 SARN XA1/CN0 0.44fF
+C256 AVDD D<6> 1.96fF
+C257 AVDD XA4/XA4/A 1.79fF
+C258 VREF XA8/CP0 0.64fF
+C259 AVDD XA7/XA9/A 0.81fF
+C260 XA20/CPO EN 0.85fF
+C261 AVDD D<2> 2.08fF
+C262 XDAC1/XC128a<1>/XRES2/B SARP 6.34fF
+C263 AVDD XA6/CP0 1.70fF
+C264 XA20/CPO XA8/EN 0.63fF
+C265 XDAC2/XC128b<2>/XRES2/B SARN 6.34fF
+C266 D<6> XA2/CN1 0.87fF
+C267 AVDD XA8/XA9/A 0.83fF
+C268 XDAC1/XC64a<0>/XRES1A/B SARP 3.25fF
+C269 SARN XDAC2/XC64b<1>/XRES8/B 26.30fF
+C270 D<1> XA7/CN1 0.41fF
+C271 AVDD XB2/XA2/MP0/G 0.54fF
+C272 XDAC1/XC32a<0>/XRES2/B SARP 6.34fF
+C273 XDAC2/X16ab/XRES4/B XDAC2/X16ab/XRES8/B 0.57fF
+C274 AVDD XA2/CN1 1.77fF
+C275 XA5/CN0 XA5/CP0 0.59fF
+C276 VREF XA5/CN0 0.64fF
+C277 XA2/CN0 XA2/CP0 4.29fF
+C278 VREF XA7/CN0 0.64fF
+C279 XA3/CN1 XA3/XA4/A 0.60fF
+C280 D<5> VREF 1.23fF
+C281 AVDD XA20/XA12/Y 0.95fF
+C282 AVDD XA1/CEO 0.83fF
+C283 AVDD XA5/XA11/A 0.54fF
+C284 AVDD XA7/CP0 1.68fF
+C285 AVDD XA0/XA2/A 1.45fF
+C286 XA4/CN0 XA5/CN0 6.61fF
+C287 VREF XA8/ENO 0.63fF
+C288 XA0/CP0 D<7> 2.28fF
+C289 AVDD XA5/EN 4.74fF
+C290 XA20/XA3/N1 XA20/XA2/N2 0.58fF
+C291 XA5/XA2/A XA5/CN1 0.56fF
+C292 AVDD XA0/CEIN 9.54fF
+C293 AVDD XA7/XA12/A 0.53fF
+C294 AVDD XA8/CP0 1.78fF
+C295 XDAC1/XC64a<0>/XRES2/B SARP 6.34fF
+C296 XA5/XA4/A XA5/CP0 0.51fF
+C297 SARN XDAC2/XC64b<1>/XRES4/B 13.88fF
+C298 VREF XA3/CN1 0.69fF
+C299 AVDD XA2/XA12/A 0.53fF
+C300 XA1/CP0 XA1/XA4/A 0.55fF
+C301 AVDD XB1/M4/G 0.71fF
+C302 XA20/CNO AVDD 9.00fF
+C303 XDAC1/XC0/XRES4/B XDAC1/XC0/XRES8/B 0.57fF
+C304 AVDD SARP 0.58fF
+C305 SARP SAR_IN 0.58fF
+C306 XDAC1/XC0/XRES8/B SARP 26.30fF
+C307 XA3/XA1/XA1/MP3/G AVDD 0.71fF
+C308 XDAC1/XC128a<1>/XRES1A/B XDAC1/XC128a<1>/XRES16/B 0.53fF
+C309 D<5> D<6> 0.78fF
+C310 VREF XA6/CN0 0.64fF
+C311 AVDD XA5/CN0 4.49fF
+C312 AVDD XA8/XA9/B 0.86fF
+C313 SARN XDAC2/XC128a<1>/XRES16/B 53.19fF
+C314 XDAC2/XC64b<1>/XRES1B/B XDAC2/XC64b<1>/XRES4/B 0.45fF
+C315 XA2/EN VREF 0.80fF
+C316 XDAC1/X16ab/XRES1A/B XDAC1/X16ab/XRES16/B 0.53fF
+C317 AVDD XB1/XA2/MP0/G 0.54fF
+C318 AVDD XA7/CN0 4.88fF
+C319 AVDD XA20/XA9/A 1.93fF
+C320 AVDD XA4/XA9/A 0.81fF
+C321 D<5> AVDD 1.95fF
+C322 XDAC2/XC128a<1>/XRES1B/B XDAC2/XC128a<1>/XRES4/B 0.45fF
+C323 XDAC1/XC64a<0>/XRES1B/B XDAC1/XC64a<0>/XRES4/B 0.45fF
+C324 XA3/XA12/A AVDD 0.53fF
+C325 D<7> VREF 1.23fF
+C326 XA20/CNO XA5/EN 0.84fF
+C327 AVDD XA8/ENO 5.45fF
+C328 XDAC2/X16ab/XRES16/B SARN 53.19fF
+C329 XB1/M4/G SAR_IP 0.54fF
+C330 AVDD XA0/XA9/Y 0.67fF
+C331 XA2/CP0 XA0/CN0 0.42fF
+C332 XA1/EN VREF 0.80fF
+C333 AVDD XA3/XA9/B 0.86fF
+C334 XDAC2/XC32a<0>/XRES2/B XDAC2/XC32a<0>/XRES16/B 0.55fF
+C335 XDAC2/X16ab/XRES1B/B XDAC2/X16ab/XRES4/B 0.45fF
+C336 SARP SAR_IP 1.03fF
+C337 SARP XA0/CEIN 0.68fF
+C338 XA2/CP0 XA1/CP0 1.59fF
+C339 AVDD XA20/XA11/Y 0.57fF
+C340 XDAC1/X16ab/XRES1A/B XDAC1/XC128b<2>/XRES1B/B 0.63fF
+C341 AVDD XA3/CN1 1.76fF
+C342 XA3/CP0 XA0/CN0 1.30fF
+C343 AVDD XA5/XA4/A 1.79fF
+C344 XDAC1/XC0/XRES4/B SARP 13.87fF
+C345 SARN XDAC2/XC64b<1>/XRES1B/B 3.52fF
+C346 XA7/CN0 XA7/CP0 0.59fF
+C347 XDAC1/XC128a<1>/XRES2/B XDAC1/XC128a<1>/XRES16/B 0.55fF
+C348 XDAC2/XC64a<0>/XRES1A/B SARN 3.25fF
+C349 AVDD XA20/XA3/N2 0.43fF
+C350 XDAC1/XC128a<1>/XRES4/B SARP 13.88fF
+C351 XA3/CP0 XA3/CN0 4.18fF
+C352 XDAC2/XC64b<1>/XRES2/B XDAC2/XC64b<1>/XRES8/B 0.52fF
+C353 VREF XA4/CN1 0.68fF
+C354 XA6/EN D<3> 0.47fF
+C355 XA2/CN0 VREF 0.64fF
+C356 XDAC1/X16ab/XRES2/B XDAC1/X16ab/XRES16/B 0.55fF
+C357 XDAC2/XC1/XRES4/B XDAC2/XC1/XRES8/B 0.57fF
+C358 XA2/CN1 XA3/CN1 2.05fF
+C359 D<2> XA6/CN0 2.15fF
+C360 SARN XB2/XA4/GNG 2.23fF
+C361 AVDD XA7/XA9/Y 0.66fF
+C362 XDAC2/XC128a<1>/XRES2/B XDAC2/XC128a<1>/XRES8/B 0.52fF
+C363 XA6/CN0 XA6/CP0 0.55fF
+C364 XDAC1/XC64a<0>/XRES2/B XDAC1/XC64a<0>/XRES8/B 0.52fF
+C365 AVDD XA6/CN0 5.45fF
+C366 XDAC1/XC32a<0>/XRES2/B XDAC1/XC32a<0>/XRES16/B 0.55fF
+C367 D<7> D<6> 1.36fF
+C368 AVDD XA2/EN 4.16fF
+C369 XA3/CP0 D<4> 3.21fF
+C370 XA0/CP0 XA0/CN0 4.61fF
+C371 AVDD XA8/XA9/Y 0.67fF
+C372 XDAC1/XC1/XRES8/B SARP 26.30fF
+C373 D<7> AVDD 1.95fF
+C374 SARN XDAC2/XC32a<0>/XRES8/B 26.30fF
+C375 VREF D<8> 0.69fF
+C376 XA0/CP0 XA1/CP0 4.51fF
+C377 AVDD XA0/XA1/XA1/MP3/G 0.72fF
+C378 AVDD XA1/EN 4.68fF
+C379 XA6/XA2/A XA6/CN1 0.56fF
+C380 XDAC1/XC64b<1>/XRES4/B XDAC1/XC64b<1>/XRES8/B 0.57fF
+C381 SARN XDAC2/XC64b<1>/XRES1A/B 3.25fF
+C382 XDAC2/XC64a<0>/XRES2/B SARN 6.34fF
+C383 XA3/CEO AVDD 0.82fF
+C384 XA6/XA4/A XA6/CP0 0.51fF
+C385 XDAC1/XC0/XRES1B/B XDAC1/XC0/XRES4/B 0.46fF
+C386 AVDD XA6/XA4/A 1.79fF
+C387 XA4/CN1 XA4/XA4/A 0.58fF
+C388 XA2/CN0 D<6> 0.45fF
+C389 AVDD XA3/XA9/A 0.81fF
+C390 AVDD XA20/XA3/CO 4.67fF
+C391 AVDD XA5/XA9/B 0.86fF
+C392 AVDD XA1/XA2/A 1.45fF
+C393 AVDD XA6/XA12/A 0.53fF
+C394 XDAC1/XC0/XRES1B/B SARP 3.56fF
+C395 AVDD XA20/CPO 8.51fF
+C396 AVDD XA4/CN1 1.68fF
+C397 XA2/CN0 AVDD 5.40fF
+C398 AVDD XA4/XA9/B 0.86fF
+C399 XA8/EN D<1> 0.46fF
+C400 XA1/XA4/A XA1/CN1 0.60fF
+C401 XA20/CNO XA2/EN 0.92fF
+C402 SARN XDAC2/XC32a<0>/XRES4/B 13.88fF
+C403 D<5> XA3/CN1 0.92fF
+C404 AVDD XB1/XA1/Y 0.43fF
+C405 VREF XA0/CN0 0.64fF
+C406 XA2/CN0 XA2/CN1 2.96fF
+C407 SARN XDAC2/XC64b<1>/XRES2/B 6.34fF
+C408 AVDD XA7/XA4/A 1.79fF
+C409 AVDD XA5/XA9/A 0.81fF
+C410 XA1/CP0 VREF 0.75fF
+C411 XDAC1/XC64b<1>/XRES8/B XDAC1/XC64b<1>/XRES2/B 0.52fF
+C412 VREF XA3/CN0 0.64fF
+C413 AVDD D<8> 1.77fF
+C414 AVDD XA2/XA2/A 1.45fF
+C415 XA4/EN XA3/EN 1.72fF
+C416 XA20/CNO XA1/EN 0.84fF
+C417 XDAC1/XC64a<0>/XRES8/B SARP 26.30fF
+C418 XA5/CN0 XA6/CN0 6.67fF
+C419 XDAC1/XC128b<2>/XRES1A/B XDAC1/XC128a<1>/XRES1B/B 0.63fF
+C420 XA6/CN0 XA7/CN0 7.73fF
+C421 XDAC1/XC0/XRES2/B XDAC1/XC0/XRES8/B 0.52fF
+C422 XDAC2/XC0/XRES1A/B XDAC2/XC0/XRES16/B 0.53fF
+C423 XA20/CPO XA5/EN 0.54fF
+C424 AVDD XA8/XA4/A 1.85fF
+C425 XA3/CN0 XA4/CN0 4.59fF
+C426 AVDD XA2/XA1/XA1/MP3/G 0.72fF
+C427 XDAC1/X16ab/XRES1B/B XDAC1/XC64b<1>/XRES1A/B 0.63fF
+C428 XA20/CNO XA20/XA3/CO 0.47fF
+C429 XA2/XA2/A XA2/CN1 0.60fF
+C430 VREF D<4> 1.25fF
+C431 XDAC2/XC0/XRES8/B SARN 26.30fF
+C432 XA7/XA2/A XA7/CN1 0.56fF
+C433 XDAC1/XC0/XRES1A/B SARP 3.25fF
+C434 AVDD XA7/CEO 0.85fF
+C435 XDAC2/XC1/XRES1B/B XDAC2/XC1/XRES4/B 0.45fF
+C436 AVDD XA1/XA9/Y 0.66fF
+C437 XA20/CNO XA20/CPO 3.98fF
+C438 XA7/XA4/A XA7/CP0 0.51fF
+C439 XA4/EN EN 0.92fF
+C440 D<4> XA4/CN0 2.06fF
+C441 XA0/XA2/A D<8> 0.60fF
+C442 AVDD CK_SAMPLE_BSSW 10.11fF
+C443 XDAC1/XC64b<1>/XRES1A/B XDAC1/XC64b<1>/XRES16/B 0.53fF
+C444 VREF XA5/CN1 0.68fF
+C445 XDAC1/XC128a<1>/XRES16/B SARP 53.19fF
+C446 XDAC1/XC64a<0>/XRES1A/B XDAC1/XC1/XRES1B/B 0.63fF
+C447 XA1/CP0 D<6> 6.07fF
+C448 XDAC1/XC32a<0>/XRES16/B SARP 53.19fF
+C449 AVDD XB1/CKN 2.03fF
+C450 AVDD XA0/CN0 5.39fF
+C451 XDAC1/XC64a<0>/XRES4/B SARP 13.88fF
+C452 SARN XDAC2/XC32a<0>/XRES1B/B 3.52fF
+C453 XA0/CP0 XA0/CP1 9.36fF
+C454 XA8/XA2/A XA8/CN1 0.56fF
+C455 XDAC1/XC1/XRES16/B SARP 53.18fF
+C456 XDAC2/XC32a<0>/XRES4/B XDAC2/XC32a<0>/XRES8/B 0.57fF
+C457 XDAC2/XC0/XRES2/B XDAC2/XC0/XRES16/B 0.55fF
+C458 VREF XA1/CN0 0.64fF
+C459 XDAC1/XC64b<1>/XRES1B/B XDAC1/XC64b<1>/XRES4/B 0.45fF
+C460 AVDD XA6/XA9/A 0.81fF
+C461 XDAC2/XC1/XRES1A/B SARN 3.25fF
+C462 XA1/CP0 AVDD 1.83fF
+C463 XA8/XA4/A XA8/CP0 0.51fF
+C464 AVDD XA3/CN0 4.46fF
+C465 AVDD XA6/XA9/B 0.86fF
+C466 AVDD XA20/XA2/N2 0.46fF
+C467 XDAC2/XC0/XRES4/B SARN 13.90fF
+C468 XDAC2/XC64a<0>/XRES8/B SARN 26.30fF
+C469 XB2/XA3/B XB2/XA4/GNG 422.73fF
+C470 D<6> D<4> 0.54fF
+C471 XDAC1/XC0/XRES2/B SARP 6.34fF
+C472 XDAC1/XC128b<2>/XRES1A/B XDAC1/XC128b<2>/XRES16/B 0.53fF
+C473 XDAC1/XC128b<2>/XRES8/B SARP 26.30fF
+C474 AVDD XA2/CEO 1.71fF
+C475 VREF D<3> 1.25fF
+C476 XA0/CEIN CK_SAMPLE_BSSW 4.91fF
+C477 XA20/XA9/Y SARN 0.65fF
+C478 AVDD D<4> 2.08fF
+C479 AVDD XA0/CEO 1.51fF
+C480 XDAC1/XC64b<1>/XRES2/B XDAC1/XC64b<1>/XRES16/B 0.55fF
+C481 D<7> XA2/EN 0.45fF
+C482 XA0/CP0 XA0/XA4/A 0.55fF
+C483 XA2/CN0 XA3/CN1 3.27fF
+C484 XA2/EN XA1/EN 1.74fF
+C485 AVDD XA3/XA2/A 1.45fF
+C486 VREF XA6/CN1 0.68fF
+C487 AVDD XA5/CN1 1.68fF
+C488 XDAC1/XC1/XRES4/B SARP 13.88fF
+C489 XDAC2/XC1/XRES2/B SARN 6.34fF
+C490 XDAC1/XC32a<0>/XRES4/B XDAC1/XC32a<0>/XRES8/B 0.57fF
+C491 XDAC2/XC1/XRES1A/B XB2/XA4/GNG 0.74fF
+C492 VREF D<1> 1.25fF
+C493 XDAC2/XC64a<0>/XRES4/B SARN 13.88fF
+C494 AVDD XB1/XA4/GNG 3.77fF
+C495 XA0/CP1 VREF 1.23fF
+C496 XDAC1/XC128b<2>/XRES2/B XDAC1/XC128b<2>/XRES16/B 0.55fF
+C497 AVDD XA1/XA9/B 0.86fF
+C498 XA20/CPO XA2/EN 0.64fF
+C499 AVDD XA1/CN0 4.45fF
+C500 D<4> XA5/EN 0.42fF
+C501 XDAC1/XC128b<2>/XRES4/B SARP 13.88fF
+C502 XDAC1/XC1/XRES8/B XDAC1/XC1/XRES4/B 0.57fF
+C503 VREF D<0> 1.13fF
+C504 AVDD XA1/XA1/XA1/MP3/G 0.71fF
+C505 EN XA7/EN 0.95fF
+C506 XA1/CP0 SARP 0.43fF
+C507 XDAC2/X16ab/XRES2/B SARN 6.34fF
+C508 D<3> D<2> 6.38fF
+C509 XDAC2/XC128b<2>/XRES1A/B XDAC2/XC128b<2>/XRES16/B 0.53fF
+C510 XDAC2/XC0/XRES1B/B SARN 3.64fF
+C511 XA7/EN XA8/EN 1.71fF
+C512 XA2/CN1 XA1/CN0 5.78fF
+C513 XA20/CPO XA1/EN 0.54fF
+C514 XDAC2/X16ab/XRES2/B XDAC2/X16ab/XRES16/B 0.55fF
+C515 AVDD D<3> 2.07fF
+C516 VREF XA7/CN1 0.68fF
+C517 XDAC1/XC64a<0>/XRES4/B XDAC1/XC64a<0>/XRES8/B 0.57fF
+C518 XDAC2/XC64a<0>/XRES8/B XDAC2/XC64a<0>/XRES2/B 0.52fF
+C519 SARN XDAC2/XC32a<0>/XRES2/B 6.34fF
+C520 VREF XA1/CN1 0.69fF
+C521 AVDD XB2/XA1/Y 0.43fF
+C522 XA3/EN EN 0.95fF
+C523 EN XA6/EN 0.93fF
+C524 D<5> XA3/CN0 0.48fF
+C525 D<2> XA6/CN1 0.41fF
+C526 VREF XA8/CN1 0.63fF
+C527 D<2> D<1> 6.71fF
+C528 AVDD XA6/CN1 1.68fF
+C529 XA2/XA9/A AVDD 0.81fF
+C530 XDAC1/X16ab/XRES16/B SARP 53.19fF
+C531 XDAC2/XC32a<0>/XRES1B/B XDAC2/XC32a<0>/XRES4/B 0.45fF
+C532 XDAC2/XC128b<2>/XRES4/B XDAC2/XC128b<2>/XRES8/B 0.57fF
+C533 AVDD D<1> 2.07fF
+C534 XDAC1/XC1/XRES1B/B SARP 3.52fF
+C535 XDAC2/XC128b<2>/XRES1A/B XDAC2/XC128a<1>/XRES1B/B 0.63fF
+C536 XA4/EN VREF 0.77fF
+C537 XA0/CP1 AVDD 1.96fF
+C538 AVDD XA4/XA2/A 1.45fF
+C539 XDAC2/XC128b<2>/XRES2/B XDAC2/XC128b<2>/XRES16/B 0.55fF
+C540 XA3/CN0 XA3/CN1 3.26fF
+C541 XA20/XA9/Y XA20/XA3a/A 0.47fF
+C542 SARP XB1/XA4/GNG 2.26fF
+C543 XDAC2/XC64a<0>/XRES1B/B SARN 3.52fF
+C544 AVDD XA6/XA1/XA1/MP3/G 0.72fF
+C545 AVDD D<0> 1.95fF
+C546 EN XA8/EN 0.93fF
+C547 XDAC2/XC0/XRES1A/B SARN 3.25fF
+C548 XDAC1/XC128b<2>/XRES1B/B SARP 3.52fF
+C549 XA0/CP1 XA2/CN1 0.67fF
+C550 XDAC2/XC128b<2>/XRES1B/B XDAC2/X16ab/XRES1A/B 0.63fF
+C551 SARN XDAC2/XC128a<1>/XRES8/B 26.30fF
+C552 XDAC1/X16ab/XRES1B/B XDAC1/X16ab/XRES4/B 0.45fF
+C553 AVDD XA5/XA1/XA1/MP3/G 0.71fF
+C554 AVDD XA8/CEO 1.50fF
+C555 XA8/XA9/Y AVSS 0.69fF
+C556 XA8/XA9/A AVSS 1.03fF
+C557 DONE AVSS 0.41fF
+C558 XA8/XA9/B AVSS 1.39fF
+C559 XA8/CP0 AVSS 2.58fF
+C560 XA8/CN0 AVSS 0.91fF
+C561 XA8/XA4/A AVSS 2.98fF
+C562 XA8/CN1 AVSS 2.53fF
+C563 D<0> AVSS 1.03fF
+C564 XA8/XA2/A AVSS 1.59fF
+C565 XA8/XA1/XA2/Y AVSS 1.08fF
+C566 XA8/XA1/XA1/MP3/G AVSS 0.75fF
+C567 XA8/XA1/XA1/MN2/S AVSS 0.45fF
+C568 XA8/ENO AVSS 0.96fF
+C569 XA8/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C570 XA8/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C571 XA8/CEO AVSS 0.57fF
+C572 XA8/XA12/A AVSS 0.91fF
+C573 XA8/XA11/A AVSS 0.71fF
+C574 XA7/XA9/Y AVSS 0.69fF
+C575 XA7/XA9/A AVSS 1.03fF
+C576 XA7/XA9/B AVSS 1.40fF
+C577 XA7/CP0 AVSS 2.57fF
+C578 XA7/CN0 AVSS 5.49fF
+C579 XA7/XA4/A AVSS 2.96fF
+C580 XA7/CN1 AVSS 2.51fF
+C581 D<1> AVSS 8.25fF
+C582 XA7/XA2/A AVSS 1.56fF
+C583 XA7/XA1/XA2/Y AVSS 1.07fF
+C584 XA7/XA1/XA1/MP3/G AVSS 0.73fF
+C585 XA7/XA1/XA1/MN2/S AVSS 0.43fF
+C586 XA8/EN AVSS 3.47fF
+C587 XA7/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C588 XA7/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C589 XA7/CEO AVSS 1.14fF
+C590 XA7/XA12/A AVSS 0.88fF
+C591 XA7/XA11/A AVSS 0.71fF
+C592 XA6/XA9/Y AVSS 0.69fF
+C593 XA6/XA9/A AVSS 1.03fF
+C594 XA6/XA9/B AVSS 1.40fF
+C595 XA6/CP0 AVSS 2.57fF
+C596 XA6/CN0 AVSS 4.65fF
+C597 XA6/XA4/A AVSS 2.96fF
+C598 XA6/CN1 AVSS 2.51fF
+C599 D<2> AVSS 6.94fF
+C600 XA6/XA2/A AVSS 1.56fF
+C601 XA6/XA1/XA2/Y AVSS 1.07fF
+C602 XA6/XA1/XA1/MP3/G AVSS 0.74fF
+C603 XA6/XA1/XA1/MN2/S AVSS 0.44fF
+C604 XA7/EN AVSS 3.07fF
+C605 XA6/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C606 XA6/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C607 XA6/CEO AVSS 0.89fF
+C608 XA6/XA12/A AVSS 0.91fF
+C609 XA6/XA11/A AVSS 0.71fF
+C610 XA5/XA9/Y AVSS 0.69fF
+C611 XA5/XA9/A AVSS 1.03fF
+C612 XA5/XA9/B AVSS 1.40fF
+C613 XA5/CP0 AVSS 2.57fF
+C614 XA5/CN0 AVSS 3.56fF
+C615 XA5/XA4/A AVSS 2.96fF
+C616 XA5/CN1 AVSS 2.51fF
+C617 D<3> AVSS 6.41fF
+C618 XA5/XA2/A AVSS 1.56fF
+C619 XA5/XA1/XA2/Y AVSS 1.07fF
+C620 XA5/XA1/XA1/MP3/G AVSS 0.73fF
+C621 XA5/XA1/XA1/MN2/S AVSS 0.43fF
+C622 XA6/EN AVSS 3.60fF
+C623 XA5/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C624 XA5/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C625 XA5/CEO AVSS 1.26fF
+C626 XA5/XA12/A AVSS 0.88fF
+C627 XA5/XA11/A AVSS 0.71fF
+C628 XA4/XA9/Y AVSS 0.69fF
+C629 XA4/XA9/A AVSS 1.03fF
+C630 XA4/XA9/B AVSS 1.40fF
+C631 XA4/CP0 AVSS 2.57fF
+C632 XA4/CN0 AVSS 4.13fF
+C633 XA4/XA4/A AVSS 2.95fF
+C634 XA4/CN1 AVSS 2.50fF
+C635 D<4> AVSS 5.74fF
+C636 XA4/XA2/A AVSS 1.55fF
+C637 XA4/XA1/XA2/Y AVSS 1.06fF
+C638 XA4/XA1/XA1/MP3/G AVSS 0.74fF
+C639 XA4/XA1/XA1/MN2/S AVSS 0.44fF
+C640 XA5/EN AVSS 3.28fF
+C641 XA4/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C642 XA4/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C643 XA4/CEO AVSS 0.86fF
+C644 XA4/XA12/A AVSS 0.91fF
+C645 XA4/XA11/A AVSS 0.71fF
+C646 XA3/XA9/Y AVSS 0.69fF
+C647 XA3/XA9/A AVSS 1.03fF
+C648 XA3/XA9/B AVSS 1.40fF
+C649 XA3/CP0 AVSS 5.50fF
+C650 XA3/CN0 AVSS 3.81fF
+C651 XA3/XA4/A AVSS 2.93fF
+C652 XA3/CN1 AVSS 8.14fF
+C653 XA3/XA2/A AVSS 1.53fF
+C654 XA3/XA1/XA2/Y AVSS 1.04fF
+C655 XA3/XA1/XA1/MP3/G AVSS 0.73fF
+C656 XA3/XA1/XA1/MN2/S AVSS 0.43fF
+C657 XA4/EN AVSS 3.31fF
+C658 XA3/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C659 XA3/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C660 XA3/CEO AVSS 1.04fF
+C661 XA3/XA12/A AVSS 0.88fF
+C662 XA3/XA11/A AVSS 0.71fF
+C663 XA2/XA9/Y AVSS 0.69fF
+C664 XA2/XA9/A AVSS 1.03fF
+C665 XA2/XA9/B AVSS 1.40fF
+C666 XA2/CP0 AVSS 5.78fF
+C667 XA2/CN0 AVSS 4.26fF
+C668 XA2/XA4/A AVSS 2.93fF
+C669 XA2/CN1 AVSS 7.76fF
+C670 D<6> AVSS 6.23fF
+C671 XA2/XA2/A AVSS 1.53fF
+C672 XA2/XA1/XA2/Y AVSS 1.04fF
+C673 XA2/XA1/XA1/MP3/G AVSS 0.73fF
+C674 XA2/XA1/XA1/MN2/S AVSS 0.44fF
+C675 XA3/EN AVSS 2.86fF
+C676 XA2/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C677 XA2/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C678 XA2/CEO AVSS 0.79fF
+C679 XA2/XA12/A AVSS 0.91fF
+C680 XA2/XA11/A AVSS 0.71fF
+C681 XA1/XA9/Y AVSS 0.69fF
+C682 XA1/XA9/A AVSS 1.03fF
+C683 XA1/XA9/B AVSS 1.40fF
+C684 XA1/XA4/A AVSS 2.93fF
+C685 XA1/XA2/A AVSS 1.52fF
+C686 XA1/XA1/XA2/Y AVSS 1.04fF
+C687 XA1/XA1/XA1/MP3/G AVSS 0.73fF
+C688 XA1/XA1/XA1/MN2/S AVSS 0.43fF
+C689 XA2/EN AVSS 3.31fF
+C690 XA1/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C691 XA1/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C692 XA1/CEO AVSS 1.18fF
+C693 XA1/XA12/A AVSS 0.88fF
+C694 XA1/XA11/A AVSS 0.71fF
+C695 XB2/XA5b/MN1/a_324_n18# AVSS 0.44fF $ **FLOATING
+C696 XB2/XA1/Y AVSS 0.66fF
+C697 XB2/XA4/GNG AVSS 70.30fF
+C698 XB2/XA5/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C699 XB2/XA3/B AVSS 73.48fF
+C700 XB2/XA3/MP0/S AVSS 0.85fF
+C701 XB2/XA2/MP0/G AVSS 0.60fF
+C702 XB2/XA1/MP0/G AVSS 0.77fF
+C703 XB2/CKN AVSS 1.77fF
+C704 SAR_IN AVSS 1.78fF
+C705 XB2/M4/G AVSS 2.33fF
+C706 SARN AVSS 181.06fF
+C707 XA0/XA9/Y AVSS 0.69fF
+C708 XA0/XA9/A AVSS 1.02fF
+C709 CK_SAMPLE AVSS 12.84fF
+C710 XA0/XA9/B AVSS 1.39fF
+C711 XA0/XA4/A AVSS 2.90fF
+C712 XA0/XA2/A AVSS 1.52fF
+C713 VREF AVSS 39.05fF
+C714 EN AVSS 5.68fF
+C715 XA0/XA1/XA2/Y AVSS 1.04fF
+C716 XA20/CNO AVSS 14.55fF
+C717 XA20/CPO AVSS 11.63fF
+C718 XA0/XA1/XA1/MP3/G AVSS 0.73fF
+C719 XA0/XA1/XA1/MN2/S AVSS 0.44fF
+C720 XA1/EN AVSS 2.98fF
+C721 XA0/XA1/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C722 AVDD AVSS 820.22fF
+C723 XA0/XA13/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C724 XA0/CEO AVSS 0.85fF
+C725 XA0/XA12/A AVSS 0.90fF
+C726 XA0/XA11/A AVSS 0.70fF
+C727 XB1/XA5b/MN1/a_324_n18# AVSS 0.44fF $ **FLOATING
+C728 XB1/XA1/Y AVSS 0.66fF
+C729 XB1/XA4/GNG AVSS 70.32fF
+C730 XB1/XA5/MN1/a_324_334# AVSS 0.41fF $ **FLOATING
+C731 XB1/XA3/B AVSS 73.57fF
+C732 XB1/XA3/MP0/S AVSS 0.85fF
+C733 XB1/XA2/MP0/G AVSS 0.60fF
+C734 XB1/XA1/MP0/G AVSS 0.77fF
+C735 CK_SAMPLE_BSSW AVSS 4.38fF
+C736 XB1/CKN AVSS 1.81fF
+C737 XA0/CEIN AVSS 25.33fF
+C738 SAR_IP AVSS 1.67fF
+C739 XB1/M4/G AVSS 2.31fF
+C740 SARP AVSS 177.66fF
+C741 XA20/XA3/CO AVSS 1.79fF
+C742 XA20/XA3a/A AVSS 1.95fF
+C743 XA20/XA4/MP0/S AVSS 0.87fF
+C744 XA20/XA3/N2 AVSS 0.55fF
+C745 XA20/XA9/Y AVSS 3.82fF
+C746 XA20/XA2/N2 AVSS 0.54fF
+C747 XA20/XA3/N1 AVSS 1.84fF
+C748 XA20/XA9/A AVSS 4.78fF
+C749 XA20/XA1/MP0/S AVSS 0.91fF
+C750 XA20/XA0/MN1/a_324_n18# AVSS 0.41fF $ **FLOATING
+C751 XA20/XA13/MN1/a_324_334# AVSS 0.43fF $ **FLOATING
+C752 XA20/XA12/Y AVSS 0.60fF
+C753 XA20/XA11/Y AVSS 0.96fF
+C754 XA0/CN0 AVSS 13.50fF
+C755 XA1/CN0 AVSS 8.41fF
+C756 D<8> AVSS 13.32fF
+C757 XA1/CN1 AVSS 7.27fF
+C758 XDAC2/XC32a<0>/XRES16/B AVSS 23.53fF
+C759 XDAC2/XC32a<0>/XRES8/B AVSS 14.14fF
+C760 XDAC2/XC32a<0>/XRES4/B AVSS 9.70fF
+C761 XDAC2/XC32a<0>/XRES1B/B AVSS 6.34fF
+C762 XDAC2/XC32a<0>/XRES2/B AVSS 7.16fF
+C763 XDAC2/XC128a<1>/XRES16/B AVSS 22.99fF
+C764 XDAC2/XC128a<1>/XRES8/B AVSS 14.11fF
+C765 XDAC2/XC128a<1>/XRES4/B AVSS 9.68fF
+C766 XDAC2/XC128a<1>/XRES1B/B AVSS 6.34fF
+C767 XDAC2/XC128a<1>/XRES1A/B AVSS 4.94fF
+C768 XDAC2/XC128a<1>/XRES2/B AVSS 7.14fF
+C769 XDAC2/XC64b<1>/XRES16/B AVSS 22.99fF
+C770 XDAC2/XC64b<1>/XRES8/B AVSS 14.11fF
+C771 XDAC2/XC64b<1>/XRES4/B AVSS 9.68fF
+C772 XDAC2/XC64b<1>/XRES1B/B AVSS 6.34fF
+C773 XDAC2/XC64b<1>/XRES1A/B AVSS 4.92fF
+C774 XDAC2/XC64b<1>/XRES2/B AVSS 7.14fF
+C775 XDAC2/XC1/XRES16/B AVSS 22.72fF
+C776 XDAC2/XC1/XRES8/B AVSS 14.10fF
+C777 XDAC2/XC1/XRES4/B AVSS 9.68fF
+C778 XDAC2/XC1/XRES1B/B AVSS 6.33fF
+C779 XDAC2/XC1/XRES1A/B AVSS 4.73fF
+C780 XDAC2/XC1/XRES2/B AVSS 7.13fF
+C781 XDAC2/XC0/XRES16/B AVSS 22.96fF
+C782 XDAC2/XC0/XRES8/B AVSS 14.08fF
+C783 XDAC2/XC0/XRES4/B AVSS 9.52fF
+C784 XDAC2/XC0/XRES1B/B AVSS 6.27fF
+C785 XDAC2/XC0/XRES1A/B AVSS 4.92fF
+C786 XDAC2/XC0/XRES2/B AVSS 7.14fF
+C787 XDAC2/XC64a<0>/XRES16/B AVSS 23.00fF
+C788 XDAC2/XC64a<0>/XRES8/B AVSS 14.11fF
+C789 XDAC2/XC64a<0>/XRES4/B AVSS 9.69fF
+C790 XDAC2/XC64a<0>/XRES1B/B AVSS 6.97fF
+C791 XDAC2/XC64a<0>/XRES1A/B AVSS 4.94fF
+C792 XDAC2/XC64a<0>/XRES2/B AVSS 7.14fF
+C793 XDAC2/X16ab/XRES16/B AVSS 22.99fF
+C794 XDAC2/X16ab/XRES8/B AVSS 14.11fF
+C795 XDAC2/X16ab/XRES4/B AVSS 9.68fF
+C796 XDAC2/X16ab/XRES1B/B AVSS 6.34fF
+C797 XDAC2/X16ab/XRES1A/B AVSS 4.92fF
+C798 XDAC2/X16ab/XRES2/B AVSS 7.14fF
+C799 XDAC2/XC128b<2>/XRES16/B AVSS 22.99fF
+C800 XDAC2/XC128b<2>/XRES8/B AVSS 14.11fF
+C801 XDAC2/XC128b<2>/XRES4/B AVSS 9.68fF
+C802 XDAC2/XC128b<2>/XRES1B/B AVSS 6.34fF
+C803 XDAC2/XC128b<2>/XRES1A/B AVSS 4.92fF
+C804 XDAC2/XC128b<2>/XRES2/B AVSS 7.14fF
+C805 XA0/CP0 AVSS 13.01fF
+C806 XA1/CP0 AVSS 9.91fF
+C807 XA0/CP1 AVSS 12.85fF
+C808 D<5> AVSS 7.64fF
+C809 D<7> AVSS 8.23fF
+C810 XDAC1/XC32a<0>/XRES16/B AVSS 23.53fF
+C811 XDAC1/XC32a<0>/XRES8/B AVSS 14.14fF
+C812 XDAC1/XC32a<0>/XRES4/B AVSS 9.70fF
+C813 XDAC1/XC32a<0>/XRES1B/B AVSS 6.34fF
+C814 XDAC1/XC32a<0>/XRES2/B AVSS 7.16fF
+C815 XDAC1/XC128a<1>/XRES16/B AVSS 22.99fF
+C816 XDAC1/XC128a<1>/XRES8/B AVSS 14.11fF
+C817 XDAC1/XC128a<1>/XRES4/B AVSS 9.68fF
+C818 XDAC1/XC128a<1>/XRES1B/B AVSS 6.34fF
+C819 XDAC1/XC128a<1>/XRES1A/B AVSS 4.94fF
+C820 XDAC1/XC128a<1>/XRES2/B AVSS 7.14fF
+C821 XDAC1/XC64b<1>/XRES16/B AVSS 22.99fF
+C822 XDAC1/XC64b<1>/XRES8/B AVSS 14.11fF
+C823 XDAC1/XC64b<1>/XRES4/B AVSS 9.68fF
+C824 XDAC1/XC64b<1>/XRES1B/B AVSS 6.34fF
+C825 XDAC1/XC64b<1>/XRES1A/B AVSS 4.92fF
+C826 XDAC1/XC64b<1>/XRES2/B AVSS 7.14fF
+C827 XDAC1/XC1/XRES16/B AVSS 22.72fF
+C828 XDAC1/XC1/XRES8/B AVSS 14.10fF
+C829 XDAC1/XC1/XRES4/B AVSS 9.68fF
+C830 XDAC1/XC1/XRES1B/B AVSS 6.33fF
+C831 XDAC1/XC1/XRES1A/B AVSS 4.73fF
+C832 XDAC1/XC1/XRES2/B AVSS 7.13fF
+C833 XDAC1/XC0/XRES16/B AVSS 22.96fF
+C834 XDAC1/XC0/XRES8/B AVSS 14.08fF
+C835 XDAC1/XC0/XRES4/B AVSS 9.52fF
+C836 XDAC1/XC0/XRES1B/B AVSS 6.27fF
+C837 XDAC1/XC0/XRES1A/B AVSS 4.92fF
+C838 XDAC1/XC0/XRES2/B AVSS 7.14fF
+C839 XDAC1/XC64a<0>/XRES16/B AVSS 23.00fF
+C840 XDAC1/XC64a<0>/XRES8/B AVSS 14.11fF
+C841 XDAC1/XC64a<0>/XRES4/B AVSS 9.69fF
+C842 XDAC1/XC64a<0>/XRES1B/B AVSS 6.97fF
+C843 XDAC1/XC64a<0>/XRES1A/B AVSS 4.94fF
+C844 XDAC1/XC64a<0>/XRES2/B AVSS 7.14fF
+C845 XDAC1/X16ab/XRES16/B AVSS 22.99fF
+C846 XDAC1/X16ab/XRES8/B AVSS 14.11fF
+C847 XDAC1/X16ab/XRES4/B AVSS 9.68fF
+C848 XDAC1/X16ab/XRES1B/B AVSS 6.34fF
+C849 XDAC1/X16ab/XRES1A/B AVSS 4.92fF
+C850 XDAC1/X16ab/XRES2/B AVSS 7.14fF
+C851 XDAC1/XC128b<2>/XRES16/B AVSS 22.99fF
+C852 XDAC1/XC128b<2>/XRES8/B AVSS 14.11fF
+C853 XDAC1/XC128b<2>/XRES4/B AVSS 9.68fF
+C854 XDAC1/XC128b<2>/XRES1B/B AVSS 6.34fF
+C855 XDAC1/XC128b<2>/XRES1A/B AVSS 4.92fF
+C856 XDAC1/XC128b<2>/XRES2/B AVSS 7.14fF
+.ends

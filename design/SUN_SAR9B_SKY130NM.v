@@ -498,13 +498,13 @@ endmodule
 //-------------------------------------------------------------
 module SUNSAR_SAR9B_CV(SAR_IP,SAR_IN,SARN,SARP,DONE,D<8>,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,EN,CK_SAMPLE,CK_SAMPLE_BSSW,VREF,AVDD,AVSS);
 input logic D<8>;
-input logic D<3>;
-input logic D<1>;
-input logic D<4>;
-input logic D<2>;
-input logic D<6>;
 input logic D<7>;
+input logic D<6>;
 input logic D<5>;
+input logic D<4>;
+input logic D<3>;
+input logic D<2>;
+input logic D<1>;
 input logic AVSS;
 input logic AVDD;
 input logic VREF;
