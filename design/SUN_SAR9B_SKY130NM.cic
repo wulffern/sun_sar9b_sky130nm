@@ -8190,6 +8190,58 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XCAPB0",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XCAPB1",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XCAPB2",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XCAPB3",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XCAPB4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XCAPB0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XCAPB1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XCAPB2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XCAPB3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XCAPB4",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "B"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -8632,6 +8684,70 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -9074,6 +9190,70 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -9615,6 +9795,70 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -10999,6 +11243,166 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -11810,6 +12214,112 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -12621,6 +13131,112 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -14252,6 +14868,166 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "VREF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -15688,6 +16464,144 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "C"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "CN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -16364,6 +17278,50 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -17897,6 +18855,201 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "EN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "AM"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "ENO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "RST_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -18998,6 +20151,169 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "LCK_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "CHL"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "EN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "NP2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "RST_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "NP1"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -20497,6 +21813,196 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "RST"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "B"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -23378,6 +24884,282 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN6",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN6",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN6",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP4",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP5",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP6",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "CO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN6",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP4",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP5",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP6",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VMR"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP4",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP5",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP6",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP6",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -25880,6 +27662,272 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MN6",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN6",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN4",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MN5",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN6",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP2_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP2_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP2_DMY",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP3_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP3_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP3_DMY",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP4_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP4_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP4_DMY",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP5_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP5_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP5_DMY",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP6_DMY",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP6_DMY",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP6_DMY",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN6",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP2_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP3_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP4_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP5_DMY",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP6_DMY",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -26734,6 +28782,117 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "C"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MN1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "GN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MN1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "TIE_H"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "GNG"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "MP1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "BULKP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "MP1",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -29817,6 +31976,116 @@
                 }
             },
             "class": "cIcCells::CapCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES1A",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C1A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES1A",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES1B",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C1B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES1B",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES2",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES4",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES8",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C8"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES8",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES16",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "C16"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XRES16",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "NC6"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -32559,6 +34828,402 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA2a",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA2a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA3a",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA3a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA13",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2a",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA2a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3a",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA3a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA13",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CI"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CI"
+                        }
+                    ],
+                    "node": "CPI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CK_B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CKN"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CKN"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CK_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "CO"
+                        },
+                        {
+                            "inst": "XA3a",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "VMR"
+                        }
+                    ],
+                    "node": "CNO_I"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "VMR"
+                        },
+                        {
+                            "inst": "XA2a",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CO"
+                        }
+                    ],
+                    "node": "CPO_I"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "N1"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "N1"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "N2"
+                        }
+                    ],
+                    "node": "NC1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2a",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CPO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3a",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CNO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "CI"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CI"
+                        }
+                    ],
+                    "node": "CNI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "N2"
+                        }
+                    ],
+                    "node": "NC2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA10",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "DONE_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA10",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CK_A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA11",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CK_SAMPLE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA11",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "DONE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA12",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CK_CMP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -35633,6 +38298,328 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "M1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M4",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M5",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M6",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M7",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "M8",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "VI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "M1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M2",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M3",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M4",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "GN"
+                        }
+                    ],
+                    "node": "GN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "M1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M4",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "VO1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "M1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M6",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M7",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "M8",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XA5b",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "M5",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M6",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M7",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "M8",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "TIE_L"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "M5",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M6",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M7",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "M8",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "VO2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5b",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "C"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "C"
+                        }
+                    ],
+                    "node": "CKN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XCAPB1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "VS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "GNG"
+                        },
+                        {
+                            "inst": "XCAPB1",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "GNG"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "TIE_H"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "TIE_H"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -37068,6 +40055,198 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CMP_OP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CMP_ON"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "EN"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "EN"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "EN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "ENO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "RST_N"
+                        }
+                    ],
+                    "node": "RST_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "LCK_N"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "LCK_N"
+                        }
+                    ],
+                    "node": "LCK_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "CHL"
+                        }
+                    ],
+                    "node": "CHL_OP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "CHL"
+                        }
+                    ],
+                    "node": "CHL_ON"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -40094,6 +43273,407 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CMP_OP"
+                        }
+                    ],
+                    "node": "CMP_OP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CMP_ON"
+                        }
+                    ],
+                    "node": "CMP_ON"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "EN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "RST_N"
+                        }
+                    ],
+                    "node": "RST_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "ENO"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CHL_OP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CHL_OP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CHL_ON"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CHL_ON"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA13",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA13",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CN1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "VREF"
+                        }
+                    ],
+                    "node": "VREF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "CP1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CP0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CN0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "CE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "RST"
+                        }
+                    ],
+                    "node": "CKS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "XA9",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "ENO_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "DONE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA9",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA10",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CE1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA10",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA11",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CE1_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA11",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "CEIN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA11",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "XA12",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CEO1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA12",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CEO"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -45559,6 +49139,334 @@
                 }
             },
             "class": "cIcCells::CDAC",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XC1",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC1",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC1",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC1",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC1",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC1",
+                            "node": "C16"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<10>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC1",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "X16ab",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "CTOP"
+                        }
+                    ],
+                    "node": "CTOP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC128b<2>",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "X16ab",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC64a<0>",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<8>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C1B"
+                        }
+                    ],
+                    "node": "CP<0>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C2"
+                        }
+                    ],
+                    "node": "CP<1>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C4"
+                        }
+                    ],
+                    "node": "CP<2>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C8"
+                        }
+                    ],
+                    "node": "CP<3>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC32a<0>",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<7>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC128a<1>",
+                            "node": "C16"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC0",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<11>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "X16ab",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "X16ab",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "X16ab",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "X16ab",
+                            "node": "C4"
+                        }
+                    ],
+                    "node": "CP<5>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "X16ab",
+                            "node": "C8"
+                        }
+                    ],
+                    "node": "CP<4>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "X16ab",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<6>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C1A"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C1B"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C2"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C4"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C8"
+                        },
+                        {
+                            "inst": "XC64b<1>",
+                            "node": "C16"
+                        }
+                    ],
+                    "node": "CP<9>"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -56513,6 +60421,1186 @@
                 }
             },
             "class": "cIcCells::SAR",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "VI"
+                        }
+                    ],
+                    "node": "SAR_IP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "CK"
+                        }
+                    ],
+                    "node": "CK_SAMPLE_BSSW"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "CKN"
+                        }
+                    ],
+                    "node": "NCCA"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "TIE_L"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "TIE_L"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEIN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "VO1"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "VO2"
+                        },
+                        {
+                            "inst": "XDAC1",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CPI"
+                        }
+                    ],
+                    "node": "SARP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "VO2"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "VO1"
+                        },
+                        {
+                            "inst": "XDAC2",
+                            "node": "CTOP"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CNI"
+                        }
+                    ],
+                    "node": "SARN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XB2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XDAC1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XDAC2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB2",
+                            "node": "VI"
+                        }
+                    ],
+                    "node": "SAR_IN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XB2",
+                            "node": "CKN"
+                        }
+                    ],
+                    "node": "NCCB"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<11>"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "CP<11>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<10>"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "CP<10>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<9>"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<7>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<8>"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "CP<8>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<7>"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<6>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<6>"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "CP<6>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<5>"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<5>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<4>"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "CP<4>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<3>"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<4>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<2>"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<3>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<1>"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<2>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC1",
+                            "node": "CP<0>"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<1>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<11>"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "D<8>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<10>"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<10>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<9>"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "CN<9>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<8>"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<8>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<7>"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "CN<7>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<6>"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<6>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<5>"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "CN<5>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<4>"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<4>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<3>"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<3>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<2>"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<2>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<1>"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<1>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XDAC2",
+                            "node": "CP<0>"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "CN<0>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "CMP_OP"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CPO"
+                        }
+                    ],
+                    "node": "CMP_OP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "CMP_ON"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CNO"
+                        }
+                    ],
+                    "node": "CMP_ON"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "EN"
+                        },
+                        {
+                            "inst": "XA0",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "RST_N"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "RST_N"
+                        }
+                    ],
+                    "node": "EN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "CKS"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CK_SAMPLE"
+                        }
+                    ],
+                    "node": "CK_SAMPLE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "VREF"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "VREF"
+                        }
+                    ],
+                    "node": "VREF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA1",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA2",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA3",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "NC2A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "NC2B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA4",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "NC3A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "NC3B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA5",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "NC4A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "NC4B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA6",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "ENO"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "EN"
+                        }
+                    ],
+                    "node": "ENO7"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE7"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "NC5A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "NC5B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA7",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "CEIN"
+                        }
+                    ],
+                    "node": "CEO7"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "ENO"
+                        }
+                    ],
+                    "node": "ENO8"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "DONE"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "DONE"
+                        }
+                    ],
+                    "node": "DONE"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "CP0"
+                        }
+                    ],
+                    "node": "NC6A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "CP1"
+                        }
+                    ],
+                    "node": "D<0>"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "CN0"
+                        }
+                    ],
+                    "node": "NC6C"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "CN1"
+                        }
+                    ],
+                    "node": "NC6B"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA8",
+                            "node": "CEO"
+                        },
+                        {
+                            "inst": "XA20",
+                            "node": "CK_CMP"
+                        }
+                    ],
+                    "node": "CK_CMP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -56532,14 +61620,14 @@
         }
     ],
     "info": {
-        "arguments": "/Users/wulff/lpro/aicex/ip/sun_sar9b_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_SAR9B_SKY130NM",
+        "arguments": "/Users/wulff/pro/aicex/ip/sun_sar9b_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_SAR9B_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.5-1-g9e82eba",
+        "hash": "0.1.5-3-g70b1d0e",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_SAR9B_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Sun Jan 22 22:15:32 CET 2023"
+        "version": "0.1.5+ built on Thu Apr 6 21:24:36 CEST 2023"
     }
 }

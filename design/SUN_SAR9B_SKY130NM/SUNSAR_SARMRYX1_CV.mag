@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1672527600
+timestamp 1680904800
 << checkpaint >>
 rect 0 0 2520 4224
 << locali >>
@@ -57,38 +57,40 @@ box 0 2112 2520 3168
 use SUNSAR_SARLTX1_CV XA5
 transform 1 0 0 0 1 3168
 box 0 3168 2520 4224
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut0
 transform 1 0 356 0 1 1202
 box 356 1202 540 1270
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut1
 transform 1 0 356 0 1 2258
 box 356 2258 540 2326
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut2
 transform 1 0 324 0 1 498
 box 324 498 508 566
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut3
 transform 1 0 324 0 1 4018
 box 324 4018 508 4086
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut4
 transform 1 0 324 0 1 2962
 box 324 2962 508 3030
 << labels >>
 flabel locali s 324 2258 540 2318 0 FreeSans 400 0 0 0 CMP_OP
-port 1 nsew
+port 1 nsew signal bidirectional
 flabel locali s 1980 4018 2196 4078 0 FreeSans 400 0 0 0 RST_N
-port 4 nsew
+port 4 nsew signal bidirectional
 flabel locali s 324 498 540 558 0 FreeSans 400 0 0 0 EN
-port 3 nsew
+port 3 nsew signal bidirectional
 flabel locali s 324 3314 540 3374 0 FreeSans 400 0 0 0 CMP_ON
-port 2 nsew
+port 2 nsew signal bidirectional
 flabel locali s 756 3050 972 3110 0 FreeSans 400 0 0 0 CHL_OP
-port 6 nsew
+port 6 nsew signal bidirectional
 flabel locali s 756 4106 972 4166 0 FreeSans 400 0 0 0 CHL_ON
-port 7 nsew
+port 7 nsew signal bidirectional
 flabel locali s 1548 762 1764 822 0 FreeSans 400 0 0 0 ENO
-port 5 nsew
+port 5 nsew signal bidirectional
 flabel m3 s 1548 0 1748 4224 0 FreeSans 400 0 0 0 AVDD
-port 8 nsew
+port 8 nsew signal bidirectional
 flabel m3 s 756 0 956 4224 0 FreeSans 400 0 0 0 AVSS
-port 9 nsew
+port 9 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2520 4224
 << end >>

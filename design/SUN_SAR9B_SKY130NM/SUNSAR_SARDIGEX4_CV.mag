@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1672527600
+timestamp 1680904800
 << checkpaint >>
 rect 0 0 2520 14432
 << locali >>
@@ -105,88 +105,90 @@ box 0 13728 2520 14080
 use SUNSAR_TAPCELLB_CV XA13
 transform 1 0 0 0 1 14080
 box 0 14080 2520 14432
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut0
 transform 1 0 324 0 1 7186
 box 324 7186 508 7254
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut1
 transform 1 0 756 0 1 3050
 box 756 3050 940 3118
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut2
 transform 1 0 1980 0 1 11410
 box 1980 11410 2164 11478
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut3
 transform 1 0 1548 0 1 762
 box 1548 762 1732 830
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut4
 transform 1 0 324 0 1 12466
 box 324 12466 508 12534
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut5
 transform 1 0 756 0 1 11146
 box 756 11146 940 11214
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut6
 transform 1 0 1548 0 1 5866
 box 1548 5866 1732 5934
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut7
 transform 1 0 1980 0 1 10706
 box 1980 10706 2164 10774
-use SUNSAR_cut_M1M4_2x1 
+use SUNSAR_cut_M1M4_2x1 xcut8
 transform 1 0 340 0 1 5770
 box 340 5770 540 5846
-use SUNSAR_cut_M1M4_1x2 
+use SUNSAR_cut_M1M4_1x2 xcut9
 transform 1 0 1055 0 1 5796
 box 1055 5796 1131 5996
-use SUNSAR_cut_M1M4_1x2 
+use SUNSAR_cut_M1M4_1x2 xcut10
 transform 1 0 1215 0 1 7204
 box 1215 7204 1291 7404
-use SUNSAR_cut_M1M4_1x2 
+use SUNSAR_cut_M1M4_1x2 xcut11
 transform 1 0 1390 0 1 8612
 box 1390 8612 1466 8812
-use SUNSAR_cut_M2M3_2x1 
+use SUNSAR_cut_M2M3_2x1 xcut12
 transform 1 0 1564 0 1 754
 box 1564 754 1764 830
-use SUNSAR_cut_M2M3_2x1 
+use SUNSAR_cut_M2M3_2x1 xcut13
 transform 1 0 340 0 1 490
 box 340 490 540 566
-use SUNSAR_cut_M2M3_2x1 
+use SUNSAR_cut_M2M3_2x1 xcut14
 transform 1 0 340 0 1 490
 box 340 490 540 566
-use SUNSAR_cut_M2M3_2x1 
+use SUNSAR_cut_M2M3_2x1 xcut15
 transform 1 0 340 0 1 2250
 box 340 2250 540 2326
-use SUNSAR_cut_M2M3_2x1 
+use SUNSAR_cut_M2M3_2x1 xcut16
 transform 1 0 340 0 1 2250
 box 340 2250 540 2326
 << labels >>
 flabel m2 s 340 2250 540 2326 0 FreeSans 400 0 0 0 CMP_OP
-port 1 nsew
+port 1 nsew signal bidirectional
 flabel locali s 1980 4018 2196 4078 0 FreeSans 400 0 0 0 RST_N
-port 4 nsew
+port 4 nsew signal bidirectional
 flabel m2 s 340 490 540 566 0 FreeSans 400 0 0 0 EN
-port 3 nsew
+port 3 nsew signal bidirectional
 flabel locali s 324 3314 540 3374 0 FreeSans 400 0 0 0 CMP_ON
-port 2 nsew
+port 2 nsew signal bidirectional
 flabel m2 s 1564 754 1764 830 0 FreeSans 400 0 0 0 ENO
-port 5 nsew
+port 5 nsew signal bidirectional
 flabel m3 s 340 5770 540 5846 0 FreeSans 400 0 0 0 CN1
-port 10 nsew
+port 10 nsew signal bidirectional
 flabel m3 s 1055 5796 1131 5996 0 FreeSans 400 0 0 0 CP1
-port 8 nsew
+port 8 nsew signal bidirectional
 flabel m3 s 1215 7204 1291 7404 0 FreeSans 400 0 0 0 CP0
-port 7 nsew
+port 7 nsew signal bidirectional
 flabel m3 s 1390 8612 1466 8812 0 FreeSans 400 0 0 0 CN0
-port 9 nsew
+port 9 nsew signal bidirectional
 flabel locali s 324 13522 540 13582 0 FreeSans 400 0 0 0 CEIN
-port 11 nsew
+port 11 nsew signal bidirectional
 flabel locali s 1548 13962 1764 14022 0 FreeSans 400 0 0 0 CEO
-port 12 nsew
+port 12 nsew signal bidirectional
 flabel locali s 324 10354 540 10414 0 FreeSans 400 0 0 0 CKS
-port 13 nsew
+port 13 nsew signal bidirectional
 flabel locali s 756 11850 972 11910 0 FreeSans 400 0 0 0 DONE
-port 6 nsew
+port 6 nsew signal bidirectional
 flabel m3 s 2124 4810 2324 5010 0 FreeSans 400 0 0 0 VREF
-port 14 nsew
+port 14 nsew signal bidirectional
 flabel m3 s 1548 0 1748 14432 0 FreeSans 400 0 0 0 AVDD
-port 15 nsew
+port 15 nsew signal bidirectional
 flabel m3 s 756 0 956 14432 0 FreeSans 400 0 0 0 AVSS
-port 16 nsew
+port 16 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2520 14432
 << end >>

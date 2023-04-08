@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1672527600
+timestamp 1680904800
 << checkpaint >>
 rect 0 0 2520 15488
 << locali >>
@@ -92,59 +92,61 @@ box 0 14784 2520 15136
 use SUNSAR_TAPCELLB_CV XA13
 transform 1 0 0 0 1 15136
 box 0 15136 2520 15488
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut0
 transform 1 0 1548 0 1 9562
 box 1548 9562 1732 9630
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut1
 transform 1 0 1980 0 1 4722
 box 1980 4722 2164 4790
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut2
 transform 1 0 1980 0 1 5426
 box 1980 5426 2164 5494
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut3
 transform 1 0 356 0 1 2258
 box 356 2258 540 2326
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut4
 transform 1 0 356 0 1 3314
 box 356 3314 540 3382
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut5
 transform 1 0 356 0 1 10002
 box 356 10002 540 10070
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut6
 transform 1 0 356 0 1 11058
 box 356 11058 540 11126
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut7
 transform 1 0 324 0 1 498
 box 324 498 508 566
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut8
 transform 1 0 324 0 1 10706
 box 324 10706 508 10774
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut9
 transform 1 0 324 0 1 13170
 box 324 13170 508 13238
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut10
 transform 1 0 324 0 1 13170
 box 324 13170 508 13238
-use SUNSAR_cut_M1M2_2x1 
+use SUNSAR_cut_M1M2_2x1 xcut11
 transform 1 0 756 0 1 13962
 box 756 13962 940 14030
 << labels >>
 flabel locali s 324 14226 540 14286 0 FreeSans 400 0 0 0 CK_SAMPLE
-port 6 nsew
+port 6 nsew signal bidirectional
 flabel locali s 324 14930 540 14990 0 FreeSans 400 0 0 0 CK_CMP
-port 5 nsew
+port 5 nsew signal bidirectional
 flabel locali s 324 14578 540 14638 0 FreeSans 400 0 0 0 DONE
-port 7 nsew
+port 7 nsew signal bidirectional
 flabel locali s 756 6922 972 6982 0 FreeSans 400 0 0 0 CNO
-port 4 nsew
+port 4 nsew signal bidirectional
 flabel locali s 756 5514 972 5574 0 FreeSans 400 0 0 0 CPO
-port 3 nsew
+port 3 nsew signal bidirectional
 flabel locali s 324 2258 540 2318 0 FreeSans 400 0 0 0 CPI
-port 1 nsew
+port 1 nsew signal bidirectional
 flabel locali s 324 10002 540 10062 0 FreeSans 400 0 0 0 CNI
-port 2 nsew
+port 2 nsew signal bidirectional
 flabel m3 s 1548 0 1748 15488 0 FreeSans 400 0 0 0 AVDD
-port 8 nsew
+port 8 nsew signal bidirectional
 flabel m3 s 756 0 956 15488 0 FreeSans 400 0 0 0 AVSS
-port 9 nsew
+port 9 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 2520 15488
 << end >>
