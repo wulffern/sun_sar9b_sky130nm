@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1680904800
+timestamp 1681077600
 << checkpaint >>
 rect 0 0 2520 15488
 << locali >>
@@ -56,76 +56,76 @@ rect 1548 0 1748 15488
 rect 756 0 956 15488
 rect 1548 0 1748 15488
 rect 756 0 956 15488
-use SUNSAR_TAPCELLB_CV XA0
+use SUNSAR_TAPCELLB_CV XA0 
 transform 1 0 0 0 1 0
 box 0 0 2520 352
-use SUNSAR_SARKICKHX1_CV XA1
+use SUNSAR_SARKICKHX1_CV XA1 
 transform 1 0 0 0 1 352
 box 0 352 2520 2816
-use SUNSAR_SARCMPHX1_CV XA2
+use SUNSAR_SARCMPHX1_CV XA2 
 transform 1 0 0 0 1 2816
 box 0 2816 2520 5280
-use SUNSAR_IVX4_CV XA2a
+use SUNSAR_IVX4_CV XA2a 
 transform 1 0 0 0 1 5280
 box 0 5280 2520 6688
-use SUNSAR_IVX4_CV XA3a
+use SUNSAR_IVX4_CV XA3a 
 transform 1 0 0 0 1 6688
 box 0 6688 2520 8096
-use SUNSAR_SARCMPHX1_CV XA3
+use SUNSAR_SARCMPHX1_CV XA3 
 transform 1 0 0 0 1 8096
 box 0 8096 2520 10560
-use SUNSAR_SARKICKHX1_CV XA4
+use SUNSAR_SARKICKHX1_CV XA4 
 transform 1 0 0 0 1 10560
 box 0 10560 2520 13024
-use SUNSAR_IVX1_CV XA9
+use SUNSAR_IVX1_CV XA9 
 transform 1 0 0 0 1 13024
 box 0 13024 2520 13376
-use SUNSAR_NDX1_CV XA10
+use SUNSAR_NDX1_CV XA10 
 transform 1 0 0 0 1 13376
 box 0 13376 2520 14080
-use SUNSAR_NRX1_CV XA11
+use SUNSAR_NRX1_CV XA11 
 transform 1 0 0 0 1 14080
 box 0 14080 2520 14784
-use SUNSAR_IVX1_CV XA12
+use SUNSAR_IVX1_CV XA12 
 transform 1 0 0 0 1 14784
 box 0 14784 2520 15136
-use SUNSAR_TAPCELLB_CV XA13
+use SUNSAR_TAPCELLB_CV XA13 
 transform 1 0 0 0 1 15136
 box 0 15136 2520 15488
-use SUNSAR_cut_M1M2_2x1 xcut0
+use SUNSAR_cut_M1M2_2x1 xcut0 
 transform 1 0 1548 0 1 9562
 box 1548 9562 1732 9630
-use SUNSAR_cut_M1M2_2x1 xcut1
+use SUNSAR_cut_M1M2_2x1 xcut1 
 transform 1 0 1980 0 1 4722
 box 1980 4722 2164 4790
-use SUNSAR_cut_M1M2_2x1 xcut2
+use SUNSAR_cut_M1M2_2x1 xcut2 
 transform 1 0 1980 0 1 5426
 box 1980 5426 2164 5494
-use SUNSAR_cut_M1M2_2x1 xcut3
+use SUNSAR_cut_M1M2_2x1 xcut3 
 transform 1 0 356 0 1 2258
 box 356 2258 540 2326
-use SUNSAR_cut_M1M2_2x1 xcut4
+use SUNSAR_cut_M1M2_2x1 xcut4 
 transform 1 0 356 0 1 3314
 box 356 3314 540 3382
-use SUNSAR_cut_M1M2_2x1 xcut5
+use SUNSAR_cut_M1M2_2x1 xcut5 
 transform 1 0 356 0 1 10002
 box 356 10002 540 10070
-use SUNSAR_cut_M1M2_2x1 xcut6
+use SUNSAR_cut_M1M2_2x1 xcut6 
 transform 1 0 356 0 1 11058
 box 356 11058 540 11126
-use SUNSAR_cut_M1M2_2x1 xcut7
+use SUNSAR_cut_M1M2_2x1 xcut7 
 transform 1 0 324 0 1 498
 box 324 498 508 566
-use SUNSAR_cut_M1M2_2x1 xcut8
+use SUNSAR_cut_M1M2_2x1 xcut8 
 transform 1 0 324 0 1 10706
 box 324 10706 508 10774
-use SUNSAR_cut_M1M2_2x1 xcut9
+use SUNSAR_cut_M1M2_2x1 xcut9 
 transform 1 0 324 0 1 13170
 box 324 13170 508 13238
-use SUNSAR_cut_M1M2_2x1 xcut10
+use SUNSAR_cut_M1M2_2x1 xcut10 
 transform 1 0 324 0 1 13170
 box 324 13170 508 13238
-use SUNSAR_cut_M1M2_2x1 xcut11
+use SUNSAR_cut_M1M2_2x1 xcut11 
 transform 1 0 756 0 1 13962
 box 756 13962 940 14030
 << labels >>

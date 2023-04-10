@@ -548,12 +548,6 @@
               "addPortOnRects" : [["BULKP","M1"],["BULKN","M1"], ["AVDD","M4"], ["CK","M1", "MN6:G" ],["CKN","M1","MN0:G"],["CI","M1","MN1:G"]]
           }
         },
-        { "name" : "TEST_CV",
-          "class" : "Layout::LayoutDigitalCell",
-          "afterRoute"  : {
-              "addPortOnRects" : [["A","M1"],["Y","M1"]]
-          }
-        },
         { "name": "SARBSSWCTRL_CV" ,
           "class" : "Layout::LayoutDigitalCell",
           "setYoffsetHalf" : 1,

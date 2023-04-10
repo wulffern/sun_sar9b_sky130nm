@@ -48918,22 +48918,91 @@
                     "y2": 1392000
                 },
                 {
-                    "angle": "",
-                    "cell": "SUNSAR_cut_M1M2_1x2",
+                    "abstract": false,
+                    "boundaryIgnoreRouting": false,
+                    "cellused": true,
                     "children": [
+                        {
+                            "abstract": false,
+                            "boundaryIgnoreRouting": false,
+                            "cellused": true,
+                            "children": [
+                                {
+                                    "class": "Rect",
+                                    "layer": "M1",
+                                    "net": "",
+                                    "x1": 117000,
+                                    "x2": 120400,
+                                    "y1": 355400,
+                                    "y2": 364600
+                                },
+                                {
+                                    "class": "Rect",
+                                    "layer": "VIA1",
+                                    "net": "",
+                                    "x1": 117300,
+                                    "x2": 120100,
+                                    "y1": 356000,
+                                    "y2": 358800
+                                },
+                                {
+                                    "class": "Rect",
+                                    "layer": "VIA1",
+                                    "net": "",
+                                    "x1": 117300,
+                                    "x2": 120100,
+                                    "y1": 361200,
+                                    "y2": 364000
+                                },
+                                {
+                                    "class": "Rect",
+                                    "layer": "M2",
+                                    "net": "",
+                                    "x1": 117000,
+                                    "x2": 120400,
+                                    "y1": 355400,
+                                    "y2": 364600
+                                }
+                            ],
+                            "class": "cIcCore::Cell",
+                            "has_pr": false,
+                            "layer": "PR",
+                            "libcell": false,
+                            "libpath": "",
+                            "meta": {
+                            },
+                            "name": "SUNSAR_cut_M1M2_1x2",
+                            "net": "",
+                            "physicalOnly": false,
+                            "x1": 117000,
+                            "x2": 120400,
+                            "y1": 355400,
+                            "y2": 364600
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M2",
+                            "net": "",
+                            "x1": 117000,
+                            "x2": 133400,
+                            "y1": 358100,
+                            "y2": 361500
+                        }
                     ],
-                    "class": "Instance",
-                    "instanceName": "",
+                    "class": "cIcCore::Cell",
+                    "has_pr": false,
                     "layer": "PR",
+                    "libcell": false,
                     "libpath": "",
-                    "name": "SUNSAR_cut_M1M2_1x2",
+                    "meta": {
+                    },
+                    "name": "SUNSAR_",
                     "net": "",
-                    "x1": 133400,
-                    "x2": 136800,
-                    "xcell": 0,
+                    "physicalOnly": false,
+                    "x1": 117000,
+                    "x2": 133400,
                     "y1": 355400,
-                    "y2": 364600,
-                    "ycell": 0
+                    "y2": 364600
                 },
                 {
                     "class": "Port",
@@ -61622,12 +61691,12 @@
     "info": {
         "arguments": "/Users/wulff/pro/aicex/ip/sun_sar9b_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_SAR9B_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.5-3-g70b1d0e",
+        "hash": "0.1.5-4-gd7479f9",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_SAR9B_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Thu Apr 6 21:24:36 CEST 2023"
+        "version": "0.1.5+ built on Mon Apr 10 12:10:49 CEST 2023"
     }
 }

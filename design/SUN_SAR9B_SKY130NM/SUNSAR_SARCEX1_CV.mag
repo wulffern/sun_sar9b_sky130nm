@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1680904800
+timestamp 1681077600
 << checkpaint >>
 rect 0 0 2520 1408
 << locali >>
@@ -27,43 +27,43 @@ rect 1548 0 1748 1408
 rect 756 0 956 1408
 rect 1548 0 1748 1408
 rect 756 0 956 1408
-use SUNSAR_NCHDL MN0
+use SUNSAR_NCHDL MN0 
 transform 1 0 0 0 1 0
 box 0 0 1260 352
-use SUNSAR_NCHDL MN1
+use SUNSAR_NCHDL MN1 
 transform 1 0 0 0 1 352
 box 0 352 1260 704
-use SUNSAR_NCHDL MN2
+use SUNSAR_NCHDL MN2 
 transform 1 0 0 0 1 704
 box 0 704 1260 1056
-use SUNSAR_NCHDL MN3
+use SUNSAR_NCHDL MN3 
 transform 1 0 0 0 1 1056
 box 0 1056 1260 1408
-use SUNSAR_PCHDL MP0
+use SUNSAR_PCHDL MP0 
 transform 1 0 1260 0 1 0
 box 1260 0 2520 352
-use SUNSAR_PCHDL MP1
+use SUNSAR_PCHDL MP1 
 transform 1 0 1260 0 1 352
 box 1260 352 2520 704
-use SUNSAR_PCHDL MP2
+use SUNSAR_PCHDL MP2 
 transform 1 0 1260 0 1 704
 box 1260 704 2520 1056
-use SUNSAR_PCHDL MP3
+use SUNSAR_PCHDL MP3 
 transform 1 0 1260 0 1 1056
 box 1260 1056 2520 1408
-use SUNSAR_cut_M1M4_2x1 xcut0
+use SUNSAR_cut_M1M4_2x1 xcut0 
 transform 1 0 1548 0 1 586
 box 1548 586 1748 662
-use SUNSAR_cut_M1M4_2x1 xcut1
+use SUNSAR_cut_M1M4_2x1 xcut1 
 transform 1 0 1548 0 1 762
 box 1548 762 1748 838
-use SUNSAR_cut_M1M4_2x1 xcut2
+use SUNSAR_cut_M1M4_2x1 xcut2 
 transform 1 0 756 0 1 58
 box 756 58 956 134
-use SUNSAR_cut_M1M4_2x1 xcut3
+use SUNSAR_cut_M1M4_2x1 xcut3 
 transform 1 0 756 0 1 586
 box 756 586 956 662
-use SUNSAR_cut_M1M4_2x1 xcut4
+use SUNSAR_cut_M1M4_2x1 xcut4 
 transform 1 0 756 0 1 762
 box 756 762 956 838
 << labels >>

@@ -37,22 +37,22 @@ VIEW=Lay
 OPT=
 
 typical:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Att Tt Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt
 
 slow:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Ass "Th,Tl" Vl
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
 fast:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Aff "Th,Tl" Vh
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
 tfs:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att,Ass,Aff"  "Tt,Th,Tl" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff"  "Tt,Th,Tl" Vt
 
 ttffss:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att,Ass,Aff" "Tt" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt" Vt
 
 temp:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att" "Tt,Th,Tl" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt" "Tt,Th,Tl" Vt
 
 clean:
 	-rm *.ext

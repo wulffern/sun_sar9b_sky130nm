@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1680904800
+timestamp 1681077600
 << checkpaint >>
 rect 0 0 2520 4224
 << locali >>
@@ -42,34 +42,34 @@ rect 1548 0 1748 4224
 rect 756 0 956 4224
 rect 1548 0 1748 4224
 rect 756 0 956 4224
-use SUNSAR_TAPCELLB_CV XA0
+use SUNSAR_TAPCELLB_CV XA0 
 transform 1 0 0 0 1 0
 box 0 0 2520 352
-use SUNSAR_SAREMX1_CV XA1
+use SUNSAR_SAREMX1_CV XA1 
 transform 1 0 0 0 1 352
 box 0 352 2520 1760
-use SUNSAR_IVX1_CV XA2
+use SUNSAR_IVX1_CV XA2 
 transform 1 0 0 0 1 1760
 box 0 1760 2520 2112
-use SUNSAR_SARLTX1_CV XA4
+use SUNSAR_SARLTX1_CV XA4 
 transform 1 0 0 0 1 2112
 box 0 2112 2520 3168
-use SUNSAR_SARLTX1_CV XA5
+use SUNSAR_SARLTX1_CV XA5 
 transform 1 0 0 0 1 3168
 box 0 3168 2520 4224
-use SUNSAR_cut_M1M2_2x1 xcut0
+use SUNSAR_cut_M1M2_2x1 xcut0 
 transform 1 0 356 0 1 1202
 box 356 1202 540 1270
-use SUNSAR_cut_M1M2_2x1 xcut1
+use SUNSAR_cut_M1M2_2x1 xcut1 
 transform 1 0 356 0 1 2258
 box 356 2258 540 2326
-use SUNSAR_cut_M1M2_2x1 xcut2
+use SUNSAR_cut_M1M2_2x1 xcut2 
 transform 1 0 324 0 1 498
 box 324 498 508 566
-use SUNSAR_cut_M1M2_2x1 xcut3
+use SUNSAR_cut_M1M2_2x1 xcut3 
 transform 1 0 324 0 1 4018
 box 324 4018 508 4086
-use SUNSAR_cut_M1M2_2x1 xcut4
+use SUNSAR_cut_M1M2_2x1 xcut4 
 transform 1 0 324 0 1 2962
 box 324 2962 508 3030
 << labels >>
