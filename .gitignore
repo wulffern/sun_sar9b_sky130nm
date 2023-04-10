@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 .DS_Store
 
-
+*.net
 *.so
 *.run
 *.pdf
