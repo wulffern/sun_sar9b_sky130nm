@@ -49,7 +49,7 @@
 #ifdef Debug
 .option reltol=1e-3 srcsteps=1 ramptime=10n noopiter  gmin=1e-12
 #else
-.option reltol=1e-5 srcsteps=1 ramptime=10n noopiter  gmin=1e-15
+.option reltol=1e-4 srcsteps=1 ramptime=10n noopiter  gmin=1e-15
 #endif
 
 *----------------------------------------------------------------
@@ -139,15 +139,16 @@ B2 RO 0 V = V(RO_VDD)/V(VDD)
 .measure tran tpd_done trig v(CK_SAMPLE) val='AVDD/2' rise=1 targ v(DONE) val='AVDD/2' rise=1
 .measure tran iavdd AVG i(VDD) TD='PERIOD_CLK'
 .measure tran ivref AVG i(VREF) TD='PERIOD_CLK'
+
+
+*----------------------------------------------------------------
+* SAVE
+*----------------------------------------------------------------
+.save v(SARN) v(SARP) v(RO) v(SAR_IP) v(SAR_IN) V(DONE) v(CK_SAMPLE) i(VDD) i(VREF)
+
 *----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------
-
-#ifdef Debug
-.probe v(SARN) v(SARP) v(RO) v(SAR_IP) v(SAR_IN) V(DONE) v(CK_SAMPLE) v(XDUT.CMP_OP) v(XDUT.CMP_ON) i(VDD) i(VREF)
-#else
-.probe v(SARN) v(SARP) v(RO) v(SAR_IP) v(SAR_IN) V(DONE) v(CK_SAMPLE) i(VDD) i(VREF)
-#endif
 
 
 .control
@@ -158,9 +159,8 @@ unset askquit
 
 #ifdef Debug
 tran 1n 250n
-
-hardcopy {cicname}.ps allv
-*quit
+write
+quit
 #else
 *nbpt=64 => 8u
 *tran 1n 8.5u

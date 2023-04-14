@@ -1,4 +1,5 @@
-v {xschem version=3.1.0 file_version=1.2 }
+v {xschem version=3.1.0 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -174,7 +175,7 @@ C {devices/lab_pin.sym} 770 140 0 0 {name=l66 sig_type=std_logic lab=AVSS }
 C {SUN_SAR9B_SKY130NM/SUNSAR_TAPCELLB_CV.sym} 1260 110 0 0 {name=XXA5}
 C {devices/lab_pin.sym} 1280 90 2 0 {name=l67 sig_type=std_logic lab=AVDD }
 C {devices/lab_pin.sym} 1280 130 2 0 {name=l68 sig_type=std_logic lab=AVSS }
-C {SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.sym} 1295 305 0 0 {name=XXCAPB1}
+C {SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW5_CV.sym} 1295 325 0 0 {name=XXCAPB1}
 C {devices/lab_pin.sym} 1275 265 0 0 {name=l69 sig_type=std_logic lab=GNG }
 C {devices/lab_pin.sym} 1275 335 0 0 {name=l70 sig_type=std_logic lab=VS }
 C {cborder/border_s.sym} 1140 800 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}

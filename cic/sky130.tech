@@ -106,6 +106,7 @@
         },
         "symbol_lib" : "cpdk",
         "symbol_libs" : ["../../cpdk/design/cic_wbulk",
+                         "../../cpdk/design/cic",
                          "$PDK_ROOT/sky130B/libs.tech/xschem/sky130_fd_pr"
                         ]
     },

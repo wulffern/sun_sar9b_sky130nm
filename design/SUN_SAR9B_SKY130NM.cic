@@ -14637,6 +14637,30 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVSS",
                     "net": "",
@@ -21541,6 +21565,30 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVDD",
                     "net": "",
@@ -27933,6 +27981,7 @@
             "libcell": false,
             "libpath": "",
             "meta": {
+                "noSchematic": true
             },
             "name": "SUNSAR_SARKICKHX1_CV",
             "net": "",
@@ -28898,6 +28947,7 @@
             "libcell": false,
             "libpath": "",
             "meta": {
+                "noSchematic": true
             },
             "name": "SUNSAR_SARBSSWCTRL_CV",
             "net": "",
@@ -35229,6 +35279,7 @@
             "libcell": false,
             "libpath": "",
             "meta": {
+                "noSchematic": true,
                 "symbol": "cic_wbulk/sarcmp"
             },
             "name": "SUNSAR_SARCMPX1_CV",
@@ -38625,6 +38676,7 @@
             "libcell": false,
             "libpath": "",
             "meta": {
+                "noSchematic": true,
                 "symbol": "cic_wbulk/sarbssw"
             },
             "name": "SUNSAR_SARBSSW_CV",
@@ -40478,6 +40530,30 @@
                             "y2": 281600
                         },
                         {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 217800,
+                            "y2": 222200
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVSS",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": -5400,
+                            "x2": 5400,
+                            "y1": 217800,
+                            "y2": 222200
+                        },
+                        {
                             "class": "Text",
                             "layer": "TXT",
                             "name": "XA2",
@@ -40569,6 +40645,30 @@
                             "x2": 47800,
                             "y1": 281600,
                             "y2": 352000
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 288200,
+                            "y2": 292600
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVSS",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": -5400,
+                            "x2": 5400,
+                            "y1": 288200,
+                            "y2": 292600
                         },
                         {
                             "class": "Text",
@@ -40664,6 +40764,30 @@
                             "y2": 422400
                         },
                         {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 358600,
+                            "y2": 363000
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVSS",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": -5400,
+                            "x2": 5400,
+                            "y1": 358600,
+                            "y2": 363000
+                        },
+                        {
                             "class": "Text",
                             "layer": "TXT",
                             "name": "XA4",
@@ -40757,6 +40881,30 @@
                             "y2": 492800
                         },
                         {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 429000,
+                            "y2": 433400
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVSS",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": -5400,
+                            "x2": 5400,
+                            "y1": 429000,
+                            "y2": 433400
+                        },
+                        {
                             "class": "Text",
                             "layer": "TXT",
                             "name": "XA5",
@@ -40848,6 +40996,30 @@
                             "x2": 27000,
                             "y1": 517700,
                             "y2": 520700
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 499400,
+                            "y2": 503800
+                        },
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "AVSS",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": -5400,
+                            "x2": 5400,
+                            "y1": 499400,
+                            "y2": 503800
                         },
                         {
                             "class": "Port",
@@ -43356,6 +43528,26 @@
                             "node": "AVDD"
                         },
                         {
+                            "inst": "XA2",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "BULKP"
+                        },
+                        {
                             "inst": "XA6",
                             "node": "AVDD"
                         },
@@ -43425,16 +43617,36 @@
                             "node": "AVSS"
                         },
                         {
+                            "inst": "XA2",
+                            "node": "BULKN"
+                        },
+                        {
                             "inst": "XA3",
                             "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "BULKN"
                         },
                         {
                             "inst": "XA4",
                             "node": "AVSS"
                         },
                         {
+                            "inst": "XA4",
+                            "node": "BULKN"
+                        },
+                        {
                             "inst": "XA5",
                             "node": "AVSS"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "BULKN"
                         },
                         {
                             "inst": "XA6",
@@ -43679,7 +43891,7 @@
             "libcell": false,
             "libpath": "",
             "meta": {
-                "noSchematic": true
+                "symbol": "cic_wbulk/sardigex"
             },
             "name": "SUNSAR_SARDIGEX4_CV",
             "net": "",

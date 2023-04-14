@@ -12,7 +12,6 @@
         "prefix" : "SUNSAR_",
         "topcells" : [
             "SAR9B_CV"
-
         ]
 
     },
@@ -312,10 +311,6 @@
               "addPortOnRects" : [ ["D", "M1"], ["CK", "M1"], ["Q", "M1","XA8:MN0:D"],["QN","M1","XA7:MN1:D"] ,["RN","M2","XA1:MN1:G"]]
           }
         },
-
-        //-----------------------------------------------------------------------------
-        // Flip-flop
-        //-----------------------------------------------------------------------------
         { "name" : "SCX1_CV",
           "rows" : 5,
           "class" : "Layout::LayoutDigitalCell",
@@ -360,7 +355,9 @@
               ]}
           ],
           "afterRoute"  : {
-              "addPortOnRects" : [  ["VREF","M4","CUST_VREF"]]
+              "addPortOnRects" : [  ["VREF","M4","CUST_VREF"],
+                                    ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]
+                                 ]
           }
         },
         { "name": "SWX4_CV" ,
@@ -387,7 +384,9 @@
           ],
           "afterRoute"  : {
 
-              "addPortOnRects" : [  ["A","M1", "MN0:G"] , ["Y", "M1", "MN0:D"],["VREF","M4","CUST_VREF"]]
+              "addPortOnRects" : [  ["A","M1", "MN0:G"] , ["Y", "M1", "MN0:D"],["VREF","M4","CUST_VREF"],
+                                                                        ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]
+                                 ]
           }
         },
         { "name": "TGPD_CV" ,
@@ -490,7 +489,8 @@
                                     ]
           },
           "afterRoute" : {
-              "addPortOnRects" : [ ["A", "M1","MP0:G"],["B", "M1","MP2:G"], ["RST", "M1","MN1:G"] , ["A", "M1"], ["Y", "M1"], ["AVDD","M4"], ["AVSS","M4"]  ]
+              "addPortOnRects" : [ ["A", "M1","MP0:G"],["B", "M1","MP2:G"], ["RST", "M1","MN1:G"] , ["A", "M1"], ["Y", "M1"], ["AVDD","M4"], ["AVSS","M4"],
+                                 ["BULKP","M1"],["BULKN","M1"]]
           }
         },
         { "name": "SARCMPHX1_CV",
@@ -528,6 +528,9 @@
         { "name": "SARKICKHX1_CV",
           "description" : "Kick generator for SARCMP",
           "class" : "Layout::LayoutDigitalCell",
+          "meta" : {
+                "noSchematic" : true
+          },
           "setYoffsetHalf" :  1 ,
           "decorator" : [
               {"ConnectSourceDrain" : ["M1","||",""]}
@@ -550,6 +553,9 @@
         },
         { "name": "SARBSSWCTRL_CV" ,
           "class" : "Layout::LayoutDigitalCell",
+          "meta" : {
+              "noSchematic" : true
+          },
           "setYoffsetHalf" : 1,
           "decorator" : [
               {"ConnectSourceDrain" : ["M1","||",""]}
@@ -584,6 +590,7 @@
           "class" : "Layout::LayoutDigitalCell",
           "description" : "Strong-arm comparator",
           "meta" : {
+              "noSchematic" : true,
               "symbol" : "cic_wbulk/sarcmp"
           },
           "composite" : 1,
@@ -617,7 +624,8 @@
 
         { "name" : "SARBSSW_CV", "class" : "Layout::LayoutDigitalCell",
           "meta" : {
-              "symbol" : "cic_wbulk/sarbssw"
+              "symbol" : "cic_wbulk/sarbssw",
+              "noSchematic" : true
           },
           "composite" : 1,
           "beforeRoute" : [
@@ -657,10 +665,6 @@
                                   ]}
           ]
         },
-
-
-
-
 
         { "name": "SARMRYX1_CV",
           "description" : "Logic cell for a SAR BIT",
@@ -743,10 +747,6 @@
         { "name": "SARDIGEX4_CV",
           "abstract": 0,
           "inherit" : "SARDIGEX2_CV",
-          "meta" : {
-              "noSchematic" : true
-          },
-
           "spiceRegex" : [
               ["SWX2_CV","SWX4_CV"]
           ]

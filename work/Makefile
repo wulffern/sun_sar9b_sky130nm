@@ -32,7 +32,7 @@ LIB=SUN_SAR9B_SKY130NM
 CELL=SUNSAR_SAR9B_CV
 
 
-CICVIEWS = --spice --verilog --magic
+CICVIEWS = --spice --verilog --magic --xschem
 
 #----------------------------------------------------------------------------
 # REGRESSION
@@ -44,6 +44,4 @@ calccap:
 	cat lpe/SUNSAR_CAP32C_CV_lpe.spi |grep CTOP|grep XRES | perl -e 'while(<>){@ar = split(/\s+/); $$c = $$ar[-1]; $$c =~ s/fF//ig; m/XRES(\d+)\w?\//ig; $$m = $$1; printf("%-2d\t%.3f %.3f\n",$$m,$$c,($$c/$$m));}'
 
 test:
-	make ip
-	make drcall
-	make lvsall
+	make xsch drc xlvs lpe  CELL=SUNSAR_CDAC8_CV
