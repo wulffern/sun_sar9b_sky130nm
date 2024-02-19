@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1681336800
+timestamp 1708297200
 << checkpaint >>
 rect 0 30 9504 3510
 << m3 >>
@@ -228,22 +228,22 @@ rect 188 3464 9428 3540
 rect 9428 0 9504 3540
 use SUNSAR_RM1 XRES1A 
 transform 1 0 200 0 1 202
-box 200 202 320 202
+box 200 202 320 278
 use SUNSAR_RM1 XRES1B 
 transform 1 0 200 0 1 3262
-box 200 3262 320 3262
+box 200 3262 320 3338
 use SUNSAR_RM1 XRES2 
 transform 1 0 200 0 1 1426
-box 200 1426 320 1426
+box 200 1426 320 1502
 use SUNSAR_RM1 XRES4 
 transform 1 0 200 0 1 2650
-box 200 2650 320 2650
+box 200 2650 320 2726
 use SUNSAR_RM1 XRES8 
 transform 1 0 200 0 1 2038
-box 200 2038 320 2038
+box 200 2038 320 2114
 use SUNSAR_RM1 XRES16 
 transform 1 0 200 0 1 814
-box 200 814 320 814
+box 200 814 320 890
 use SUNSAR_cut_M2M5_1x2 xcut0 
 transform 1 0 9428 0 1 1570
 box 9428 1570 9504 1770
@@ -361,5 +361,5 @@ port 5 nsew signal bidirectional
 flabel locali s 0 814 200 890 0 FreeSans 400 0 0 0 C16
 port 6 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 30 9504 3510
+string FIXED_BBOX 0 9504 30 3510
 << end >>

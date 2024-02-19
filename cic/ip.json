@@ -11,7 +11,8 @@
         "metalUnderMetalRes" : false,
         "prefix" : "SUNSAR_",
         "topcells" : [
-            "SAR9B_CV"
+            "SAR9B_CV",
+            "SAR8B_CV"
         ]
 
     },
@@ -54,7 +55,7 @@
           },
           "afterNew" :{
               "copyColumns" :[
-                  { "count" : 60, "offset" : 8,"length" : 2}
+                  { "count" : 50, "offset" : 8,"length" : 2}
               ]
           }
         },
@@ -756,6 +757,11 @@
               "symbol" : "cic_wbulk/cdac8"
           }
         },
+        { "name": "CDAC7_CV", "class" : "Layout::LayoutCDACSmall",
+          "meta" : {
+        //      "symbol" : "cic_wbulk/cdac8"
+          }
+        },
         {"name": "SAR9B_CV_NOROUTE",
          "class" : "Layout::LayoutSARCDAC"},
 
@@ -790,6 +796,77 @@
                  ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA8$:XA6:MN3:G"],
                  ["M3","CK_CMP","XA20$:XA12:MP0:G--|-XA8$:CEO","endoffsetcuthigh"],
                  ["M2","DONE","XA20$:XA11:MP1:G--|-XA8$:DONE"],
+                 ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts"],
+                 ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna"],
+                 ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
+                 ["M4","SARP","XB1:VO1-|--XB2:VO2","2cuts"],
+                 ["M3","EN","XA0:XA1:XA5:EN-XA0:RST_N","offsethigh,noendcut"],
+                 ["M2","AVSS","RAIL_LEFT_AVSS-|-XDAC1:X:AVSS","strap,nostartcuts,2startcuts"],
+                 ["M2","AVSS","XDAC2:X:AVSS-|-RAIL_RIGHT_AVSS","strap,noendcuts,2endcuts"]
+             ],
+             "addPowerConnections" : [
+                 ["AVDD","XA","top"],
+                 ["VREF","XA","top"],
+                 ["AVDD","XB","bottom"],
+                 ["AVSS","XA","top"],
+                 ["AVSS","XB","bottom"]
+
+             ],
+
+             "addConnectivityRoutes" : [
+                 ["M3","CEO[02468]","-|--","leftdownleftup,startoffsetcuthigh","","SARDIG"],
+                 ["M3","CK_SAMPLE$","|--","","","SARDIG"],
+                 ["M2","CEO[13579]","-|--","leftdownleftup","","SARDIG"],
+                 ["M3","ENO[02468]","-|--","leftdownleftup","","SARDIG"],
+                 ["M3","ENO[13579]","-|--","leftupleftdown,onTopL","","SARDIG"],
+                 ["M3","CMP_OP","--|","track1","","SARDIG"],
+                 ["M3","CMP_ON","|--","track1","","SARDIG"],
+                 ["M3","EN$","-","offsethigh,onTopT","","SARDIG"]
+             ]
+         },
+         "afterRoute" : {
+             "addPortOnRects" : [ ["DONE", "M1"],["AVDD","M1"],["AVSS","M1"],["SAR_IP","M4"],["SAR_IN","M4"]
+                                  ,["CK_SAMPLE","M1"],["CK_SAMPLE_BSSW","M1"],["EN","M1"]],
+             "extendPortsToEdge" :[["D<","t"],["SAR_","b"]]
+         }
+        },
+        {
+            "name" : "SARCMPX2_CV",
+            "inherit" : "SARCMPX1_CV",
+                      "meta" : {
+                          "symbol" : "cic_wbulk/sarcmp"
+                      }
+        },
+        {
+            "name" : "SAR8B_CV",
+            "class" : "Layout::LayoutSARCDAC",
+            "ctrlOutside" : 0,
+         "meta" : {
+
+            },
+         "afterPlace" : [
+             {"addPowerRings" :[
+                 ["M1","AVSS"],
+                 ["M1","AVDD"],
+                 ["M1","VREF","t"]
+             ]},
+             { "addRouteRings" :[
+                 ["M1","CK_SAMPLE_BSSW","rb"],
+                 ["M1","CEIN","lb"]
+             ]}
+         ],
+         "beforeRoute" : {
+             "addRouteConnections" : [
+                 ["CK_SAMPLE_BSSW","XB","bottom","M2"],
+                 ["CEIN","XA0$","left","M2"],
+                 ["CEIN","XB","bottom","M4"]
+             ],
+             "addDirectedRoutes" : [
+                 ["M3","CMP_OP","XA20$:CPO--|-XA7$:CMP_OP","offsethighend,startoffsetcuthigh,track5"],
+                 ["M3","CMP_ON","XA7$:CMP_ON-|--XA20$:XA3a:MP0:D","nostartcut,offsethighend,startoffsetcuthigh"],
+                 ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA7$:XA6:MN3:G"],
+                 ["M3","CK_CMP","XA7$:CEO-|--XA20$:XA12:MN0:G","endoffsetcuthigh,track18"],
+                 ["M3","DONE","XA20$:XA11:MP1:G--|-XA7$:DONE"],
                  ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts"],
                  ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna"],
                  ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
