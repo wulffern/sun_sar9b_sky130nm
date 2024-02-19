@@ -9,6 +9,8 @@ rect 432 146 600 206
 rect 600 234 864 294
 rect 600 146 660 294
 rect 1548 234 1764 294
+rect 2412 132 2628 220
+rect -108 132 108 220
 << poly >>
 rect 324 158 2196 194
 << m3 >>
@@ -31,6 +33,10 @@ box 756 58 956 134
 << labels >>
 flabel locali s 1548 234 1764 294 0 FreeSans 400 0 0 0 Y
 port 1 nsew signal bidirectional
+flabel locali s 2412 132 2628 220 0 FreeSans 400 0 0 0 BULKP
+port 2 nsew signal bidirectional
+flabel locali s -108 132 108 220 0 FreeSans 400 0 0 0 BULKN
+port 3 nsew signal bidirectional
 flabel m3 s 1548 0 1748 352 0 FreeSans 400 0 0 0 AVDD
 port 4 nsew signal bidirectional
 flabel m3 s 756 0 956 352 0 FreeSans 400 0 0 0 AVSS

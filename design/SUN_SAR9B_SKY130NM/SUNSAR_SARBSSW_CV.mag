@@ -3,7 +3,7 @@ tech sky130B
 magscale 1 2
 timestamp 1708297200
 << checkpaint >>
-rect 0 0 12888 5280
+rect 0 0 11448 5280
 << m1 >>
 rect 2988 1994 3420 2054
 rect 3096 586 3264 646
@@ -55,7 +55,7 @@ rect 3096 1466 3268 1542
 rect 3268 -44 4384 32
 rect 3268 -44 3344 1542
 << m3 >>
-rect 4136 2948 8568 3024
+rect 4136 2948 7848 3024
 rect 3520 1994 4136 2070
 rect 4136 1994 4212 3024
 rect 772 226 972 302
@@ -114,7 +114,7 @@ transform 1 0 1440 0 1 3520
 box 1440 3520 3960 3872
 use SUNSAR_CAP_BSSW5_CV XCAPB1 
 transform 1 0 4176 0 1 0
-box 4176 0 12888 5280
+box 4176 0 11448 5280
 use SUNSAR_cut_M1M2_2x1 xcut0 
 transform 1 0 2988 0 1 1994
 box 2988 1994 3172 2062
@@ -187,5 +187,5 @@ port 7 nsew signal bidirectional
 flabel m3 s 2196 0 2396 5280 0 FreeSans 400 0 0 0 AVSS
 port 8 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 12888 0 5280
+string FIXED_BBOX 0 11448 0 5280
 << end >>

@@ -12,8 +12,10 @@
         "prefix" : "SUNSAR_",
         "topcells" : [
             "SAR9B_CV",
-            "SAR8B_CV"
-        ]
+            "SAR8B_CV",
+            "SARCAPTURE_CV"
+        ],
+        "flattenCuts" : true
 
     },
     "include" : [
@@ -55,7 +57,7 @@
           },
           "afterNew" :{
               "copyColumns" :[
-                  { "count" : 50, "offset" : 8,"length" : 2}
+                  { "count" : 40, "offset" : 8,"length" : 2}
               ]
           }
         },
@@ -79,10 +81,10 @@
         },
 
 
-        { "name": "DMY_CV" ,
-          "class" : "Layout::LayoutDigitalCell",
-          "physicalOnly" : 1
-        },
+//        { "name": "DMY_CV" ,
+//          "class" : "Layout::LayoutDigitalCell",
+ //         "physicalOnly" : 1
+//        },
         //-----------------------------------------------------------------------------
         // Tie cells
         // -----------------------------------------------------------------------------
@@ -97,7 +99,7 @@
                                       ["PO","A","MN0:G-MP0:G"] ]
           },
           "afterRoute"  : {
-              "addPortOnRects" : [  ["Y","M1", "MP0:D"] ]
+              "addPortOnRects" : [  ["Y","M1", "MP0:D"],["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]  ]
           }
         },
 
@@ -111,8 +113,27 @@
                                       ["PO","A","MN:G-MP:G"] ]
           },
           "afterRoute"  : {
-              "addPortOnRects" : [  ["Y","M1", "MN0:D"] ]
+              "addPortOnRects" : [  ["Y","M1", "MN0:D"],["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]  ]
           }
+        },
+
+        { "name": "TAPCELLB_CV",
+          "class" : "Layout::LayoutDigitalCell",
+          "meta" : {
+              "symbol" : "cic_wbulk/tap"
+          },
+          "boundaryIgnoreRouting" : 1,
+          "beforeRoute" : {
+              "addDirectedRoutes" : [ ["M1","BULKN","MN1:B->MN1:G"],
+                                      ["M1","BULKN","MN1:G-|--MN1:S"],
+                                      ["M1","BULKN","MN1:G-|--MN1:D"],
+                                      ["M1","BULKP","MP:S-|--MP:G"],
+                                      ["M1","BULKP","MP:D-|--MP:G"],
+                                      ["M1","BULKP","MP:G->MP:B"]
+                                    ]
+
+          }
+
         },
 
 
@@ -415,24 +436,7 @@
           }
         },
 
-        { "name": "TAPCELLB_CV",
-          "class" : "Layout::LayoutDigitalCell",
-          "meta" : {
-              "symbol" : "cic_wbulk/tap"
-          },
-          "boundaryIgnoreRouting" : 1,
-          "beforeRoute" : {
-              "addDirectedRoutes" : [ ["M1","BULKN","MN1:B->MN1:G"],
-                                      ["M1","BULKN","MN1:G-|--MN1:S"],
-                                      ["M1","BULKN","MN1:G-|--MN1:D"],
-                                      ["M1","BULKP","MP:S-|--MP:G"],
-                                      ["M1","BULKP","MP:D-|--MP:G"],
-                                      ["M1","BULKP","MP:G->MP:B"]
-                                    ]
 
-          }
-
-        },
         { "name": "SAREMX1_CV",
           "description" : "Enable propagation. ENO is 0 on RST. ENO = EN & (A | B) ",
           "class" : "Layout::LayoutDigitalCell",
@@ -575,7 +579,9 @@
           }
 
         },
-        { "name": "CAP32C_CV" , "class" : "Layout::LayoutCapCellSmall","usem3" : 0, "heightIncreaseMult" : 4,
+        { "name": "CAP32C_CV" , "class" : "Layout::LayoutCapCellSmall",
+          "usem3" : 0, "heightIncreaseMult" : 4,
+          "usem5" : 0,
           "meta" : {
               "spice":
               [ "C1 C1A CTOP 0.2f",
@@ -841,6 +847,7 @@
             "name" : "SAR8B_CV",
             "class" : "Layout::LayoutSARCDAC",
             "ctrlOutside" : 0,
+            "usem5" : 0,
          "meta" : {
 
             },
@@ -867,8 +874,8 @@
                  ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA7$:XA6:MN3:G"],
                  ["M3","CK_CMP","XA7$:CEO-|--XA20$:XA12:MN0:G","endoffsetcuthigh,track18"],
                  ["M3","DONE","XA20$:XA11:MP1:G--|-XA7$:DONE"],
-                 ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts"],
-                 ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna"],
+                 ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,nostartcuts"],
+                 ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts"],
                  ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
                  ["M4","SARP","XB1:VO1-|--XB2:VO2","2cuts"],
                  ["M3","EN","XA0:XA1:XA5:EN-XA0:RST_N","offsethigh,noendcut"],
@@ -900,6 +907,10 @@
                                   ,["CK_SAMPLE","M1"],["CK_SAMPLE_BSSW","M1"],["EN","M1"]],
              "extendPortsToEdge" :[["D<","t"],["SAR_","b"]]
          }
+        },
+        {
+            "name" : "SARCAPTURE_CV",
+            "class" : "Layout::LayoutDigitalCell"
         }
     ]
 }
