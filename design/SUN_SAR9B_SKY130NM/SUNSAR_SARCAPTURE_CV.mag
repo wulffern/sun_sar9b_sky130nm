@@ -1,134 +1,128 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708297200
+timestamp 1708383600
 << checkpaint >>
-rect 0 0 2520 44000
+rect -108 0 22680 4224
 << locali >>
-rect 324 1202 540 1262
-rect 324 498 540 558
-rect 756 2698 972 2758
-rect 756 4106 972 4166
-rect 756 3050 972 3110
-rect 324 5426 540 5486
-rect 324 10354 540 10414
-rect 324 15282 540 15342
-rect 324 20210 540 20270
-rect 324 25138 540 25198
-rect 324 30066 540 30126
-rect 324 34994 540 35054
-rect 324 39922 540 39982
-rect 756 9034 972 9094
-rect 756 13962 972 14022
-rect 756 18890 972 18950
-rect 756 23818 972 23878
-rect 756 28746 972 28806
-rect 756 33674 972 33734
-rect 756 38602 972 38662
-rect 756 43530 972 43590
-rect 324 4370 540 4430
-<< m3 >>
-rect 1548 0 1748 44000
-rect 756 0 956 44000
-rect 1548 0 1748 44000
-rect 756 0 956 44000
-use SUNSAR_TAPCELLB_CV XA1 
+rect 20484 1198 20700 1266
+rect 20484 494 20700 562
+rect 20916 2342 21132 2410
+rect 20916 3574 21132 3642
+rect 20916 2694 21132 2762
+rect 324 1374 540 1442
+rect 4500 1374 4716 1442
+rect 5364 1374 5580 1442
+rect 9540 1374 9756 1442
+rect 10404 1374 10620 1442
+rect 14580 1374 14796 1442
+rect 15444 1374 15660 1442
+rect 19620 1374 19836 1442
+rect 756 4102 972 4170
+rect 4068 4102 4284 4170
+rect 5796 4102 6012 4170
+rect 9108 4102 9324 4170
+rect 10836 4102 11052 4170
+rect 14148 4102 14364 4170
+rect 15876 4102 16092 4170
+rect 19188 4102 19404 4170
+rect 324 494 540 562
+rect 2412 484 2628 572
+rect -108 484 108 572
+use SUNSAR_DFRNQNX1_CV XB07 
 transform 1 0 0 0 1 0
-box 0 0 2520 352
+box 0 0 2520 4224
+use SUNSAR_DFRNQNX1_CV XC08 
+transform -1 0 5040 0 1 0
+box 5040 0 7560 4224
+use SUNSAR_DFRNQNX1_CV XD09 
+transform 1 0 5040 0 1 0
+box 5040 0 7560 4224
+use SUNSAR_DFRNQNX1_CV XE10 
+transform -1 0 10080 0 1 0
+box 10080 0 12600 4224
+use SUNSAR_DFRNQNX1_CV XF11 
+transform 1 0 10080 0 1 0
+box 10080 0 12600 4224
+use SUNSAR_DFRNQNX1_CV XG12 
+transform -1 0 15120 0 1 0
+box 15120 0 17640 4224
+use SUNSAR_DFRNQNX1_CV XH13 
+transform 1 0 15120 0 1 0
+box 15120 0 17640 4224
+use SUNSAR_DFRNQNX1_CV XI14 
+transform -1 0 20160 0 1 0
+box 20160 0 22680 4224
+use SUNSAR_TAPCELLB_CV XA1 
+transform 1 0 20160 0 1 0
+box 20160 0 22680 352
 use SUNSAR_IVX1_CV XA2 
-transform 1 0 0 0 1 352
-box 0 352 2520 704
+transform 1 0 20160 0 1 352
+box 20160 352 22680 704
 use SUNSAR_IVX1_CV XA3 
-transform 1 0 0 0 1 704
-box 0 704 2520 1056
+transform 1 0 20160 0 1 704
+box 20160 704 22680 1056
 use SUNSAR_BFX1_CV XA4 
-transform 1 0 0 0 1 1056
-box 0 1056 2520 1760
+transform 1 0 20160 0 1 1056
+box 20160 1056 22680 1584
 use SUNSAR_ORX1_CV XA5 
-transform 1 0 0 0 1 1760
-box 0 1760 2520 2816
+transform 1 0 20160 0 1 1584
+box 20160 1584 22680 2464
 use SUNSAR_IVX1_CV XA5a 
-transform 1 0 0 0 1 2816
-box 0 2816 2520 3168
+transform 1 0 20160 0 1 2464
+box 20160 2464 22680 2816
 use SUNSAR_ANX1_CV XA6 
-transform 1 0 0 0 1 3168
-box 0 3168 2520 4224
-use SUNSAR_DFRNQNX1_CV XA07 
-transform 1 0 0 0 1 4224
-box 0 4224 2520 9152
-use SUNSAR_DFRNQNX1_CV XA08 
-transform 1 0 0 0 1 9152
-box 0 9152 2520 14080
-use SUNSAR_DFRNQNX1_CV XA09 
-transform 1 0 0 0 1 14080
-box 0 14080 2520 19008
-use SUNSAR_DFRNQNX1_CV XA10 
-transform 1 0 0 0 1 19008
-box 0 19008 2520 23936
-use SUNSAR_DFRNQNX1_CV XA11 
-transform 1 0 0 0 1 23936
-box 0 23936 2520 28864
-use SUNSAR_DFRNQNX1_CV XA12 
-transform 1 0 0 0 1 28864
-box 0 28864 2520 33792
-use SUNSAR_DFRNQNX1_CV XA13 
-transform 1 0 0 0 1 33792
-box 0 33792 2520 38720
-use SUNSAR_DFRNQNX1_CV XA14 
-transform 1 0 0 0 1 38720
-box 0 38720 2520 43648
-use SUNSAR_TAPCELLB_CV XA15 
-transform 1 0 0 0 1 43648
-box 0 43648 2520 44000
+transform 1 0 20160 0 1 2816
+box 20160 2816 22680 3696
 << labels >>
-flabel locali s 324 1202 540 1262 0 FreeSans 400 0 0 0 CKS
+flabel locali s 20484 1198 20700 1266 0 FreeSans 400 0 0 0 CKS
 port 1 nsew signal bidirectional
-flabel locali s 324 498 540 558 0 FreeSans 400 0 0 0 ENABLE
+flabel locali s 20484 494 20700 562 0 FreeSans 400 0 0 0 ENABLE
 port 2 nsew signal bidirectional
-flabel locali s 756 2698 972 2758 0 FreeSans 400 0 0 0 CK_SAMPLE
+flabel locali s 20916 2342 21132 2410 0 FreeSans 400 0 0 0 CK_SAMPLE
 port 3 nsew signal bidirectional
-flabel locali s 756 4106 972 4166 0 FreeSans 400 0 0 0 CK_SAMPLE_BSSW
+flabel locali s 20916 3574 21132 3642 0 FreeSans 400 0 0 0 CK_SAMPLE_BSSW
 port 4 nsew signal bidirectional
-flabel locali s 756 3050 972 3110 0 FreeSans 400 0 0 0 EN
+flabel locali s 20916 2694 21132 2762 0 FreeSans 400 0 0 0 EN
 port 5 nsew signal bidirectional
-flabel locali s 324 5426 540 5486 0 FreeSans 400 0 0 0 D<7>
+flabel locali s 324 1374 540 1442 0 FreeSans 400 0 0 0 D<7>
 port 6 nsew signal bidirectional
-flabel locali s 324 10354 540 10414 0 FreeSans 400 0 0 0 D<6>
+flabel locali s 4500 1374 4716 1442 0 FreeSans 400 0 0 0 D<6>
 port 7 nsew signal bidirectional
-flabel locali s 324 15282 540 15342 0 FreeSans 400 0 0 0 D<5>
+flabel locali s 5364 1374 5580 1442 0 FreeSans 400 0 0 0 D<5>
 port 8 nsew signal bidirectional
-flabel locali s 324 20210 540 20270 0 FreeSans 400 0 0 0 D<4>
+flabel locali s 9540 1374 9756 1442 0 FreeSans 400 0 0 0 D<4>
 port 9 nsew signal bidirectional
-flabel locali s 324 25138 540 25198 0 FreeSans 400 0 0 0 D<3>
+flabel locali s 10404 1374 10620 1442 0 FreeSans 400 0 0 0 D<3>
 port 10 nsew signal bidirectional
-flabel locali s 324 30066 540 30126 0 FreeSans 400 0 0 0 D<2>
+flabel locali s 14580 1374 14796 1442 0 FreeSans 400 0 0 0 D<2>
 port 11 nsew signal bidirectional
-flabel locali s 324 34994 540 35054 0 FreeSans 400 0 0 0 D<1>
+flabel locali s 15444 1374 15660 1442 0 FreeSans 400 0 0 0 D<1>
 port 12 nsew signal bidirectional
-flabel locali s 324 39922 540 39982 0 FreeSans 400 0 0 0 D<0>
+flabel locali s 19620 1374 19836 1442 0 FreeSans 400 0 0 0 D<0>
 port 13 nsew signal bidirectional
-flabel locali s 756 9034 972 9094 0 FreeSans 400 0 0 0 DO<7>
+flabel locali s 756 4102 972 4170 0 FreeSans 400 0 0 0 DO<7>
 port 14 nsew signal bidirectional
-flabel locali s 756 13962 972 14022 0 FreeSans 400 0 0 0 DO<6>
+flabel locali s 4068 4102 4284 4170 0 FreeSans 400 0 0 0 DO<6>
 port 15 nsew signal bidirectional
-flabel locali s 756 18890 972 18950 0 FreeSans 400 0 0 0 DO<5>
+flabel locali s 5796 4102 6012 4170 0 FreeSans 400 0 0 0 DO<5>
 port 16 nsew signal bidirectional
-flabel locali s 756 23818 972 23878 0 FreeSans 400 0 0 0 DO<4>
+flabel locali s 9108 4102 9324 4170 0 FreeSans 400 0 0 0 DO<4>
 port 17 nsew signal bidirectional
-flabel locali s 756 28746 972 28806 0 FreeSans 400 0 0 0 DO<3>
+flabel locali s 10836 4102 11052 4170 0 FreeSans 400 0 0 0 DO<3>
 port 18 nsew signal bidirectional
-flabel locali s 756 33674 972 33734 0 FreeSans 400 0 0 0 DO<2>
+flabel locali s 14148 4102 14364 4170 0 FreeSans 400 0 0 0 DO<2>
 port 19 nsew signal bidirectional
-flabel locali s 756 38602 972 38662 0 FreeSans 400 0 0 0 DO<1>
+flabel locali s 15876 4102 16092 4170 0 FreeSans 400 0 0 0 DO<1>
 port 20 nsew signal bidirectional
-flabel locali s 756 43530 972 43590 0 FreeSans 400 0 0 0 DO<0>
+flabel locali s 19188 4102 19404 4170 0 FreeSans 400 0 0 0 DO<0>
 port 21 nsew signal bidirectional
-flabel locali s 324 4370 540 4430 0 FreeSans 400 0 0 0 DONE
+flabel locali s 324 494 540 562 0 FreeSans 400 0 0 0 DONE
 port 22 nsew signal bidirectional
-flabel m3 s 1548 0 1748 44000 0 FreeSans 400 0 0 0 AVDD
+flabel locali s 2412 484 2628 572 0 FreeSans 400 0 0 0 AVDD
 port 23 nsew signal bidirectional
-flabel m3 s 756 0 956 44000 0 FreeSans 400 0 0 0 AVSS
+flabel locali s -108 484 108 572 0 FreeSans 400 0 0 0 AVSS
 port 24 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 2520 0 44000
+string FIXED_BBOX -108 22680 0 4224
 << end >>

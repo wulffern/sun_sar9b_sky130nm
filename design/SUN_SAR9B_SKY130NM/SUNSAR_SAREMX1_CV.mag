@@ -1,39 +1,39 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708297200
+timestamp 1708383600
 << checkpaint >>
 rect 0 0 2520 1408
 << locali >>
-rect 1626 586 1686 822
-rect 1626 938 1686 1174
-rect 864 234 1032 294
-rect 864 586 1032 646
-rect 864 762 1032 822
-rect 1032 234 1092 822
-rect 1428 410 1656 470
-rect 864 1290 1428 1350
-rect 1428 410 1488 1350
-rect 1656 58 1824 118
-rect 1824 1202 2088 1262
-rect 1824 58 1884 1262
-rect 756 58 1764 118
+rect 1622 582 1690 826
+rect 1622 934 1690 1178
+rect 864 230 1032 298
+rect 864 582 1032 650
+rect 864 758 1032 826
+rect 1032 230 1100 826
+rect 1420 406 1656 474
+rect 864 1286 1420 1354
+rect 1420 406 1488 1354
+rect 1656 54 1824 122
+rect 1824 1198 2088 1266
+rect 1824 54 1892 1266
+rect 756 54 1764 122
 rect 2412 132 2628 220
 rect -108 132 108 220
-rect 324 850 540 910
-rect 324 498 540 558
-rect 1980 146 2196 206
-rect 324 146 540 206
-rect 1548 410 1764 470
+rect 324 846 540 914
+rect 324 494 540 562
+rect 1980 142 2196 210
+rect 324 142 540 210
+rect 1548 406 1764 474
 << poly >>
 rect 324 510 2196 546
 rect 324 862 2196 898
 rect 324 1214 2196 1250
 << m3 >>
-rect 1548 0 1748 1408
-rect 756 0 956 1408
-rect 1548 0 1748 1408
-rect 756 0 956 1408
+rect 1548 0 1732 1408
+rect 756 0 940 1408
+rect 1548 0 1732 1408
+rect 756 0 940 1408
 use SUNSAR_NCHDL MN0 
 transform 1 0 0 0 1 0
 box 0 0 1260 352
@@ -59,38 +59,38 @@ use SUNSAR_PCHDL MP3
 transform 1 0 1260 0 1 1056
 box 1260 1056 2520 1408
 use SUNSAR_cut_M1M4_2x1 xcut0 
-transform 1 0 1548 0 1 234
-box 1548 234 1748 310
+transform 1 0 1548 0 1 230
+box 1548 230 1732 298
 use SUNSAR_cut_M1M4_2x1 xcut1 
-transform 1 0 1548 0 1 1290
-box 1548 1290 1748 1366
+transform 1 0 1548 0 1 1286
+box 1548 1286 1732 1354
 use SUNSAR_cut_M1M4_2x1 xcut2 
-transform 1 0 756 0 1 410
-box 756 410 956 486
+transform 1 0 756 0 1 406
+box 756 406 940 474
 use SUNSAR_cut_M1M4_2x1 xcut3 
-transform 1 0 756 0 1 938
-box 756 938 956 1014
+transform 1 0 756 0 1 934
+box 756 934 940 1002
 use SUNSAR_cut_M1M4_2x1 xcut4 
-transform 1 0 756 0 1 1114
-box 756 1114 956 1190
+transform 1 0 756 0 1 1110
+box 756 1110 940 1178
 << labels >>
 flabel locali s 2412 132 2628 220 0 FreeSans 400 0 0 0 BULKP
 port 6 nsew signal bidirectional
 flabel locali s -108 132 108 220 0 FreeSans 400 0 0 0 BULKN
 port 7 nsew signal bidirectional
-flabel locali s 324 850 540 910 0 FreeSans 400 0 0 0 A
+flabel locali s 324 846 540 914 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel locali s 324 498 540 558 0 FreeSans 400 0 0 0 B
+flabel locali s 324 494 540 562 0 FreeSans 400 0 0 0 B
 port 2 nsew signal bidirectional
-flabel locali s 1980 146 2196 206 0 FreeSans 400 0 0 0 RST_N
+flabel locali s 1980 142 2196 210 0 FreeSans 400 0 0 0 RST_N
 port 5 nsew signal bidirectional
-flabel locali s 324 146 540 206 0 FreeSans 400 0 0 0 EN
+flabel locali s 324 142 540 210 0 FreeSans 400 0 0 0 EN
 port 3 nsew signal bidirectional
-flabel locali s 1548 410 1764 470 0 FreeSans 400 0 0 0 ENO
+flabel locali s 1548 406 1764 474 0 FreeSans 400 0 0 0 ENO
 port 4 nsew signal bidirectional
-flabel m3 s 1548 0 1748 1408 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 1548 0 1732 1408 0 FreeSans 400 0 0 0 AVDD
 port 8 nsew signal bidirectional
-flabel m3 s 756 0 956 1408 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 756 0 940 1408 0 FreeSans 400 0 0 0 AVSS
 port 9 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 2520 0 1408

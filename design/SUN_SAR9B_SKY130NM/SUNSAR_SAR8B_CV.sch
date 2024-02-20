@@ -371,7 +371,7 @@ N 1860.0 400.0 1880.0 400.0 {lab=AVDD}
 C {devices/lab_pin.sym} 1860.0 400.0 0 0 {name=l166 sig_type=std_logic lab=AVDD }
 N 1860.0 700.0 1880.0 700.0 {lab=AVSS}
 C {devices/lab_pin.sym} 1860.0 700.0 0 0 {name=l167 sig_type=std_logic lab=AVSS }
-C {SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX2_CV.sym} 1900 800.0 0 0 {name=XXA20}
+C {SUN_SAR9B_SKY130NM/SUNSAR_SARCMPX1_CV.sym} 1900 800.0 0 0 {name=XXA20}
 N 1880.0 820.0 1900.0 820.0 {lab=SARP}
 C {devices/lab_pin.sym} 1880.0 820.0 0 0 {name=l168 sig_type=std_logic lab=SARP }
 N 1880.0 860.0 1900.0 860.0 {lab=SARN}

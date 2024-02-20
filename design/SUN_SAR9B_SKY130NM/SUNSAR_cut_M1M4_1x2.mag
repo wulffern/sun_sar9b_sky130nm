@@ -1,9 +1,9 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708297200
+timestamp 1708383600
 << checkpaint >>
-rect 0 0 76 200
+rect 0 0 68 184
 << locali >>
 rect 0 0 68 184
 << viali >>
@@ -15,13 +15,13 @@ rect 0 0 68 184
 rect 6 12 62 68
 rect 6 116 62 172
 << m2 >>
-rect 0 0 76 200
+rect 0 0 68 184
 << v2 >>
-rect 6 12 70 76
-rect 6 124 70 188
+rect 6 12 62 68
+rect 6 116 62 172
 << m3 >>
-rect 0 0 76 200
+rect 0 0 68 184
 << labels >>
 << properties >>
-string FIXED_BBOX 0 76 0 200
+string FIXED_BBOX 0 68 0 184
 << end >>

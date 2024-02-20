@@ -7,7 +7,7 @@
 {
     "options" :
     {
-        "ignoreSetYoffsetHalf" : true,
+        "ignoreSetYoffsetHalf" : false,
         "metalUnderMetalRes" : false,
         "prefix" : "SUNSAR_",
         "topcells" : [
@@ -49,7 +49,7 @@
         { "name" : "CAP_BSSW_CV",
           "inherit" : "CAPBASE_LEFT_SIDE_PORT",
           "abstract" : 0,
-          "getRuleForHorizontalGrid" : ["M3","cap_width"],
+          //"getRuleForHorizontalGrid" : ["M3","cap_width"],
           "getRuleForVerticalGrid" : ["M3","cap_width"],
           "meta" : {
               "spice" : "C1 A B 100f",
@@ -765,7 +765,6 @@
         },
         { "name": "CDAC7_CV", "class" : "Layout::LayoutCDACSmall",
           "meta" : {
-        //      "symbol" : "cic_wbulk/cdac8"
           }
         },
         {"name": "SAR9B_CV_NOROUTE",
@@ -871,9 +870,8 @@
              "addDirectedRoutes" : [
                  ["M3","CMP_OP","XA20$:CPO--|-XA7$:CMP_OP","offsethighend,startoffsetcuthigh,track5"],
                  ["M3","CMP_ON","XA7$:CMP_ON-|--XA20$:XA3a:MP0:D","nostartcut,offsethighend,startoffsetcuthigh"],
-                 ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA7$:XA6:MN3:G"],
+                 ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA7$:XA6:MN3:G","offsetlowend"],
                  ["M3","CK_CMP","XA7$:CEO-|--XA20$:XA12:MN0:G","endoffsetcuthigh,track18"],
-                 ["M3","DONE","XA20$:XA11:MP1:G--|-XA7$:DONE"],
                  ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,nostartcuts"],
                  ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts"],
                  ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
@@ -899,7 +897,8 @@
                  ["M3","ENO[13579]","-|--","leftupleftdown,onTopL","","SARDIG"],
                  ["M3","CMP_OP","--|","track1","","SARDIG"],
                  ["M3","CMP_ON","|--","track1","","SARDIG"],
-                 ["M3","EN$","-","offsethigh,onTopT","","SARDIG"]
+                 ["M3","EN$","-","offsethigh,onTopT","","SARDIG"],
+                 ["M3","DONE","-|--","","",""]
              ]
          },
          "afterRoute" : {
@@ -910,7 +909,11 @@
         },
         {
             "name" : "SARCAPTURE_CV",
-            "class" : "Layout::LayoutDigitalCell"
+            "class" : "Layout::LayoutDigitalCell",
+            "composite" : 1,
+		    "boundaryIgnoreRouting" : 0,
+            "alternateGroup" : 1,
+		    "noPowerRoute" : 1
         }
     ]
 }
