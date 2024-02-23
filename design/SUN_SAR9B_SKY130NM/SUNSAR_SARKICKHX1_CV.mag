@@ -1,106 +1,108 @@
 magic
 tech sky130B
-timestamp 1708692311
-<< poly >>
-rect 162 79 1098 97
+magscale 1 2
+timestamp 1708642800
+<< checkpaint >>
+rect 0 0 2520 1408
 << locali >>
-rect 378 643 946 677
-rect 162 599 270 633
-rect 199 193 233 545
-rect 162 159 270 193
-rect 415 149 449 589
-rect 415 115 550 149
-rect 811 115 845 643
-rect 912 633 946 643
-rect 912 599 1061 633
-rect 1027 159 1061 599
-rect -54 66 54 110
-rect 162 71 270 105
-rect 516 61 550 115
-rect 1206 66 1314 110
-rect 516 27 828 61
-<< metal3 >>
-rect 378 0 470 704
-rect 774 0 866 704
-use SUNSAR_NCHDL  MN0
-timestamp 1708642800
+rect 830 230 898 1178
+rect 864 230 1032 298
+rect 1032 54 1656 122
+rect 1032 54 1100 298
+rect 398 318 466 1090
+rect 2054 318 2122 1266
+rect 1622 230 1690 1354
+rect 756 1286 1764 1354
+rect 1656 1286 1824 1354
+rect 1824 1198 2088 1266
+rect 1824 1198 1892 1354
+rect 830 230 898 298
+rect 830 406 898 474
+rect 830 582 898 650
+rect 830 758 898 826
+rect 830 934 898 1002
+rect 830 1110 898 1178
+rect 1622 230 1690 298
+rect 1622 406 1690 474
+rect 1622 582 1690 650
+rect 1622 758 1690 826
+rect 1622 934 1690 1002
+rect 1622 1110 1690 1178
+rect 2412 132 2628 220
+rect -108 132 108 220
+rect 324 1198 540 1266
+rect 324 142 540 210
+rect 324 318 540 386
+<< poly >>
+rect 324 158 2196 194
+<< m3 >>
+rect 1548 0 1732 1408
+rect 756 0 940 1408
+rect 1548 0 1732 1408
+rect 756 0 940 1408
+use SUNSAR_NCHDL MN0 
 transform 1 0 0 0 1 0
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN1
-timestamp 1708642800
-transform 1 0 0 0 1 88
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN2
-timestamp 1708642800
+box 0 0 1260 352
+use SUNSAR_NCHDL MN1 
 transform 1 0 0 0 1 176
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN3
-timestamp 1708642800
-transform 1 0 0 0 1 264
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN4
-timestamp 1708642800
+box 0 176 1260 528
+use SUNSAR_NCHDL MN2 
 transform 1 0 0 0 1 352
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN5
-timestamp 1708642800
-transform 1 0 0 0 1 440
-box -90 -66 630 242
-use SUNSAR_NCHDL  MN6
-timestamp 1708642800
+box 0 352 1260 704
+use SUNSAR_NCHDL MN3 
 transform 1 0 0 0 1 528
-box -90 -66 630 242
-use SUNSAR_PCHDL  MP0
-timestamp 1708642800
-transform 1 0 630 0 1 0
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP1_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 88
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP2_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 176
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP3_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 264
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP4_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 352
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP5_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 440
-box 0 -66 720 242
-use SUNSAR_PCHDL  MP6_DMY
-timestamp 1708642800
-transform 1 0 630 0 1 528
-box 0 -66 720 242
-use SUNSAR_cut_M1M4_2x1  xcut0
-timestamp 1708642800
-transform 1 0 774 0 1 115
-box 0 0 92 34
-use SUNSAR_cut_M1M4_2x1  xcut1
-timestamp 1708642800
-transform 1 0 378 0 1 27
-box 0 0 92 34
+box 0 528 1260 880
+use SUNSAR_NCHDL MN4 
+transform 1 0 0 0 1 704
+box 0 704 1260 1056
+use SUNSAR_NCHDL MN5 
+transform 1 0 0 0 1 880
+box 0 880 1260 1232
+use SUNSAR_NCHDL MN6 
+transform 1 0 0 0 1 1056
+box 0 1056 1260 1408
+use SUNSAR_PCHDL MP0 
+transform 1 0 1260 0 1 0
+box 1260 0 2520 352
+use SUNSAR_PCHDL MP1_DMY 
+transform 1 0 1260 0 1 176
+box 1260 176 2520 528
+use SUNSAR_PCHDL MP2_DMY 
+transform 1 0 1260 0 1 352
+box 1260 352 2520 704
+use SUNSAR_PCHDL MP3_DMY 
+transform 1 0 1260 0 1 528
+box 1260 528 2520 880
+use SUNSAR_PCHDL MP4_DMY 
+transform 1 0 1260 0 1 704
+box 1260 704 2520 1056
+use SUNSAR_PCHDL MP5_DMY 
+transform 1 0 1260 0 1 880
+box 1260 880 2520 1232
+use SUNSAR_PCHDL MP6_DMY 
+transform 1 0 1260 0 1 1056
+box 1260 1056 2520 1408
+use SUNSAR_cut_M1M4_2x1 xcut0 
+transform 1 0 1548 0 1 230
+box 1548 230 1732 298
+use SUNSAR_cut_M1M4_2x1 xcut1 
+transform 1 0 756 0 1 54
+box 756 54 940 122
 << labels >>
-flabel locali s 1206 66 1314 110 0 FreeSans 200 0 0 0 BULKP
+flabel locali s 2412 132 2628 220 0 FreeSans 400 0 0 0 BULKP
 port 4 nsew signal bidirectional
-flabel locali s -54 66 54 110 0 FreeSans 200 0 0 0 BULKN
+flabel locali s -108 132 108 220 0 FreeSans 400 0 0 0 BULKN
 port 5 nsew signal bidirectional
-flabel locali s 162 599 270 633 0 FreeSans 200 0 0 0 CK
+flabel locali s 324 1198 540 1266 0 FreeSans 400 0 0 0 CK
 port 2 nsew signal bidirectional
-flabel locali s 162 71 270 105 0 FreeSans 200 0 0 0 CKN
+flabel locali s 324 142 540 210 0 FreeSans 400 0 0 0 CKN
 port 3 nsew signal bidirectional
-flabel locali s 162 159 270 193 0 FreeSans 200 0 0 0 CI
+flabel locali s 324 318 540 386 0 FreeSans 400 0 0 0 CI
 port 1 nsew signal bidirectional
-flabel metal3 s 774 0 866 704 0 FreeSans 200 0 0 0 AVDD
+flabel m3 s 1548 0 1732 1408 0 FreeSans 400 0 0 0 AVDD
 port 6 nsew signal bidirectional
-flabel metal3 s 378 0 470 704 0 FreeSans 200 0 0 0 AVSS
+flabel m3 s 756 0 940 1408 0 FreeSans 400 0 0 0 AVSS
 port 7 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 1260 704
+string FIXED_BBOX 0 0 2520 1408
 << end >>

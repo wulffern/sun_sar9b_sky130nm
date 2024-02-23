@@ -1,174 +1,152 @@
 magic
 tech sky130B
-timestamp 1708692311
+magscale 1 2
+timestamp 1708642800
+<< checkpaint >>
+rect 0 0 2520 9856
 << locali >>
-rect 828 4691 946 4725
-rect 162 4647 270 4681
-rect 162 4471 270 4505
-rect 314 4427 432 4461
-rect 162 4383 270 4417
-rect 314 4153 348 4427
-rect 912 4241 946 4691
-rect 912 4207 1044 4241
-rect 216 4119 348 4153
-rect 300 3987 432 4021
-rect 300 3801 334 3987
-rect 98 3767 334 3801
-rect 98 2569 132 3767
-rect 162 2975 270 3009
-rect 314 2931 432 2965
-rect 98 2535 216 2569
-rect 98 985 132 2535
-rect 314 1381 348 2931
-rect 912 2887 1044 2921
-rect 378 2139 486 2173
-rect 912 2129 946 2887
-rect 912 2095 1044 2129
-rect 378 1699 486 1733
-rect 912 1469 946 2095
-rect 828 1435 946 1469
-rect 314 1347 432 1381
-rect 98 951 216 985
-rect 98 809 132 951
-rect 98 775 216 809
-rect 162 687 270 721
-<< metal1 >>
-rect 300 4251 432 4285
-rect 300 3977 334 4251
-rect 98 3943 334 3977
-rect 98 3273 132 3943
-rect 216 3327 334 3361
-rect 98 3239 216 3273
-rect 98 281 132 3239
-rect 300 3009 334 3327
-rect 216 2975 334 3009
-rect 828 2843 946 2877
-rect 912 1689 946 2843
-rect 912 1655 1044 1689
-rect 912 1425 946 1655
-rect 912 1391 1044 1425
-rect 216 1039 334 1073
-rect 300 721 334 1039
-rect 216 687 334 721
-rect 98 247 216 281
-<< metal3 >>
-rect 378 0 470 4928
-rect 774 0 866 4928
-use SUNSAR_TAPCELLB_CV  XA0
-timestamp 1708692311
+rect 1656 2870 1824 2938
+rect 1824 5774 2088 5842
+rect 1824 4190 2088 4258
+rect 1824 2870 1892 5842
+rect 196 1550 432 1618
+rect 196 1902 432 1970
+rect 196 5070 432 5138
+rect 196 7534 432 7602
+rect 196 1550 264 7602
+rect 432 7534 600 7602
+rect 600 7974 864 8042
+rect 600 7534 668 8042
+rect 628 8854 864 8922
+rect 432 8238 628 8306
+rect 628 8238 696 8922
+rect 1656 9382 1824 9450
+rect 1824 8414 2088 8482
+rect 1824 8414 1892 9450
+rect 628 2694 864 2762
+rect 628 5862 864 5930
+rect 628 2694 696 5930
+rect 324 8766 540 8834
+rect 324 9294 540 9362
+rect 324 8942 540 9010
+rect 756 4278 972 4346
+rect 756 3398 972 3466
+rect 324 1374 540 1442
+rect 324 5950 540 6018
+<< m1 >>
+rect 1656 5686 1824 5754
+rect 1824 2782 2088 2850
+rect 1824 3310 2088 3378
+rect 1824 2782 1892 5754
+rect 432 1374 600 1442
+rect 432 2078 600 2146
+rect 600 1374 668 2146
+rect 432 5950 600 6018
+rect 432 6654 600 6722
+rect 600 5950 668 6722
+rect 196 494 432 562
+rect 196 6478 432 6546
+rect 196 7886 432 7954
+rect 196 494 264 7954
+rect 432 7886 600 7954
+rect 600 8502 864 8570
+rect 600 7886 668 8570
+<< m3 >>
+rect 1548 0 1732 9856
+rect 756 0 940 9856
+rect 1548 0 1732 9856
+rect 756 0 940 9856
+use SUNSAR_TAPCELLB_CV XA0 
 transform 1 0 0 0 1 0
-box -90 -66 1350 242
-use SUNSAR_SARKICKHX1_CV  XA1
-timestamp 1708692311
-transform 1 0 0 0 1 176
-box -90 -66 1350 770
-use SUNSAR_IVX4_CV  XA2a
-timestamp 1708692311
-transform 1 0 0 0 1 1584
-box -90 -66 1350 506
-use SUNSAR_SARCMPHX1_CV  XA2
-timestamp 1708692311
-transform 1 0 0 0 1 880
-box -90 -66 1350 770
-use SUNSAR_SARCMPHX1_CV  XA3
-timestamp 1708692311
-transform 1 0 0 0 1 2464
-box -90 -66 1350 770
-use SUNSAR_IVX4_CV  XA3a
-timestamp 1708692311
-transform 1 0 0 0 1 2024
-box -90 -66 1350 506
-use SUNSAR_SARKICKHX1_CV  XA4
-timestamp 1708692311
+box 0 0 2520 352
+use SUNSAR_SARKICKHX1_CV XA1 
+transform 1 0 0 0 1 352
+box 0 352 2520 1760
+use SUNSAR_SARCMPHX1_CV XA2 
+transform 1 0 0 0 1 1760
+box 0 1760 2520 3168
+use SUNSAR_IVX4_CV XA2a 
 transform 1 0 0 0 1 3168
-box -90 -66 1350 770
-use SUNSAR_IVX1_CV  XA9
-timestamp 1708692311
-transform 1 0 0 0 1 3872
-box -90 -66 1350 242
-use SUNSAR_NDX1_CV  XA10
-timestamp 1708692311
+box 0 3168 2520 4048
+use SUNSAR_IVX4_CV XA3a 
 transform 1 0 0 0 1 4048
-box -90 -66 1350 330
-use SUNSAR_NRX1_CV  XA11
-timestamp 1708692311
-transform 1 0 0 0 1 4312
-box -90 -66 1350 330
-use SUNSAR_IVX1_CV  XA12
-timestamp 1708692311
-transform 1 0 0 0 1 4576
-box -90 -66 1350 242
-use SUNSAR_TAPCELLB_CV  XA13
-timestamp 1708692311
-transform 1 0 0 0 1 4752
-box -90 -66 1350 242
-use SUNSAR_cut_M1M2_2x1  xcut0
-timestamp 1708642800
-transform 1 0 774 0 1 2843
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut1
-timestamp 1708642800
-transform 1 0 990 0 1 1391
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut2
-timestamp 1708642800
-transform 1 0 990 0 1 1655
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut3
-timestamp 1708642800
-transform 1 0 178 0 1 687
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut4
-timestamp 1708642800
-transform 1 0 178 0 1 1039
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut5
-timestamp 1708642800
-transform 1 0 178 0 1 2975
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut6
-timestamp 1708642800
-transform 1 0 178 0 1 3327
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut7
-timestamp 1708642800
-transform 1 0 162 0 1 247
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut8
-timestamp 1708642800
-transform 1 0 162 0 1 3239
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut9
-timestamp 1708642800
-transform 1 0 162 0 1 3943
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut10
-timestamp 1708642800
-transform 1 0 162 0 1 3943
-box 0 0 92 34
-use SUNSAR_cut_M1M2_2x1  xcut11
-timestamp 1708642800
-transform 1 0 378 0 1 4251
-box 0 0 92 34
+box 0 4048 2520 4928
+use SUNSAR_SARCMPHX1_CV XA3 
+transform 1 0 0 0 1 4928
+box 0 4928 2520 6336
+use SUNSAR_SARKICKHX1_CV XA4 
+transform 1 0 0 0 1 6336
+box 0 6336 2520 7744
+use SUNSAR_IVX1_CV XA9 
+transform 1 0 0 0 1 7744
+box 0 7744 2520 8096
+use SUNSAR_NDX1_CV XA10 
+transform 1 0 0 0 1 8096
+box 0 8096 2520 8624
+use SUNSAR_NRX1_CV XA11 
+transform 1 0 0 0 1 8624
+box 0 8624 2520 9152
+use SUNSAR_IVX1_CV XA12 
+transform 1 0 0 0 1 9152
+box 0 9152 2520 9504
+use SUNSAR_TAPCELLB_CV XA13 
+transform 1 0 0 0 1 9504
+box 0 9504 2520 9856
+use SUNSAR_cut_M1M2_2x1 xcut0 
+transform 1 0 1548 0 1 5686
+box 1548 5686 1732 5754
+use SUNSAR_cut_M1M2_2x1 xcut1 
+transform 1 0 1980 0 1 2782
+box 1980 2782 2164 2850
+use SUNSAR_cut_M1M2_2x1 xcut2 
+transform 1 0 1980 0 1 3310
+box 1980 3310 2164 3378
+use SUNSAR_cut_M1M2_2x1 xcut3 
+transform 1 0 356 0 1 1374
+box 356 1374 540 1442
+use SUNSAR_cut_M1M2_2x1 xcut4 
+transform 1 0 356 0 1 2078
+box 356 2078 540 2146
+use SUNSAR_cut_M1M2_2x1 xcut5 
+transform 1 0 356 0 1 5950
+box 356 5950 540 6018
+use SUNSAR_cut_M1M2_2x1 xcut6 
+transform 1 0 356 0 1 6654
+box 356 6654 540 6722
+use SUNSAR_cut_M1M2_2x1 xcut7 
+transform 1 0 324 0 1 494
+box 324 494 508 562
+use SUNSAR_cut_M1M2_2x1 xcut8 
+transform 1 0 324 0 1 6478
+box 324 6478 508 6546
+use SUNSAR_cut_M1M2_2x1 xcut9 
+transform 1 0 324 0 1 7886
+box 324 7886 508 7954
+use SUNSAR_cut_M1M2_2x1 xcut10 
+transform 1 0 324 0 1 7886
+box 324 7886 508 7954
+use SUNSAR_cut_M1M2_2x1 xcut11 
+transform 1 0 756 0 1 8502
+box 756 8502 940 8570
 << labels >>
-flabel locali s 162 4383 270 4417 0 FreeSans 200 0 0 0 CK_SAMPLE
+flabel locali s 324 8766 540 8834 0 FreeSans 400 0 0 0 CK_SAMPLE
 port 6 nsew signal bidirectional
-flabel locali s 162 4647 270 4681 0 FreeSans 200 0 0 0 CK_CMP
+flabel locali s 324 9294 540 9362 0 FreeSans 400 0 0 0 CK_CMP
 port 5 nsew signal bidirectional
-flabel locali s 162 4471 270 4505 0 FreeSans 200 0 0 0 DONE
+flabel locali s 324 8942 540 9010 0 FreeSans 400 0 0 0 DONE
 port 7 nsew signal bidirectional
-flabel locali s 378 2139 486 2173 0 FreeSans 200 0 0 0 CNO
+flabel locali s 756 4278 972 4346 0 FreeSans 400 0 0 0 CNO
 port 4 nsew signal bidirectional
-flabel locali s 378 1699 486 1733 0 FreeSans 200 0 0 0 CPO
+flabel locali s 756 3398 972 3466 0 FreeSans 400 0 0 0 CPO
 port 3 nsew signal bidirectional
-flabel locali s 162 687 270 721 0 FreeSans 200 0 0 0 CPI
+flabel locali s 324 1374 540 1442 0 FreeSans 400 0 0 0 CPI
 port 1 nsew signal bidirectional
-flabel locali s 162 2975 270 3009 0 FreeSans 200 0 0 0 CNI
+flabel locali s 324 5950 540 6018 0 FreeSans 400 0 0 0 CNI
 port 2 nsew signal bidirectional
-flabel metal3 s 774 0 866 4928 0 FreeSans 200 0 0 0 AVDD
+flabel m3 s 1548 0 1732 9856 0 FreeSans 400 0 0 0 AVDD
 port 8 nsew signal bidirectional
-flabel metal3 s 378 0 470 4928 0 FreeSans 200 0 0 0 AVSS
+flabel m3 s 756 0 940 9856 0 FreeSans 400 0 0 0 AVSS
 port 9 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 1260 4928
+string FIXED_BBOX 0 0 2520 9856
 << end >>
