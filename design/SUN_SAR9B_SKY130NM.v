@@ -752,3 +752,69 @@ SUNSAR_ORX1_CV XA5 (CKS_B,ENABLE_N,CK_SAMPLE,AVDD,AVSS,AVDD,AVSS);
 SUNSAR_IVX1_CV XA5a (CK_SAMPLE,EN,AVDD,AVSS,AVDD,AVSS);
 SUNSAR_ANX1_CV XA6 (CKS_B,ENABLE_B,CK_SAMPLE_BSSW,AVDD,AVSS,AVDD,AVSS);
 endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_DFQNX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_DFQNX1_CV(D,CK,Q,QN,AVDD,AVSS);
+input logic D;
+input logic CK;
+input logic Q;
+input logic QN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_TAPCELLB_CV XA0 (AVDD,AVSS);
+SUNSAR_IVX1_CV XA1 (CK,CKN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (CKN,CKB,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA3 (D,CKN,CKB,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA4 (A1,CKB,CKN,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5 (A0,A1,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA6 (A1,CKB,CKN,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA7 (Q,CKN,CKB,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA8 (QN,Q,AVDD,AVSS,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_CAPT8B_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_CAPT8B_CV(CKS,ENABLE,CK_SAMPLE,CK_SAMPLE_BSSW,EN,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,DO<7>,DO<6>,DO<5>,DO<4>,DO<3>,DO<2>,DO<1>,DO<0>,DONE,AVDD,AVSS);
+input logic DONE;
+input logic AVSS;
+input logic AVDD;
+input logic CKS;
+input logic ENABLE;
+input logic CK_SAMPLE;
+input logic CK_SAMPLE_BSSW;
+input logic EN;
+input logic D<7>;
+input logic D<6>;
+input logic D<5>;
+input logic D<4>;
+input logic D<3>;
+input logic D<2>;
+input logic D<1>;
+input logic D<0>;
+input logic DO<7>;
+input logic DO<6>;
+input logic DO<5>;
+input logic DO<4>;
+input logic DO<3>;
+input logic DO<2>;
+input logic DO<1>;
+input logic DO<0>;
+SUNSAR_DFQNX1_CV XB07 (D<7>,DONE,DO<7>,DN7,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XC08 (D<6>,DONE,DO<6>,DN6,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XD09 (D<5>,DONE,DO<5>,DN5,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XE10 (D<4>,DONE,DO<4>,DN4,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XF11 (D<3>,DONE,DO<3>,DN3,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XG12 (D<2>,DONE,DO<2>,DN2,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XH13 (D<1>,DONE,DO<1>,DN1,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XI14 (D<0>,DONE,DO<0>,DM0,AVDD,AVSS);
+SUNSAR_TAPCELLB_CV XA1 (AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (ENABLE,ENABLE_N,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA3 (ENABLE_N,ENABLE_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_BFX1_CV XA4 (CKS,CKS_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ORX1_CV XA5 (CKS_B,ENABLE_N,CK_SAMPLE,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5a (CK_SAMPLE,EN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ANX1_CV XA6 (CKS_B,ENABLE_B,CK_SAMPLE_BSSW,AVDD,AVSS,AVDD,AVSS);
+endmodule

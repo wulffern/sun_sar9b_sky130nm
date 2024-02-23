@@ -1,179 +1,205 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708642800
-<< checkpaint >>
-rect 0 0 2520 10736
+timestamp 1708692311
 << locali >>
-rect 432 4542 600 4610
-rect 600 3750 864 3818
-rect 600 3750 668 4610
-rect 432 6302 600 6370
-rect 600 5510 864 5578
-rect 600 5510 668 6370
-rect 1852 3662 2088 3730
-rect 1656 3398 1852 3466
-rect 1852 3398 1920 3730
-rect 432 8414 600 8482
-rect 600 8150 864 8218
-rect 600 8150 668 8482
-rect 398 8414 466 8834
-rect 480 9226 600 9294
-rect 600 9030 864 9098
-rect 600 9030 668 9294
-rect 472 9294 540 9362
-rect 480 9578 600 9646
-rect 600 9382 864 9450
-rect 600 9382 668 9646
-rect 472 9646 540 9714
-rect 432 10174 600 10242
+rect 1548 10262 1764 10330
+rect 432 10174 668 10242
+rect 324 9822 540 9890
+rect 600 9802 668 10174
 rect 600 9734 864 9802
-rect 600 9734 668 10242
-rect 1656 6390 1824 6458
+rect 472 9646 540 9714
+rect 480 9578 668 9646
+rect 600 9450 668 9578
+rect 600 9382 864 9450
+rect 472 9294 540 9362
+rect 480 9226 668 9294
+rect 600 9098 668 9226
+rect 600 9030 864 9098
+rect 398 8482 466 8834
+rect 756 8502 972 8570
+rect 398 8414 668 8482
+rect 600 8218 668 8414
+rect 600 8150 864 8218
+rect 324 7358 540 7426
 rect 1824 7182 2088 7250
-rect 1824 6390 1892 7250
+rect 1824 6458 1892 7182
+rect 1656 6390 1892 6458
+rect 432 6302 668 6370
+rect 600 5578 668 6302
+rect 600 5510 864 5578
+rect 432 4542 668 4610
+rect 600 3818 668 4542
+rect 600 3750 864 3818
+rect 1852 3662 2088 3730
+rect 1852 3466 1920 3662
+rect 1656 3398 1920 3466
 rect 1980 3310 2196 3378
 rect 324 2958 540 3026
-rect 324 9822 540 9890
-rect 1548 10262 1764 10330
-rect 324 7358 540 7426
-rect 756 8502 972 8570
-<< m1 >>
-rect 432 5422 600 5490
-rect 600 2694 864 2762
-rect 600 2694 668 5490
-rect 2088 8062 2256 8130
-rect 1656 758 2256 826
-rect 2256 758 2324 8130
-rect 432 8942 600 9010
+<< metal1 >>
+rect 432 8942 668 9010
+rect 600 7866 668 8942
+rect 2088 8062 2324 8130
 rect 600 7798 864 7866
-rect 600 7798 668 9010
-rect 1656 4630 1824 4698
 rect 1824 7534 2088 7602
-rect 1824 4630 1892 7602
-<< m3 >>
-rect 2182 3926 2250 6750
-rect 356 4542 540 4610
-rect 1046 4572 1114 4756
-rect 1189 5452 1257 5636
-rect 1346 6332 1414 6516
-rect 2124 3926 2308 4110
-rect 1548 0 1732 10736
-rect 756 0 940 10736
-rect 1548 0 1732 10736
-rect 756 0 940 10736
-<< m2 >>
+rect 432 5422 668 5490
+rect 600 2762 668 5422
+rect 1824 4698 1892 7534
+rect 1656 4630 1892 4698
+rect 600 2694 864 2762
+rect 2256 826 2324 8062
+rect 1656 758 2324 826
+<< metal2 >>
 rect 356 2254 540 2322
-rect 356 494 540 562
 rect 1580 758 1764 826
-use SUNSAR_SARMRYX1_CV XA1 
+rect 356 494 540 562
+<< metal3 >>
+rect 356 4542 540 4610
+rect 756 0 940 10736
+rect 1346 6332 1414 6516
+rect 1189 5452 1257 5636
+rect 1046 4572 1114 4756
+rect 1548 0 1732 10736
+rect 2182 4110 2250 6750
+rect 2124 3926 2308 4110
+use SUNSAR_SARMRYX1_CV  XA1
+timestamp 1708692311
 transform 1 0 0 0 1 0
-box 0 0 2520 3520
-use SUNSAR_SWX4_CV XA2 
+box -180 -132 2700 3652
+use SUNSAR_SWX4_CV  XA2
+timestamp 1708692311
 transform 1 0 0 0 1 3520
-box 0 3520 2520 4400
-use SUNSAR_SWX4_CV XA3 
+box -180 -132 2700 1012
+use SUNSAR_SWX4_CV  XA3
+timestamp 1708692311
 transform 1 0 0 0 1 4400
-box 0 4400 2520 5280
-use SUNSAR_SWX4_CV XA4 
+box -180 -132 2700 1012
+use SUNSAR_SWX4_CV  XA4
+timestamp 1708692311
 transform 1 0 0 0 1 5280
-box 0 5280 2520 6160
-use SUNSAR_SWX4_CV XA5 
+box -180 -132 2700 1012
+use SUNSAR_SWX4_CV  XA5
+timestamp 1708692311
 transform 1 0 0 0 1 6160
-box 0 6160 2520 7040
-use SUNSAR_SARCEX1_CV XA6 
+box -180 -132 2700 1012
+use SUNSAR_SARCEX1_CV  XA6
+timestamp 1708692311
 transform 1 0 0 0 1 7040
-box 0 7040 2520 7920
-use SUNSAR_IVX1_CV XA7 
+box -180 -132 2700 1012
+use SUNSAR_IVX1_CV  XA7
+timestamp 1708692311
 transform 1 0 0 0 1 7920
-box 0 7920 2520 8272
-use SUNSAR_IVX1_CV XA8 
+box -180 -132 2700 484
+use SUNSAR_IVX1_CV  XA8
+timestamp 1708692311
 transform 1 0 0 0 1 8272
-box 0 8272 2520 8624
-use SUNSAR_NDX1_CV XA9 
+box -180 -132 2700 484
+use SUNSAR_NDX1_CV  XA9
+timestamp 1708692311
 transform 1 0 0 0 1 8624
-box 0 8624 2520 9152
-use SUNSAR_IVX1_CV XA10 
+box -180 -132 2700 660
+use SUNSAR_IVX1_CV  XA10
+timestamp 1708692311
 transform 1 0 0 0 1 9152
-box 0 9152 2520 9504
-use SUNSAR_NRX1_CV XA11 
+box -180 -132 2700 484
+use SUNSAR_NRX1_CV  XA11
+timestamp 1708692311
 transform 1 0 0 0 1 9504
-box 0 9504 2520 10032
-use SUNSAR_IVX1_CV XA12 
+box -180 -132 2700 660
+use SUNSAR_IVX1_CV  XA12
+timestamp 1708692311
 transform 1 0 0 0 1 10032
-box 0 10032 2520 10384
-use SUNSAR_TAPCELLB_CV XA13 
+box -180 -132 2700 484
+use SUNSAR_TAPCELLB_CV  XA13
+timestamp 1708692311
 transform 1 0 0 0 1 10384
-box 0 10384 2520 10736
-use SUNSAR_cut_M1M2_2x1 xcut0 
+box -180 -132 2700 484
+use SUNSAR_cut_M1M2_2x1  xcut0
+timestamp 1708642800
 transform 1 0 324 0 1 5422
-box 324 5422 508 5490
-use SUNSAR_cut_M1M2_2x1 xcut1 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut1
+timestamp 1708642800
 transform 1 0 756 0 1 2694
-box 756 2694 940 2762
-use SUNSAR_cut_M1M2_2x1 xcut2 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut2
+timestamp 1708642800
 transform 1 0 1980 0 1 8062
-box 1980 8062 2164 8130
-use SUNSAR_cut_M1M2_2x1 xcut3 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut3
+timestamp 1708642800
 transform 1 0 1548 0 1 758
-box 1548 758 1732 826
-use SUNSAR_cut_M1M2_2x1 xcut4 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut4
+timestamp 1708642800
 transform 1 0 324 0 1 8942
-box 324 8942 508 9010
-use SUNSAR_cut_M1M2_2x1 xcut5 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut5
+timestamp 1708642800
 transform 1 0 756 0 1 7798
-box 756 7798 940 7866
-use SUNSAR_cut_M1M2_2x1 xcut6 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut6
+timestamp 1708642800
 transform 1 0 1548 0 1 4630
-box 1548 4630 1732 4698
-use SUNSAR_cut_M1M2_2x1 xcut7 
+box 0 0 184 68
+use SUNSAR_cut_M1M2_2x1  xcut7
+timestamp 1708642800
 transform 1 0 1980 0 1 7534
-box 1980 7534 2164 7602
-use SUNSAR_cut_M1M4_2x1 xcut8 
+box 0 0 184 68
+use SUNSAR_cut_M1M4_2x1  xcut8
+timestamp 1708642800
 transform 1 0 356 0 1 4542
-box 356 4542 540 4610
-use SUNSAR_cut_M1M4_1x2 xcut9 
+box 0 0 184 68
+use SUNSAR_cut_M1M4_1x2  xcut9
+timestamp 1708642800
 transform 1 0 1046 0 1 4572
-box 1046 4572 1114 4756
-use SUNSAR_cut_M1M4_1x2 xcut10 
+box 0 0 68 184
+use SUNSAR_cut_M1M4_1x2  xcut10
+timestamp 1708642800
 transform 1 0 1189 0 1 5452
-box 1189 5452 1257 5636
-use SUNSAR_cut_M1M4_1x2 xcut11 
+box 0 0 68 184
+use SUNSAR_cut_M1M4_1x2  xcut11
+timestamp 1708642800
 transform 1 0 1346 0 1 6332
-box 1346 6332 1414 6516
-use SUNSAR_cut_M2M3_2x1 xcut12 
+box 0 0 68 184
+use SUNSAR_cut_M2M3_2x1  xcut12
+timestamp 1708642800
 transform 1 0 1580 0 1 758
-box 1580 758 1764 826
-use SUNSAR_cut_M2M3_2x1 xcut13 
+box 0 0 184 68
+use SUNSAR_cut_M2M3_2x1  xcut13
+timestamp 1708642800
 transform 1 0 356 0 1 494
-box 356 494 540 562
-use SUNSAR_cut_M2M3_2x1 xcut14 
+box 0 0 184 68
+use SUNSAR_cut_M2M3_2x1  xcut14
+timestamp 1708642800
 transform 1 0 356 0 1 494
-box 356 494 540 562
-use SUNSAR_cut_M2M3_2x1 xcut15 
+box 0 0 184 68
+use SUNSAR_cut_M2M3_2x1  xcut15
+timestamp 1708642800
 transform 1 0 356 0 1 2254
-box 356 2254 540 2322
-use SUNSAR_cut_M2M3_2x1 xcut16 
+box 0 0 184 68
+use SUNSAR_cut_M2M3_2x1  xcut16
+timestamp 1708642800
 transform 1 0 356 0 1 2254
-box 356 2254 540 2322
+box 0 0 184 68
 << labels >>
-flabel m2 s 356 2254 540 2322 0 FreeSans 400 0 0 0 CMP_OP
+flabel metal2 s 356 2254 540 2322 0 FreeSans 400 0 0 0 CMP_OP
 port 1 nsew signal bidirectional
 flabel locali s 1980 3310 2196 3378 0 FreeSans 400 0 0 0 RST_N
 port 4 nsew signal bidirectional
-flabel m2 s 356 494 540 562 0 FreeSans 400 0 0 0 EN
+flabel metal2 s 356 494 540 562 0 FreeSans 400 0 0 0 EN
 port 3 nsew signal bidirectional
 flabel locali s 324 2958 540 3026 0 FreeSans 400 0 0 0 CMP_ON
 port 2 nsew signal bidirectional
-flabel m2 s 1580 758 1764 826 0 FreeSans 400 0 0 0 ENO
+flabel metal2 s 1580 758 1764 826 0 FreeSans 400 0 0 0 ENO
 port 5 nsew signal bidirectional
-flabel m3 s 356 4542 540 4610 0 FreeSans 400 0 0 0 CN1
+flabel metal3 s 356 4542 540 4610 0 FreeSans 400 0 0 0 CN1
 port 10 nsew signal bidirectional
-flabel m3 s 1046 4572 1114 4756 0 FreeSans 400 0 0 0 CP1
+flabel metal3 s 1046 4572 1114 4756 0 FreeSans 400 0 0 0 CP1
 port 8 nsew signal bidirectional
-flabel m3 s 1189 5452 1257 5636 0 FreeSans 400 0 0 0 CP0
+flabel metal3 s 1189 5452 1257 5636 0 FreeSans 400 0 0 0 CP0
 port 7 nsew signal bidirectional
-flabel m3 s 1346 6332 1414 6516 0 FreeSans 400 0 0 0 CN0
+flabel metal3 s 1346 6332 1414 6516 0 FreeSans 400 0 0 0 CN0
 port 9 nsew signal bidirectional
 flabel locali s 324 9822 540 9890 0 FreeSans 400 0 0 0 CEIN
 port 11 nsew signal bidirectional
@@ -183,11 +209,11 @@ flabel locali s 324 7358 540 7426 0 FreeSans 400 0 0 0 CKS
 port 13 nsew signal bidirectional
 flabel locali s 756 8502 972 8570 0 FreeSans 400 0 0 0 DONE
 port 6 nsew signal bidirectional
-flabel m3 s 2124 3926 2308 4110 0 FreeSans 400 0 0 0 VREF
+flabel metal3 s 2124 3926 2308 4110 0 FreeSans 400 0 0 0 VREF
 port 14 nsew signal bidirectional
-flabel m3 s 1548 0 1732 10736 0 FreeSans 400 0 0 0 AVDD
+flabel metal3 s 1548 0 1732 10736 0 FreeSans 400 0 0 0 AVDD
 port 15 nsew signal bidirectional
-flabel m3 s 756 0 940 10736 0 FreeSans 400 0 0 0 AVSS
+flabel metal3 s 756 0 940 10736 0 FreeSans 400 0 0 0 AVSS
 port 16 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 2520 10736

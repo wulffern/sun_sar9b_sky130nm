@@ -1,46 +1,45 @@
 magic
 tech sky130B
-magscale 1 2
-timestamp 1708642800
-<< checkpaint >>
-rect 0 0 2520 352
-<< locali >>
-rect 1656 230 1824 298
-rect 1824 142 2088 210
-rect 1824 142 1892 298
-rect 756 230 972 298
-rect 2412 132 2628 220
-rect -108 132 108 220
+timestamp 1708692311
 << poly >>
-rect 324 158 2196 194
-<< m3 >>
-rect 1548 0 1732 352
-rect 756 0 940 352
-rect 1548 0 1732 352
-rect 756 0 940 352
-use SUNSAR_NCHDL MN0 
+rect 162 79 1098 97
+<< locali >>
+rect 378 115 486 149
+rect 828 115 946 149
+rect -54 66 54 110
+rect 912 105 946 115
+rect 912 71 1044 105
+rect 1206 66 1314 110
+<< metal3 >>
+rect 378 0 470 176
+rect 774 0 866 176
+use SUNSAR_NCHDL  MN0
+timestamp 1708642800
 transform 1 0 0 0 1 0
-box 0 0 1260 352
-use SUNSAR_PCHDL MP0 
-transform 1 0 1260 0 1 0
-box 1260 0 2520 352
-use SUNSAR_cut_M1M4_2x1 xcut0 
-transform 1 0 1548 0 1 54
-box 1548 54 1732 122
-use SUNSAR_cut_M1M4_2x1 xcut1 
-transform 1 0 756 0 1 54
-box 756 54 940 122
+box -90 -66 630 242
+use SUNSAR_PCHDL  MP0
+timestamp 1708642800
+transform 1 0 630 0 1 0
+box 0 -66 720 242
+use SUNSAR_cut_M1M4_2x1  xcut0
+timestamp 1708642800
+transform 1 0 774 0 1 27
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut1
+timestamp 1708642800
+transform 1 0 378 0 1 27
+box 0 0 92 34
 << labels >>
-flabel locali s 756 230 972 298 0 FreeSans 400 0 0 0 Y
+flabel locali s 378 115 486 149 0 FreeSans 200 0 0 0 Y
 port 1 nsew signal bidirectional
-flabel locali s 2412 132 2628 220 0 FreeSans 400 0 0 0 BULKP
+flabel locali s 1206 66 1314 110 0 FreeSans 200 0 0 0 BULKP
 port 2 nsew signal bidirectional
-flabel locali s -108 132 108 220 0 FreeSans 400 0 0 0 BULKN
+flabel locali s -54 66 54 110 0 FreeSans 200 0 0 0 BULKN
 port 3 nsew signal bidirectional
-flabel m3 s 1548 0 1732 352 0 FreeSans 400 0 0 0 AVDD
+flabel metal3 s 774 0 866 176 0 FreeSans 200 0 0 0 AVDD
 port 4 nsew signal bidirectional
-flabel m3 s 756 0 940 352 0 FreeSans 400 0 0 0 AVSS
+flabel metal3 s 378 0 470 176 0 FreeSans 200 0 0 0 AVSS
 port 5 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 2520 352
+string FIXED_BBOX 0 0 1260 176
 << end >>

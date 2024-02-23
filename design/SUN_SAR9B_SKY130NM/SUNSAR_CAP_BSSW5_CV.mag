@@ -1,44 +1,52 @@
 magic
 tech sky130B
-magscale 1 2
+timestamp 1708692311
+<< metal3 >>
+rect -10 2300 1836 2334
+rect -10 1854 24 2300
+rect 1836 1900 3682 1934
+rect -10 1820 1836 1854
+rect -10 1374 24 1820
+rect 3648 1454 3682 1900
+rect 1836 1420 3682 1454
+rect 54 1374 3618 1380
+rect -10 1340 3618 1374
+rect -10 894 24 1340
+rect 3648 974 3682 1420
+rect 1836 940 3682 974
+rect -10 860 1836 894
+rect -10 414 24 860
+rect 3648 494 3682 940
+rect 1836 460 3682 494
+rect -10 380 1836 414
+rect 54 14 3618 20
+rect 3648 14 3682 460
+rect 54 -20 3682 14
+use SUNSAR_CAP_BSSW_CV  XCAPB0
 timestamp 1708642800
-<< checkpaint >>
-rect 0 0 7272 4800
-<< m3 >>
-rect -20 760 3672 828
-rect -20 1720 3672 1788
-rect -20 2680 3672 2748
-rect -20 3640 3672 3708
-rect -20 4600 3672 4668
-rect -20 760 48 4668
-rect 3672 -40 7296 28
-rect 3672 920 7296 988
-rect 3672 1880 7296 1948
-rect 3672 2840 7296 2908
-rect 3672 3800 7296 3868
-rect 7296 -40 7364 3868
-rect 108 2680 7236 2760
-rect 108 -40 7236 40
-use SUNSAR_CAP_BSSW_CV XCAPB0 
 transform 1 0 0 0 1 0
-box 0 0 7272 960
-use SUNSAR_CAP_BSSW_CV XCAPB1 
+box 54 -20 3618 420
+use SUNSAR_CAP_BSSW_CV  XCAPB1
+timestamp 1708642800
+transform 1 0 0 0 1 480
+box 54 -20 3618 420
+use SUNSAR_CAP_BSSW_CV  XCAPB2
+timestamp 1708642800
 transform 1 0 0 0 1 960
-box 0 960 7272 1920
-use SUNSAR_CAP_BSSW_CV XCAPB2 
+box 54 -20 3618 420
+use SUNSAR_CAP_BSSW_CV  XCAPB3
+timestamp 1708642800
+transform 1 0 0 0 1 1440
+box 54 -20 3618 420
+use SUNSAR_CAP_BSSW_CV  XCAPB4
+timestamp 1708642800
 transform 1 0 0 0 1 1920
-box 0 1920 7272 2880
-use SUNSAR_CAP_BSSW_CV XCAPB3 
-transform 1 0 0 0 1 2880
-box 0 2880 7272 3840
-use SUNSAR_CAP_BSSW_CV XCAPB4 
-transform 1 0 0 0 1 3840
-box 0 3840 7272 4800
+box 54 -20 3618 420
 << labels >>
-flabel m3 s 108 2680 7236 2760 0 FreeSans 400 0 0 0 A
+flabel metal3 s 54 1340 3618 1380 0 FreeSans 200 0 0 0 A
 port 1 nsew signal bidirectional
-flabel m3 s 108 -40 7236 40 0 FreeSans 400 0 0 0 B
+flabel metal3 s 54 -20 3618 20 0 FreeSans 200 0 0 0 B
 port 2 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 7272 4800
+string FIXED_BBOX 0 0 3636 2400
 << end >>
