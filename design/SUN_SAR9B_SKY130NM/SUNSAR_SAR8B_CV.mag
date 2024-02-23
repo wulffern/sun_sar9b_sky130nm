@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708383600
+timestamp 1708642800
 << checkpaint >>
 rect -1922 -1864 24278 37062
 << m3 >>
@@ -797,44 +797,44 @@ use SUNSAR_cut_M1M2_1x2 xcut155
 transform 1 0 23278 0 1 15186
 box 23278 15186 23346 15370
 << labels >>
-flabel m3 s 194 19956 262 28708 0 FreeSans 400 0 0 0 D<7>
+flabel m3 s 194 19956 262 28708 0 FreeSans 2000 0 0 0 D<7>
 port 6 nsew signal bidirectional
-flabel m3 s 3763 20700 3831 28738 0 FreeSans 400 0 0 0 D<6>
+flabel m3 s 3763 20700 3831 28738 0 FreeSans 2000 0 0 0 D<6>
 port 7 nsew signal bidirectional
-flabel m3 s 5924 20886 5992 28738 0 FreeSans 400 0 0 0 D<5>
+flabel m3 s 5924 20886 5992 28738 0 FreeSans 2000 0 0 0 D<5>
 port 8 nsew signal bidirectional
-flabel m3 s 8803 21072 8871 28738 0 FreeSans 400 0 0 0 D<4>
+flabel m3 s 8803 21072 8871 28738 0 FreeSans 2000 0 0 0 D<4>
 port 9 nsew signal bidirectional
-flabel m3 s 10964 21258 11032 28738 0 FreeSans 400 0 0 0 D<3>
+flabel m3 s 10964 21258 11032 28738 0 FreeSans 2000 0 0 0 D<3>
 port 10 nsew signal bidirectional
-flabel m3 s 13843 21444 13911 28738 0 FreeSans 400 0 0 0 D<2>
+flabel m3 s 13843 21444 13911 28738 0 FreeSans 2000 0 0 0 D<2>
 port 11 nsew signal bidirectional
-flabel m3 s 16004 21630 16072 28738 0 FreeSans 400 0 0 0 D<1>
+flabel m3 s 16004 21630 16072 28738 0 FreeSans 2000 0 0 0 D<1>
 port 12 nsew signal bidirectional
-flabel locali s 23162 -720 23346 35622 0 FreeSans 400 0 0 0 AVSS
+flabel locali s 23162 -720 23346 35622 0 FreeSans 2000 0 0 0 AVSS
 port 19 nsew signal bidirectional
-flabel locali s 23882 -1440 24066 36342 0 FreeSans 400 0 0 0 AVDD
+flabel locali s 23882 -1440 24066 36342 0 FreeSans 2000 0 0 0 AVDD
 port 18 nsew signal bidirectional
-flabel locali s -1710 36878 24066 37062 0 FreeSans 400 0 0 0 VREF
+flabel locali s -1710 36878 24066 37062 0 FreeSans 2000 0 0 0 VREF
 port 17 nsew signal bidirectional
-flabel locali s 24210 -1652 24278 37062 0 FreeSans 400 0 0 0 CK_SAMPLE_BSSW
+flabel locali s 24210 -1652 24278 37062 0 FreeSans 2000 0 0 0 CK_SAMPLE_BSSW
 port 16 nsew signal bidirectional
-flabel locali s 19026 32668 19242 32736 0 FreeSans 400 0 0 0 DONE
+flabel locali s 19026 32668 19242 32736 0 FreeSans 2000 0 0 0 DONE
 port 5 nsew signal bidirectional
-flabel m3 s 10206 230 10390 298 0 FreeSans 400 0 0 0 SAR_IP
+flabel m3 s 10206 230 10390 298 0 FreeSans 2000 0 0 0 SAR_IP
 port 1 nsew signal bidirectional
-flabel m3 s 11966 230 12150 298 0 FreeSans 400 0 0 0 SAR_IN
+flabel m3 s 11966 230 12150 298 0 FreeSans 2000 0 0 0 SAR_IN
 port 2 nsew signal bidirectional
-flabel locali s 162 31524 378 31592 0 FreeSans 400 0 0 0 CK_SAMPLE
+flabel locali s 162 31524 378 31592 0 FreeSans 2000 0 0 0 CK_SAMPLE
 port 15 nsew signal bidirectional
-flabel locali s 1818 27476 2034 27544 0 FreeSans 400 0 0 0 EN
+flabel locali s 1818 27476 2034 27544 0 FreeSans 2000 0 0 0 EN
 port 14 nsew signal bidirectional
-flabel locali s 10206 2518 10422 2586 0 FreeSans 400 0 0 0 SARN
+flabel locali s 10206 2518 10422 2586 0 FreeSans 2000 0 0 0 SARN
 port 3 nsew signal bidirectional
-flabel locali s 10206 1110 10422 1178 0 FreeSans 400 0 0 0 SARP
+flabel locali s 10206 1110 10422 1178 0 FreeSans 2000 0 0 0 SARP
 port 4 nsew signal bidirectional
-flabel m3 s 18883 28738 18951 28922 0 FreeSans 400 0 0 0 D<0>
+flabel m3 s 18883 28738 18951 28922 0 FreeSans 2000 0 0 0 D<0>
 port 13 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX -1922 24278 -1864 37062
+string FIXED_BBOX -1922 -1864 24278 37062
 << end >>

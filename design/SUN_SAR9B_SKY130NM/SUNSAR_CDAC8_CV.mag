@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1708383600
+timestamp 1708642800
 << checkpaint >>
 rect 136 0 11404 27268
 << m1 >>
@@ -423,5 +423,5 @@ port 14 nsew signal bidirectional
 flabel m3 s 2756 23800 2824 27268 0 FreeSans 400 0 0 0 CTOP
 port 13 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 136 11404 0 27268
+string FIXED_BBOX 136 0 11404 27268
 << end >>

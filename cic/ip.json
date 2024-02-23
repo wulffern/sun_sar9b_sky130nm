@@ -316,7 +316,7 @@
                                       ["M1","CKB","XA6:C-|--XA2:MN0:D","offsetlow"],
                                       ["M2","CKN","XA4:CN,XA6:CN-|--XA1:MP0:D"],
                                       ["M2","CKN","XA3:C-|--XA1:MN1:D","offsetlow"],
-                                      ["M3","CKN","XA7:C-|--XA6:CN"],
+                                      ["M2","CKN","XA7:C-|--XA6:CN","offsetlow,offsetlowend"],
                                       ["M1","A0","XA3:Y-|XA4:Y"],
                                       ["M2","A0","XA6:Y-|--XA7:Y"],
                                       ["M2","A0","XA5:MN0:G-|--XA4:MN1:D"],
@@ -330,7 +330,7 @@
               ]
           },
           "afterRoute" : {
-              "addPortOnRects" : [ ["D", "M1"], ["CK", "M1"], ["Q", "M1","XA8:MN0:D"],["QN","M1","XA7:MN1:D"] ,["RN","M2","XA1:MN1:G"]]
+              "addPortOnRects" : [ ["D", "M1"], ["CK", "M1"], ["Q", "M1","XA8:MN0:D"],["QN","M1","XA7:MN1:D"] ,["RN","M1","XA7:RN"]]
           }
         },
         { "name" : "SCX1_CV",
@@ -642,6 +642,7 @@
               {"addRouteHorizontalRects" : [["M2","XA4:GNG",6]]},
 
               {"addDirectedRoutes" : [
+                  ["M1", "AVSS","M8:B-|--XA5$:MN1:B"],
                   ["M1", "VI", "M1:D|-M:D"],
                   ["M1", "GN", "M1:G||M4:G"],
                   ["M2", "CKN","XA0:MP0:D-|--XA3:C"],
@@ -846,7 +847,7 @@
             "name" : "SAR8B_CV",
             "class" : "Layout::LayoutSARCDAC",
             "ctrlOutside" : 0,
-            "usem5" : 0,
+            //"usem5" : 0,
          "meta" : {
 
             },
@@ -913,7 +914,14 @@
             "composite" : 1,
 		    "boundaryIgnoreRouting" : 0,
             "alternateGroup" : 1,
-		    "noPowerRoute" : 1
+		    "noPowerRoute" : 1,
+            "beforeRoute" : {
+                "addConnectivityRoutes" : [
+                    ["M2","ENABLE_N","-|--","","",""],
+                    ["M3","ENABLE_B","-|--","onTopR","","IV|AN"]
+
+                 ]
+            }
         }
     ]
 }
