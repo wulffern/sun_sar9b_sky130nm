@@ -581,7 +581,7 @@
 
         },
         { "name": "CAP32C_CV" , "class" : "Layout::LayoutCapCellSmall",
-          "usem3" : 0, "heightIncreaseMult" : 4,
+          "usem3" : 0, "usem5": 0, "heightIncreaseMult" : 4,
           "meta" : {
               "spice":
               [ "C1 C1A CTOP 0.2f",
