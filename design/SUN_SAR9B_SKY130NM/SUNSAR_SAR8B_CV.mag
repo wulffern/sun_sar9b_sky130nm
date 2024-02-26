@@ -1,7 +1,7 @@
 magic
-tech sky130B
+tech sky130A
 magscale 1 2
-timestamp 1708642800
+timestamp 1708902000
 << checkpaint >>
 rect -1922 -1864 24278 37062
 << m3 >>
