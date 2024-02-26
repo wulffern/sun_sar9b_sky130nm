@@ -28,6 +28,7 @@ C {devices/iopin.sym} 0 400 0 0 {name=p20 lab=DO<0>}
 C {devices/iopin.sym} 0 420 0 0 {name=p21 lab=DONE}
 C {devices/iopin.sym} 0 440 0 0 {name=p22 lab=AVDD}
 C {devices/iopin.sym} 0 460 0 0 {name=p23 lab=AVSS}
+C {devices/iopin.sym} 0 480 0 0 {name=p24 lab=TIE_L}
 C {SUN_SAR9B_SKY130NM/SUNSAR_DFQNX1_CV.sym} 400 0 0 0 {name=XXB07}
 N 360.0 0.0 380.0 0.0 {lab=D<7>}
 C {devices/lab_pin.sym} 360.0 0.0 0 0 {name=l0 sig_type=std_logic lab=D<7> }
@@ -219,3 +220,14 @@ N 1420.0 600.0 1440.0 600.0 {lab=AVDD}
 C {devices/lab_pin.sym} 1420.0 600.0 0 0 {name=l86 sig_type=std_logic lab=AVDD }
 N 1420.0 680.0 1440.0 680.0 {lab=AVSS}
 C {devices/lab_pin.sym} 1420.0 680.0 0 0 {name=l87 sig_type=std_logic lab=AVSS }
+C {SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sym} 1400 840.0 0 0 {name=XXA2}
+N 1460.0 840.0 1440.0 840.0 {lab=TIE_L}
+C {devices/lab_pin.sym} 1460.0 840.0 2 0 {name=l88 sig_type=std_logic lab=TIE_L }
+N 1440.0 800.0 1420.0 800.0 {lab=AVDD}
+C {devices/lab_pin.sym} 1440.0 800.0 2 0 {name=l89 sig_type=std_logic lab=AVDD }
+N 1440.0 880.0 1420.0 880.0 {lab=AVSS}
+C {devices/lab_pin.sym} 1440.0 880.0 2 0 {name=l90 sig_type=std_logic lab=AVSS }
+N 1380.0 800.0 1400.0 800.0 {lab=AVDD}
+C {devices/lab_pin.sym} 1380.0 800.0 0 0 {name=l91 sig_type=std_logic lab=AVDD }
+N 1380.0 880.0 1400.0 880.0 {lab=AVSS}
+C {devices/lab_pin.sym} 1380.0 880.0 0 0 {name=l92 sig_type=std_logic lab=AVSS }

@@ -1,52 +1,49 @@
 magic
 tech sky130A
-magscale 1 2
-timestamp 1708902000
-<< checkpaint >>
-rect 0 0 2520 352
+timestamp 1708968222
 << locali >>
-rect -108 142 540 210
-rect 432 142 600 210
-rect 600 54 864 122
-rect 600 54 668 210
-rect 432 142 600 210
-rect 600 230 864 298
-rect 600 142 668 298
-rect 1656 54 1824 122
-rect 1824 142 2088 210
-rect 1824 54 1892 210
-rect 1656 230 1824 298
-rect 1824 142 2088 210
-rect 1824 142 1892 298
-rect 1980 142 2628 210
-<< m3 >>
-rect 1548 0 1732 352
-rect 756 0 940 352
-rect 1548 0 1732 352
-rect 756 0 940 352
-use SUNSAR_NCHDL MN1 
+rect 300 115 432 149
+rect 828 115 946 149
+rect 300 105 334 115
+rect -54 71 334 105
+rect 300 61 334 71
+rect 912 105 946 115
+rect 912 71 1314 105
+rect 912 61 946 71
+rect 300 27 432 61
+rect 828 27 946 61
+<< metal3 >>
+rect 378 0 470 176
+rect 774 0 866 176
+use SUNSAR_NCHDL  MN1
+timestamp 1708902000
 transform 1 0 0 0 1 0
-box 0 0 1260 352
-use SUNSAR_PCHDL MP1 
-transform 1 0 1260 0 1 0
-box 1260 0 2520 352
-use SUNSAR_cut_M1M4_2x1 xcut0 
-transform 1 0 1548 0 1 230
-box 1548 230 1732 298
-use SUNSAR_cut_M1M4_2x1 xcut1 
-transform 1 0 1548 0 1 54
-box 1548 54 1732 122
-use SUNSAR_cut_M1M4_2x1 xcut2 
-transform 1 0 756 0 1 230
-box 756 230 940 298
-use SUNSAR_cut_M1M4_2x1 xcut3 
-transform 1 0 756 0 1 54
-box 756 54 940 122
+box -90 -66 630 242
+use SUNSAR_PCHDL  MP1
+timestamp 1708902000
+transform 1 0 630 0 1 0
+box 0 -66 720 242
+use SUNSAR_cut_M1M4_2x1  xcut0
+timestamp 1708902000
+transform 1 0 774 0 1 115
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut1
+timestamp 1708902000
+transform 1 0 774 0 1 27
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut2
+timestamp 1708902000
+transform 1 0 378 0 1 115
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut3
+timestamp 1708902000
+transform 1 0 378 0 1 27
+box 0 0 92 34
 << labels >>
-flabel m3 s 1548 0 1732 352 0 FreeSans 400 0 0 0 AVDD
+flabel metal3 s 774 0 866 176 0 FreeSans 200 0 0 0 AVDD
 port 1 nsew signal bidirectional
-flabel m3 s 756 0 940 352 0 FreeSans 400 0 0 0 AVSS
+flabel metal3 s 378 0 470 176 0 FreeSans 200 0 0 0 AVSS
 port 2 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 2520 352
+string FIXED_BBOX 0 0 1260 176
 << end >>

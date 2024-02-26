@@ -777,7 +777,7 @@ endmodule
 //-------------------------------------------------------------
 // SUNSAR_CAPT8B_CV <class 'cicpy.core.layoutcell.LayoutCell'>
 //-------------------------------------------------------------
-module SUNSAR_CAPT8B_CV(CKS,ENABLE,CK_SAMPLE,CK_SAMPLE_BSSW,EN,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,DO<7>,DO<6>,DO<5>,DO<4>,DO<3>,DO<2>,DO<1>,DO<0>,DONE,AVDD,AVSS);
+module SUNSAR_CAPT8B_CV(CKS,ENABLE,CK_SAMPLE,CK_SAMPLE_BSSW,EN,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,DO<7>,DO<6>,DO<5>,DO<4>,DO<3>,DO<2>,DO<1>,DO<0>,DONE,AVDD,AVSS,TIE_L);
 input logic DONE;
 input logic AVSS;
 input logic AVDD;
@@ -802,6 +802,7 @@ input logic DO<3>;
 input logic DO<2>;
 input logic DO<1>;
 input logic DO<0>;
+input logic TIE_L;
 SUNSAR_DFQNX1_CV XB07 (D<7>,DONE,DO<7>,DN7,AVDD,AVSS);
 SUNSAR_DFQNX1_CV XC08 (D<6>,DONE,DO<6>,DN6,AVDD,AVSS);
 SUNSAR_DFQNX1_CV XD09 (D<5>,DONE,DO<5>,DN5,AVDD,AVSS);
@@ -817,4 +818,5 @@ SUNSAR_BFX1_CV XA4 (CKS,CKS_B,AVDD,AVSS,AVDD,AVSS);
 SUNSAR_ORX1_CV XA5 (CKS_B,ENABLE_N,CK_SAMPLE,AVDD,AVSS,AVDD,AVSS);
 SUNSAR_IVX1_CV XA5a (CK_SAMPLE,EN,AVDD,AVSS,AVDD,AVSS);
 SUNSAR_ANX1_CV XA6 (CKS_B,ENABLE_B,CK_SAMPLE_BSSW,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_TIEL_CV XA2 (TIE_L,AVDD,AVSS,AVDD,AVSS);
 endmodule
