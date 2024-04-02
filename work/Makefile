@@ -29,7 +29,7 @@
 include ../tech/make/core.make
 
 LIB=SUN_SAR9B_SKY130NM
-CELL=SUNSAR_SAR9B_CV
+CELL=SUNSAR_SAR8B_CV
 
 
 CICVIEWS = --spice --verilog --magic --xschem

@@ -853,19 +853,19 @@
             },
             "afterPlace" : [
                 {"addPowerRings" :[
-                    ["M1","AVSS"],
-                    ["M1","AVDD"],
-                    ["M1","VREF","t"]
+                    ["M2","AVSS"],
+                    ["M2","AVDD"],
+                    ["M2","VREF","t"]
                 ]},
                 { "addRouteRings" :[
-                    ["M1","CK_SAMPLE_BSSW","rb"],
-                    ["M1","CEIN","lb"]
+                    ["M2","CK_SAMPLE_BSSW","rb"],
+                    ["M2","CEIN","lb"]
                 ]}
             ],
             "beforeRoute" : {
                 "addRouteConnections" : [
-                    ["CK_SAMPLE_BSSW","XB","bottom","M2"],
-                    ["CEIN","XA0$","left","M2"],
+                    ["CK_SAMPLE_BSSW","XB","bottom","M3"],
+                    ["CEIN","XA0$","left","M3"],
                     ["CEIN","XB","bottom","M4"]
                 ],
                 "addDirectedRoutes" : [
@@ -903,7 +903,7 @@
                 ]
             },
             "afterRoute" : {
-                "addPortOnRects" : [ ["DONE", "M1"],["AVDD","M1"],["AVSS","M1"],["SAR_IP","M4"],["SAR_IN","M4"]
+                "addPortOnRects" : [ ["DONE", "M1"],["AVDD","M2"],["AVSS","M2"],["SAR_IP","M4"],["SAR_IN","M4"]
                                      ,["CK_SAMPLE","M1"],["CK_SAMPLE_BSSW","M1"],["EN","M1"]],
                 "extendPortsToEdge" :[["D<","t"],["SAR_","b"]]
             }

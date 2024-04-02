@@ -4,6 +4,13 @@ magscale 1 2
 timestamp 1712008800
 << checkpaint >>
 rect 0 0 184 184
+<< m1 >>
+rect 0 0 184 184
+<< v1 >>
+rect 12 12 68 68
+rect 12 116 68 172
+rect 116 12 172 68
+rect 116 116 172 172
 << m2 >>
 rect 0 0 184 184
 << v2 >>

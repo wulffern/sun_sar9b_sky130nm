@@ -1,6 +1,8 @@
 magic
 tech sky130A
-timestamp 1708968222
+timestamp 1712087342
+<< checkpaint >>
+rect 0 0 1260 440
 << locali >>
 rect 378 379 486 413
 rect 216 335 334 369
@@ -14,11 +16,11 @@ rect 1206 66 1314 110
 rect 378 0 470 440
 rect 774 0 866 440
 use SUNSAR_NRX1_CV  XA1
-timestamp 1708902000
+timestamp 1712087342
 transform 1 0 0 0 1 0
 box -90 -66 1350 330
 use SUNSAR_IVX1_CV  XA2
-timestamp 1708968222
+timestamp 1712087342
 transform 1 0 0 0 1 264
 box -90 -66 1350 242
 << labels >>
