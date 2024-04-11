@@ -1,51 +1,43 @@
 magic
 tech sky130A
-timestamp 1712087342
-<< metal3 >>
-rect -10 2300 1836 2334
-rect -10 1854 24 2300
-rect 1836 1900 3682 1934
-rect -10 1820 1836 1854
-rect -10 1374 24 1820
-rect 3648 1454 3682 1900
-rect 1836 1420 3682 1454
-rect 54 1374 3618 1380
-rect -10 1340 3618 1374
-rect -10 894 24 1340
-rect 3648 974 3682 1420
-rect 1836 940 3682 974
-rect -10 860 1836 894
-rect -10 414 24 860
-rect 3648 494 3682 940
-rect 1836 460 3682 494
+magscale 1 1
+timestamp 1712786400
+<< checkpaint >>
+rect 0 0 3636 2400
+<< m3 >>
 rect -10 380 1836 414
-rect 54 14 3618 20
-rect 3648 14 3682 460
-rect 54 -20 3682 14
-use SUNSAR_CAP_BSSW_CV  XCAPB0
-timestamp 1712008800
+rect -10 860 1836 894
+rect -10 1340 1836 1374
+rect -10 1820 1836 1854
+rect -10 2300 1836 2334
+rect -10 380 24 2334
+rect 1836 -20 3648 14
+rect 1836 460 3648 494
+rect 1836 940 3648 974
+rect 1836 1420 3648 1454
+rect 1836 1900 3648 1934
+rect 3648 -20 3682 1934
+rect 54 1340 3618 1380
+rect 54 -20 3618 20
+use SUNSAR_CAP_BSSW_CV XCAPB0 
 transform 1 0 0 0 1 0
-box 54 -20 3618 420
-use SUNSAR_CAP_BSSW_CV  XCAPB1
-timestamp 1712008800
+box 0 0 3636 480
+use SUNSAR_CAP_BSSW_CV XCAPB1 
 transform 1 0 0 0 1 480
-box 54 -20 3618 420
-use SUNSAR_CAP_BSSW_CV  XCAPB2
-timestamp 1712008800
+box 0 480 3636 960
+use SUNSAR_CAP_BSSW_CV XCAPB2 
 transform 1 0 0 0 1 960
-box 54 -20 3618 420
-use SUNSAR_CAP_BSSW_CV  XCAPB3
-timestamp 1712008800
+box 0 960 3636 1440
+use SUNSAR_CAP_BSSW_CV XCAPB3 
 transform 1 0 0 0 1 1440
-box 54 -20 3618 420
-use SUNSAR_CAP_BSSW_CV  XCAPB4
-timestamp 1712008800
+box 0 1440 3636 1920
+use SUNSAR_CAP_BSSW_CV XCAPB4 
 transform 1 0 0 0 1 1920
-box 54 -20 3618 420
+box 0 1920 3636 2400
 << labels >>
-flabel metal3 s 54 1340 3618 1380 0 FreeSans 200 0 0 0 A
+flabel m3 s 54 1340 3618 1380 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel metal3 s 54 -20 3618 20 0 FreeSans 200 0 0 0 B
+flabel m3 s 54 -20 3618 20 0 FreeSans 400 0 0 0 B
 port 2 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 3636 2400

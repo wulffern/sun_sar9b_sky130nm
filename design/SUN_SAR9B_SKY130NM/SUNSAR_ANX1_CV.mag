@@ -1,42 +1,43 @@
 magic
 tech sky130A
-timestamp 1712087342
+magscale 1 1
+timestamp 1712786400
 << checkpaint >>
 rect 0 0 1260 440
 << locali >>
-rect 378 379 486 413
-rect 216 335 334 369
-rect 300 237 334 335
+rect 216 335 300 369
 rect 300 203 432 237
-rect 162 159 270 193
-rect -54 66 54 110
+rect 300 203 334 369
 rect 162 71 270 105
+rect 162 159 270 193
+rect 378 379 486 413
 rect 1206 66 1314 110
-<< metal3 >>
+rect -54 66 54 110
+<< m3 >>
+rect 774 0 866 440
 rect 378 0 470 440
 rect 774 0 866 440
-use SUNSAR_NDX1_CV  XA1
-timestamp 1712087342
+rect 378 0 470 440
+use SUNSAR_NDX1_CV XA1 
 transform 1 0 0 0 1 0
-box -90 -66 1350 330
-use SUNSAR_IVX1_CV  XA2
-timestamp 1712087342
+box 0 0 1260 264
+use SUNSAR_IVX1_CV XA2 
 transform 1 0 0 0 1 264
-box -90 -66 1350 242
+box 0 264 1260 440
 << labels >>
-flabel locali s 162 71 270 105 0 FreeSans 200 0 0 0 A
+flabel locali s 162 71 270 105 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel locali s 162 159 270 193 0 FreeSans 200 0 0 0 B
+flabel locali s 162 159 270 193 0 FreeSans 400 0 0 0 B
 port 2 nsew signal bidirectional
-flabel locali s 378 379 486 413 0 FreeSans 200 0 0 0 Y
+flabel locali s 378 379 486 413 0 FreeSans 400 0 0 0 Y
 port 3 nsew signal bidirectional
-flabel locali s 1206 66 1314 110 0 FreeSans 200 0 0 0 BULKP
+flabel locali s 1206 66 1314 110 0 FreeSans 400 0 0 0 BULKP
 port 4 nsew signal bidirectional
-flabel locali s -54 66 54 110 0 FreeSans 200 0 0 0 BULKN
+flabel locali s -54 66 54 110 0 FreeSans 400 0 0 0 BULKN
 port 5 nsew signal bidirectional
-flabel metal3 s 774 0 866 440 0 FreeSans 200 0 0 0 AVDD
+flabel m3 s 774 0 866 440 0 FreeSans 400 0 0 0 AVDD
 port 6 nsew signal bidirectional
-flabel metal3 s 378 0 470 440 0 FreeSans 200 0 0 0 AVSS
+flabel m3 s 378 0 470 440 0 FreeSans 400 0 0 0 AVSS
 port 7 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1260 440

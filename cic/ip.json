@@ -847,7 +847,7 @@
             "name" : "SAR8B_CV",
             "class" : "Layout::LayoutSARCDAC",
             "ctrlOutside" : 0,
-            //"usem5" : 0,
+            //"usem5" : 1,
             "meta" : {
 
             },
@@ -873,8 +873,8 @@
                     ["M3","CMP_ON","XA7$:CMP_ON-|--XA20$:XA3a:MP0:D","nostartcut,offsethighend,startoffsetcuthigh"],
                     ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA7$:XA6:MN3:G","offsetlowend"],
                     ["M3","CK_CMP","XA7$:CEO-|--XA20$:XA12:MN0:G","endoffsetcuthigh,track18"],
-                    ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,nostartcuts"],
-                    ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts"],
+                    ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts,track2"],
+                    ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna,track2"],
                     ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
                     ["M4","SARP","XB1:VO1-|--XB2:VO2","2cuts"],
                     ["M3","EN","XA0:XA1:XA5:EN-XA0:RST_N","offsethigh,noendcut"],
