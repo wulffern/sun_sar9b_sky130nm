@@ -63,6 +63,8 @@ endmodule
 //-------------------------------------------------------------
 module SUNSAR_TIEH_CV(Y,BULKP,BULKN,AVDD,AVSS);
 input logic Y;
+input logic BULKP;
+input logic BULKN;
 input logic AVDD;
 input logic AVSS;
 SUNSAR_NCHDL MN0 (A,A,AVSS,BULKN);
@@ -74,10 +76,22 @@ endmodule
 //-------------------------------------------------------------
 module SUNSAR_TIEL_CV(Y,BULKP,BULKN,AVDD,AVSS);
 input logic Y;
+input logic BULKP;
+input logic BULKN;
 input logic AVDD;
 input logic AVSS;
 SUNSAR_NCHDL MN0 (Y,A,AVSS,BULKN);
 SUNSAR_PCHDL MP0 (A,A,AVDD,BULKP);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_TAPCELLB_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_TAPCELLB_CV(AVDD,AVSS);
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NCHDL MN1 (AVSS,AVSS,AVSS,AVSS);
+SUNSAR_PCHDL MP1 (AVDD,AVDD,AVDD,AVDD);
 endmodule
 
 //-------------------------------------------------------------
@@ -115,6 +129,22 @@ SUNSAR_PCHDL MP3 (AVDD,A,Y,BULKP);
 endmodule
 
 //-------------------------------------------------------------
+// SUNSAR_BFX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_BFX1_CV(A,Y,BULKP,BULKN,AVDD,AVSS);
+input logic A;
+input logic Y;
+input logic BULKP;
+input logic BULKN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NCHDL MN0 (AVSS,A,B,BULKN);
+SUNSAR_NCHDL MN1 (Y,B,AVSS,BULKN);
+SUNSAR_PCHDL MP0 (AVDD,A,B,BULKP);
+SUNSAR_PCHDL MP1 (Y,B,AVDD,BULKP);
+endmodule
+
+//-------------------------------------------------------------
 // SUNSAR_NRX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
 //-------------------------------------------------------------
 module SUNSAR_NRX1_CV(A,B,Y,BULKP,BULKN,AVDD,AVSS);
@@ -146,6 +176,97 @@ SUNSAR_NCHDL MN0 (N1,A,AVSS,BULKN);
 SUNSAR_NCHDL MN1 (Y,B,N1,BULKN);
 SUNSAR_PCHDL MP0 (Y,A,AVDD,BULKP);
 SUNSAR_PCHDL MP1 (AVDD,B,Y,BULKP);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_ORX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_ORX1_CV(A,B,Y,BULKP,BULKN,AVDD,AVSS);
+input logic A;
+input logic B;
+input logic Y;
+input logic BULKP;
+input logic BULKN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NRX1_CV XA1 (A,B,YN,BULKP,BULKN,AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (YN,Y,BULKP,BULKN,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_ANX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_ANX1_CV(A,B,Y,BULKP,BULKN,AVDD,AVSS);
+input logic A;
+input logic B;
+input logic Y;
+input logic BULKP;
+input logic BULKN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NDX1_CV XA1 (A,B,YN,BULKP,BULKN,AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (YN,Y,BULKP,BULKN,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_IVTRIX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_IVTRIX1_CV(A,C,CN,Y,BULKP,BULKN,AVDD,AVSS);
+input logic A;
+input logic CN;
+input logic C;
+input logic Y;
+input logic BULKP;
+input logic BULKN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NCHDL MN0 (N1,A,AVSS,BULKN);
+SUNSAR_NCHDL MN1 (Y,C,N1,BULKN);
+SUNSAR_PCHDL MP0 (N2,A,AVDD,BULKP);
+SUNSAR_PCHDL MP1 (Y,CN,N2,BULKP);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_NDTRIX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_NDTRIX1_CV(A,C,CN,RN,Y,BULKP,BULKN,AVDD,AVSS);
+input logic A;
+input logic CN;
+input logic C;
+input logic RN;
+input logic Y;
+input logic BULKP;
+input logic BULKN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_NCHDL MN2 (N1,RN,AVSS,BULKN);
+SUNSAR_NCHDL MN0 (N2,A,N1,BULKN);
+SUNSAR_NCHDL MN1 (Y,C,N2,BULKN);
+SUNSAR_PCHDL MP2 (AVDD,RN,N2,BULKP);
+SUNSAR_PCHDL MP0 (N2,A,AVDD,BULKP);
+SUNSAR_PCHDL MP1 (Y,CN,N2,BULKP);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_DFRNQNX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_DFRNQNX1_CV(D,CK,RN,Q,QN,AVDD,AVSS);
+input logic D;
+input logic CK;
+input logic Q;
+input logic QN;
+input logic RN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_TAPCELLB_CV XA0 (AVDD,AVSS);
+SUNSAR_NDX1_CV XA1 (CK,RN,CKN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (CKN,CKB,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA3 (D,CKN,CKB,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA4 (A1,CKB,CKN,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5 (A0,A1,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA6 (A1,CKB,CKN,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_NDTRIX1_CV XA7 (Q,CKN,CKB,RN,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA8 (QN,Q,AVDD,AVSS,AVDD,AVSS);
 endmodule
 
 //-------------------------------------------------------------
@@ -183,16 +304,6 @@ SUNSAR_NCHDL MN2 (A,CN,B,BULKN);
 SUNSAR_PCHDL MP0 (AVDD,C,CN,BULKP);
 SUNSAR_PCHDL MP1_DMY (B,AVDD,AVDD,BULKP);
 SUNSAR_PCHDL MP2 (A,C,B,BULKP);
-endmodule
-
-//-------------------------------------------------------------
-// SUNSAR_TAPCELLB_CV <class 'cicpy.core.layoutcell.LayoutCell'>
-//-------------------------------------------------------------
-module SUNSAR_TAPCELLB_CV(AVDD,AVSS);
-input logic AVDD;
-input logic AVSS;
-SUNSAR_NCHDL MN1 (AVSS,AVSS,AVSS,AVSS);
-SUNSAR_PCHDL MP1 (AVDD,AVDD,AVDD,AVDD);
 endmodule
 
 //-------------------------------------------------------------
@@ -498,17 +609,39 @@ SUNSAR_CAP32C_CV XC0 (CP<11>,CP<11>,CP<11>,CP<11>,CP<11>,CP<11>,CTOP,AVSS);
 endmodule
 
 //-------------------------------------------------------------
+// SUNSAR_CDAC7_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_CDAC7_CV(CP<9>,CP<8>,CP<7>,CP<6>,CP<5>,CP<4>,CP<3>,CP<2>,CP<1>,CP<0>,CTOP,AVSS);
+input logic CP<9>;
+input logic CP<8>;
+input logic CP<7>;
+input logic CP<6>;
+input logic CP<5>;
+input logic CP<4>;
+input logic CP<3>;
+input logic CP<2>;
+input logic CP<1>;
+input logic CP<0>;
+input logic AVSS;
+input logic CTOP;
+SUNSAR_CAP32C_CV XC1 (CP<8>,CP<8>,CP<8>,CP<8>,CP<8>,CP<8>,CTOP,AVSS);
+SUNSAR_CAP32C_CV XC32a<0> (AVSS,CP<0>,CP<1>,CP<2>,CP<3>,CP<7>,CTOP,AVSS);
+SUNSAR_CAP32C_CV X16ab (CP<5>,CP<5>,CP<5>,CP<5>,CP<4>,CP<6>,CTOP,AVSS);
+SUNSAR_CAP32C_CV XC0 (CP<9>,CP<9>,CP<9>,CP<9>,CP<9>,CP<9>,CTOP,AVSS);
+endmodule
+
+//-------------------------------------------------------------
 // SUNSAR_SAR9B_CV <class 'cicpy.core.layoutcell.LayoutCell'>
 //-------------------------------------------------------------
 module SUNSAR_SAR9B_CV(SAR_IP,SAR_IN,SARN,SARP,DONE,D<8>,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,EN,CK_SAMPLE,CK_SAMPLE_BSSW,VREF,AVDD,AVSS);
 input logic D<8>;
-input logic D<7>;
-input logic D<6>;
 input logic D<5>;
 input logic D<4>;
 input logic D<3>;
 input logic D<2>;
 input logic D<1>;
+input logic D<6>;
+input logic D<7>;
 input logic AVSS;
 input logic AVDD;
 input logic VREF;
@@ -535,4 +668,155 @@ SUNSAR_SARDIGEX4_CV XA6 (CMP_OP,CMP_ON,ENO5,EN,ENO6,DONE6,NC4A,D<2>,CN<1>,NC4B,C
 SUNSAR_SARDIGEX4_CV XA7 (CMP_OP,CMP_ON,ENO6,EN,ENO7,DONE7,NC5A,D<1>,CN<0>,NC5B,CEO6,CEO7,CK_SAMPLE,VREF,AVDD,AVSS);
 SUNSAR_SARDIGEX4_CV XA8 (CMP_OP,CMP_ON,ENO7,EN,ENO8,DONE,NC6A,D<0>,NC6C,NC6B,CEO7,CK_CMP,CK_SAMPLE,VREF,AVDD,AVSS);
 SUNSAR_SARCMPX1_CV XA20 (SARP,SARN,CMP_OP,CMP_ON,CK_CMP,CK_SAMPLE,DONE,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_SAR8B_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_SAR8B_CV(SAR_IP,SAR_IN,SARN,SARP,DONE,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,EN,CK_SAMPLE,CK_SAMPLE_BSSW,VREF,AVDD,AVSS);
+input logic D<7>;
+input logic D<6>;
+input logic D<5>;
+input logic D<4>;
+input logic D<3>;
+input logic D<2>;
+input logic D<1>;
+input logic AVSS;
+input logic AVDD;
+input logic VREF;
+input logic CK_SAMPLE_BSSW;
+input logic DONE;
+input logic SAR_IP;
+input logic SAR_IN;
+input logic CK_SAMPLE;
+input logic EN;
+input logic SARN;
+input logic SARP;
+input logic D<0>;
+SUNSAR_SARBSSW_CV XB1 (SAR_IP,CK_SAMPLE_BSSW,NCCA,CEIN,SARP,SARN,AVDD,AVSS);
+SUNSAR_SARBSSW_CV XB2 (SAR_IN,CK_SAMPLE_BSSW,NCCB,CEIN,SARN,SARP,AVDD,AVSS);
+SUNSAR_CDAC7_CV XDAC1 (CP<9>,CP<8>,D<6>,CP<6>,D<5>,CP<4>,D<4>,D<3>,D<2>,D<1>,SARP,AVSS);
+SUNSAR_CDAC7_CV XDAC2 (D<7>,CN<8>,CN<7>,CN<6>,CN<5>,CN<4>,CN<3>,CN<2>,CN<1>,CN<0>,SARN,AVSS);
+SUNSAR_SARDIGEX4_CV XA0 (CMP_OP,CMP_ON,EN,EN,ENO0,DONE0,CP<8>,CP<9>,CN<8>,D<7>,CEIN,CEO0,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA1 (CMP_OP,CMP_ON,ENO0,EN,ENO1,DONE1,CP<6>,D<6>,CN<6>,CN<7>,CEO0,CEO1,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA2 (CMP_OP,CMP_ON,ENO1,EN,ENO2,DONE2,CP<4>,D<5>,CN<4>,CN<5>,CEO1,CEO2,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA3 (CMP_OP,CMP_ON,ENO2,EN,ENO3,DONE3,NC2A,D<4>,CN<3>,NC2B,CEO2,CEO3,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA4 (CMP_OP,CMP_ON,ENO3,EN,ENO4,DONE4,NC3A,D<3>,CN<2>,NC3B,CEO3,CEO4,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA5 (CMP_OP,CMP_ON,ENO4,EN,ENO5,DONE5,NC4A,D<2>,CN<1>,NC4B,CEO4,CEO5,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA6 (CMP_OP,CMP_ON,ENO5,EN,ENO6,DONE6,NC5A,D<1>,CN<0>,NC5B,CEO5,CEO6,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARDIGEX4_CV XA7 (CMP_OP,CMP_ON,ENO6,EN,ENO7,DONE,NC6A,D<0>,NC6C,NC6B,CEO6,CK_CMP,CK_SAMPLE,VREF,AVDD,AVSS);
+SUNSAR_SARCMPX1_CV XA20 (SARP,SARN,CMP_OP,CMP_ON,CK_CMP,CK_SAMPLE,DONE,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_SARCAPTURE_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_SARCAPTURE_CV(CKS,ENABLE,CK_SAMPLE,CK_SAMPLE_BSSW,EN,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,DO<7>,DO<6>,DO<5>,DO<4>,DO<3>,DO<2>,DO<1>,DO<0>,DONE,AVDD,AVSS);
+input logic CKS;
+input logic ENABLE;
+input logic CK_SAMPLE;
+input logic CK_SAMPLE_BSSW;
+input logic EN;
+input logic D<7>;
+input logic D<6>;
+input logic D<5>;
+input logic D<4>;
+input logic D<3>;
+input logic D<2>;
+input logic D<1>;
+input logic D<0>;
+input logic DO<7>;
+input logic DO<6>;
+input logic DO<5>;
+input logic DO<4>;
+input logic DO<3>;
+input logic DO<2>;
+input logic DO<1>;
+input logic DO<0>;
+input logic DONE;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_DFRNQNX1_CV XB07 (D<7>,DONE,ENABLE_B,DO<7>,DN7,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XC08 (D<6>,DONE,ENABLE_B,DO<6>,DN6,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XD09 (D<5>,DONE,ENABLE_B,DO<5>,DN5,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XE10 (D<4>,DONE,ENABLE_B,DO<4>,DN4,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XF11 (D<3>,DONE,ENABLE_B,DO<3>,DN3,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XG12 (D<2>,DONE,ENABLE_B,DO<2>,DN2,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XH13 (D<1>,DONE,ENABLE_B,DO<1>,DN1,AVDD,AVSS);
+SUNSAR_DFRNQNX1_CV XI14 (D<0>,DONE,ENABLE_B,DO<0>,DM0,AVDD,AVSS);
+SUNSAR_TAPCELLB_CV XA1 (AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (ENABLE,ENABLE_N,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA3 (ENABLE_N,ENABLE_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_BFX1_CV XA4 (CKS,CKS_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ORX1_CV XA5 (CKS_B,ENABLE_N,CK_SAMPLE,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5a (CK_SAMPLE,EN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ANX1_CV XA6 (CKS_B,ENABLE_B,CK_SAMPLE_BSSW,AVDD,AVSS,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_DFQNX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_DFQNX1_CV(D,CK,Q,QN,AVDD,AVSS);
+input logic D;
+input logic CK;
+input logic Q;
+input logic QN;
+input logic AVDD;
+input logic AVSS;
+SUNSAR_TAPCELLB_CV XA0 (AVDD,AVSS);
+SUNSAR_IVX1_CV XA1 (CK,CKN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (CKN,CKB,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA3 (D,CKN,CKB,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA4 (A1,CKB,CKN,A0,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5 (A0,A1,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA6 (A1,CKB,CKN,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVTRIX1_CV XA7 (Q,CKN,CKB,QN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA8 (QN,Q,AVDD,AVSS,AVDD,AVSS);
+endmodule
+
+//-------------------------------------------------------------
+// SUNSAR_CAPT8B_CV <class 'cicpy.core.layoutcell.LayoutCell'>
+//-------------------------------------------------------------
+module SUNSAR_CAPT8B_CV(CKS,ENABLE,CK_SAMPLE,CK_SAMPLE_BSSW,EN,D<7>,D<6>,D<5>,D<4>,D<3>,D<2>,D<1>,D<0>,DO<7>,DO<6>,DO<5>,DO<4>,DO<3>,DO<2>,DO<1>,DO<0>,DONE,AVDD,AVSS,TIE_L);
+input logic DONE;
+input logic AVSS;
+input logic AVDD;
+input logic CKS;
+input logic ENABLE;
+input logic CK_SAMPLE;
+input logic CK_SAMPLE_BSSW;
+input logic EN;
+input logic D<7>;
+input logic D<6>;
+input logic D<5>;
+input logic D<4>;
+input logic D<3>;
+input logic D<2>;
+input logic D<1>;
+input logic D<0>;
+input logic DO<7>;
+input logic DO<6>;
+input logic DO<5>;
+input logic DO<4>;
+input logic DO<3>;
+input logic DO<2>;
+input logic DO<1>;
+input logic DO<0>;
+input logic TIE_L;
+SUNSAR_DFQNX1_CV XB07 (D<7>,DONE,DO<7>,DN7,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XC08 (D<6>,DONE,DO<6>,DN6,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XD09 (D<5>,DONE,DO<5>,DN5,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XE10 (D<4>,DONE,DO<4>,DN4,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XF11 (D<3>,DONE,DO<3>,DN3,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XG12 (D<2>,DONE,DO<2>,DN2,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XH13 (D<1>,DONE,DO<1>,DN1,AVDD,AVSS);
+SUNSAR_DFQNX1_CV XI14 (D<0>,DONE,DO<0>,DM0,AVDD,AVSS);
+SUNSAR_TAPCELLB_CV XA1 (AVDD,AVSS);
+SUNSAR_IVX1_CV XA2 (ENABLE,ENABLE_N,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA3 (ENABLE_N,ENABLE_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_BFX1_CV XA4 (CKS,CKS_B,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ORX1_CV XA5 (CKS_B,ENABLE_N,CK_SAMPLE,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_IVX1_CV XA5a (CK_SAMPLE,EN,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_ANX1_CV XA6 (CKS_B,ENABLE_B,CK_SAMPLE_BSSW,AVDD,AVSS,AVDD,AVSS);
+SUNSAR_TIEL_CV XA2 (TIE_L,AVDD,AVSS,AVDD,AVSS);
 endmodule

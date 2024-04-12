@@ -1,17 +1,17 @@
 magic
-tech sky130B
-magscale 1 2
-timestamp 1681336800
+tech sky130A
+magscale 1 1
+timestamp 1712786400
 << checkpaint >>
-rect 0 0 200 76
+rect 0 0 92 34
 << m2 >>
-rect 0 0 200 76
+rect 0 0 92 34
 << v2 >>
-rect 12 6 76 70
-rect 124 6 188 70
+rect 6 3 34 31
+rect 58 3 86 31
 << m3 >>
-rect 0 0 200 76
+rect 0 0 92 34
 << labels >>
 << properties >>
-string FIXED_BBOX 0 0 200 76
+string FIXED_BBOX 0 0 92 34
 << end >>

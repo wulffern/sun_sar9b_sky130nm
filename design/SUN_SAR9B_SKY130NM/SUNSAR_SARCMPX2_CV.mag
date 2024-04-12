@@ -1,0 +1,152 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1708383600
+<< checkpaint >>
+rect 0 0 2520 9152
+<< locali >>
+rect 1656 2870 1824 2938
+rect 1824 5070 2088 5138
+rect 1824 3838 2088 3906
+rect 1824 2870 1892 5138
+rect 196 1550 432 1618
+rect 196 1902 432 1970
+rect 196 4366 432 4434
+rect 196 6830 432 6898
+rect 196 1550 264 6898
+rect 432 6830 600 6898
+rect 600 7270 864 7338
+rect 600 6830 668 7338
+rect 628 8150 864 8218
+rect 432 7534 628 7602
+rect 628 7534 696 8218
+rect 1656 8678 1824 8746
+rect 1824 7710 2088 7778
+rect 1824 7710 1892 8746
+rect 628 2694 864 2762
+rect 628 5158 864 5226
+rect 628 2694 696 5226
+rect 324 8062 540 8130
+rect 324 8590 540 8658
+rect 324 8238 540 8306
+rect 756 3926 972 3994
+rect 756 3398 972 3466
+rect 324 1374 540 1442
+rect 324 5246 540 5314
+<< m1 >>
+rect 1656 4982 1824 5050
+rect 1824 2782 2088 2850
+rect 1824 3310 2088 3378
+rect 1824 2782 1892 5050
+rect 432 1374 600 1442
+rect 432 2078 600 2146
+rect 600 1374 668 2146
+rect 432 5246 600 5314
+rect 432 5950 600 6018
+rect 600 5246 668 6018
+rect 196 494 432 562
+rect 196 5774 432 5842
+rect 196 7182 432 7250
+rect 196 494 264 7250
+rect 432 7182 600 7250
+rect 600 7798 864 7866
+rect 600 7182 668 7866
+<< m3 >>
+rect 1548 0 1732 9152
+rect 756 0 940 9152
+rect 1548 0 1732 9152
+rect 756 0 940 9152
+use SUNSAR_TAPCELLB_CV XA0 
+transform 1 0 0 0 1 0
+box 0 0 2520 352
+use SUNSAR_SARKICKHX1_CV XA1 
+transform 1 0 0 0 1 352
+box 0 352 2520 1760
+use SUNSAR_SARCMPHX1_CV XA2 
+transform 1 0 0 0 1 1760
+box 0 1760 2520 3168
+use SUNSAR_IVX2_CV XA2a 
+transform 1 0 0 0 1 3168
+box 0 3168 2520 3696
+use SUNSAR_IVX2_CV XA3a 
+transform 1 0 0 0 1 3696
+box 0 3696 2520 4224
+use SUNSAR_SARCMPHX1_CV XA3 
+transform 1 0 0 0 1 4224
+box 0 4224 2520 5632
+use SUNSAR_SARKICKHX1_CV XA4 
+transform 1 0 0 0 1 5632
+box 0 5632 2520 7040
+use SUNSAR_IVX1_CV XA9 
+transform 1 0 0 0 1 7040
+box 0 7040 2520 7392
+use SUNSAR_NDX1_CV XA10 
+transform 1 0 0 0 1 7392
+box 0 7392 2520 7920
+use SUNSAR_NRX1_CV XA11 
+transform 1 0 0 0 1 7920
+box 0 7920 2520 8448
+use SUNSAR_IVX1_CV XA12 
+transform 1 0 0 0 1 8448
+box 0 8448 2520 8800
+use SUNSAR_TAPCELLB_CV XA13 
+transform 1 0 0 0 1 8800
+box 0 8800 2520 9152
+use SUNSAR_cut_M1M2_2x1 xcut0 
+transform 1 0 1548 0 1 4982
+box 1548 4982 1732 5050
+use SUNSAR_cut_M1M2_2x1 xcut1 
+transform 1 0 1980 0 1 2782
+box 1980 2782 2164 2850
+use SUNSAR_cut_M1M2_2x1 xcut2 
+transform 1 0 1980 0 1 3310
+box 1980 3310 2164 3378
+use SUNSAR_cut_M1M2_2x1 xcut3 
+transform 1 0 356 0 1 1374
+box 356 1374 540 1442
+use SUNSAR_cut_M1M2_2x1 xcut4 
+transform 1 0 356 0 1 2078
+box 356 2078 540 2146
+use SUNSAR_cut_M1M2_2x1 xcut5 
+transform 1 0 356 0 1 5246
+box 356 5246 540 5314
+use SUNSAR_cut_M1M2_2x1 xcut6 
+transform 1 0 356 0 1 5950
+box 356 5950 540 6018
+use SUNSAR_cut_M1M2_2x1 xcut7 
+transform 1 0 324 0 1 494
+box 324 494 508 562
+use SUNSAR_cut_M1M2_2x1 xcut8 
+transform 1 0 324 0 1 5774
+box 324 5774 508 5842
+use SUNSAR_cut_M1M2_2x1 xcut9 
+transform 1 0 324 0 1 7182
+box 324 7182 508 7250
+use SUNSAR_cut_M1M2_2x1 xcut10 
+transform 1 0 324 0 1 7182
+box 324 7182 508 7250
+use SUNSAR_cut_M1M2_2x1 xcut11 
+transform 1 0 756 0 1 7798
+box 756 7798 940 7866
+<< labels >>
+flabel locali s 324 8062 540 8130 0 FreeSans 400 0 0 0 CK_SAMPLE
+port 6 nsew signal bidirectional
+flabel locali s 324 8590 540 8658 0 FreeSans 400 0 0 0 CK_CMP
+port 5 nsew signal bidirectional
+flabel locali s 324 8238 540 8306 0 FreeSans 400 0 0 0 DONE
+port 7 nsew signal bidirectional
+flabel locali s 756 3926 972 3994 0 FreeSans 400 0 0 0 CNO
+port 4 nsew signal bidirectional
+flabel locali s 756 3398 972 3466 0 FreeSans 400 0 0 0 CPO
+port 3 nsew signal bidirectional
+flabel locali s 324 1374 540 1442 0 FreeSans 400 0 0 0 CPI
+port 1 nsew signal bidirectional
+flabel locali s 324 5246 540 5314 0 FreeSans 400 0 0 0 CNI
+port 2 nsew signal bidirectional
+flabel m3 s 1548 0 1732 9152 0 FreeSans 400 0 0 0 AVDD
+port 8 nsew signal bidirectional
+flabel m3 s 756 0 940 9152 0 FreeSans 400 0 0 0 AVSS
+port 9 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 2520 0 9152
+<< end >>

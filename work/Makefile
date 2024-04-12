@@ -29,7 +29,7 @@
 include ../tech/make/core.make
 
 LIB=SUN_SAR9B_SKY130NM
-CELL=SUNSAR_SAR9B_CV
+CELL=SUNSAR_SAR8B_CV
 
 
 CICVIEWS = --spice --verilog --magic --xschem
@@ -39,6 +39,11 @@ CICVIEWS = --spice --verilog --magic --xschem
 #----------------------------------------------------------------------------
 
 CELLS = SUNSAR_SARDIGEX4_CV SUNSAR_SARCMPX1_CV SUNSAR_SARBSSW_CV SUNSAR_CAP32C_CV SUNSAR_SAR9B_CV
+
+fports:
+	perl -pi  -e "s/FreeSans 400/FreeSans 2000/ig" ../design/${LIB}/SUNSAR_SAR8B_CV.mag
+	perl -pi  -e "s/FreeSans 400/FreeSans 2000/ig" ../design/${LIB}/SUNSAR_SARCAPTURE_CV.mag
+	perl -pi  -e "s/FreeSans 400/FreeSans 2000/ig" ../design/${LIB}/SUNSAR_CAPT8B_CV.mag
 
 calccap:
 	cat lpe/SUNSAR_CAP32C_CV_lpe.spi |grep CTOP|grep XRES | perl -e 'while(<>){@ar = split(/\s+/); $$c = $$ar[-1]; $$c =~ s/fF//ig; m/XRES(\d+)\w?\//ig; $$m = $$1; printf("%-2d\t%.3f %.3f\n",$$m,$$c,($$c/$$m));}'
