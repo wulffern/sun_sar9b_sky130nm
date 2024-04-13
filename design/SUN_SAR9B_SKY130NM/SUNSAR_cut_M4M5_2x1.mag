@@ -1,17 +1,23 @@
 magic
 tech sky130A
-magscale 1 1
-timestamp 1712786400
+timestamp 1712959200
 << checkpaint >>
 rect 0 0 96 34
-<< m3 >>
-rect 0 0 92 34
-<< v3 >>
+<< metal3 >>
+rect 0 33 92 34
+rect 0 1 2 33
+rect 34 1 58 33
+rect 90 1 92 33
+rect 0 0 92 1
+<< via3 >>
 rect 2 1 34 33
 rect 58 1 90 33
-<< m4 >>
-rect 0 0 96 34
-<< labels >>
+<< metal4 >>
+rect 0 33 96 34
+rect 0 1 2 33
+rect 34 1 58 33
+rect 90 1 96 33
+rect 0 0 96 1
 << properties >>
 string FIXED_BBOX 0 0 96 34
 << end >>

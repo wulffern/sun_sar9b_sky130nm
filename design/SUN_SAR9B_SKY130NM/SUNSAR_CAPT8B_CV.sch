@@ -220,7 +220,7 @@ N 1420.0 600.0 1440.0 600.0 {lab=AVDD}
 C {devices/lab_pin.sym} 1420.0 600.0 0 0 {name=l86 sig_type=std_logic lab=AVDD }
 N 1420.0 680.0 1440.0 680.0 {lab=AVSS}
 C {devices/lab_pin.sym} 1420.0 680.0 0 0 {name=l87 sig_type=std_logic lab=AVSS }
-C {SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sym} 1400 840.0 0 0 {name=XXA2}
+C {SUN_SAR9B_SKY130NM/SUNSAR_TIEL_CV.sym} 1400 840.0 0 0 {name=XXA7}
 N 1460.0 840.0 1440.0 840.0 {lab=TIE_L}
 C {devices/lab_pin.sym} 1460.0 840.0 2 0 {name=l88 sig_type=std_logic lab=TIE_L }
 N 1440.0 800.0 1420.0 800.0 {lab=AVDD}

@@ -1,55 +1,54 @@
 magic
 tech sky130A
-magscale 1 1
-timestamp 1712786400
+timestamp 1712959200
 << checkpaint >>
 rect 0 0 1260 264
-<< locali >>
-rect 216 159 300 193
-rect 300 27 432 61
-rect 300 27 334 193
-rect 432 27 516 61
-rect 516 27 828 61
-rect 516 27 550 61
-rect 432 203 516 237
-rect 516 203 828 237
-rect 516 203 550 237
-rect 162 71 270 105
-rect 378 203 486 237
-rect 1206 66 1314 110
-rect -54 66 54 110
 << poly >>
-rect 162 79 1098 97
 rect 162 167 1098 185
-<< m3 >>
-rect 774 0 866 264
+rect 162 79 1098 97
+<< locali >>
+rect 378 203 828 237
+rect 216 159 334 193
+rect -54 66 54 110
+rect 162 71 270 105
+rect 300 61 334 159
+rect 1206 66 1314 110
+rect 300 27 828 61
+<< metal3 >>
 rect 378 0 470 264
 rect 774 0 866 264
-rect 378 0 470 264
-use SUNSAR_NCHDL MN0 
+use SUNSAR_NCHDL  MN0
+timestamp 1712959200
 transform 1 0 0 0 1 0
-box 0 0 630 176
-use SUNSAR_NCHDL MN1 
+box -90 -66 630 242
+use SUNSAR_NCHDL  MN1
+timestamp 1712959200
 transform 1 0 0 0 1 88
-box 0 88 630 264
-use SUNSAR_PCHDL MP0 
+box -90 -66 630 242
+use SUNSAR_PCHDL  MP0
+timestamp 1712959200
 transform 1 0 630 0 1 0
-box 630 0 1260 176
-use SUNSAR_PCHDL MP1 
+box 0 -66 720 242
+use SUNSAR_PCHDL  MP1
+timestamp 1712959200
 transform 1 0 630 0 1 88
-box 630 88 1260 264
-use SUNSAR_cut_M1M4_2x1 xcut0 
+box 0 -66 720 242
+use SUNSAR_cut_M1M4_2x1  xcut0
+timestamp 1712959200
 transform 1 0 774 0 1 115
-box 774 115 866 149
-use SUNSAR_cut_M1M4_2x1 xcut1 
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut1
+timestamp 1712959200
 transform 1 0 774 0 1 115
-box 774 115 866 149
-use SUNSAR_cut_M1M4_2x1 xcut2 
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut2
+timestamp 1712959200
 transform 1 0 378 0 1 115
-box 378 115 470 149
-use SUNSAR_cut_M1M4_2x1 xcut3 
+box 0 0 92 34
+use SUNSAR_cut_M1M4_2x1  xcut3
+timestamp 1712959200
 transform 1 0 378 0 1 115
-box 378 115 470 149
+box 0 0 92 34
 << labels >>
 flabel locali s 162 71 270 105 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
@@ -59,9 +58,9 @@ flabel locali s 1206 66 1314 110 0 FreeSans 400 0 0 0 BULKP
 port 3 nsew signal bidirectional
 flabel locali s -54 66 54 110 0 FreeSans 400 0 0 0 BULKN
 port 4 nsew signal bidirectional
-flabel m3 s 774 0 866 264 0 FreeSans 400 0 0 0 AVDD
+flabel metal3 s 774 0 866 264 0 FreeSans 400 0 0 0 AVDD
 port 5 nsew signal bidirectional
-flabel m3 s 378 0 470 264 0 FreeSans 400 0 0 0 AVSS
+flabel metal3 s 378 0 470 264 0 FreeSans 400 0 0 0 AVSS
 port 6 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1260 264
