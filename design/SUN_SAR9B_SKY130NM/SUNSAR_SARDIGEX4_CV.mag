@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1712786400
+timestamp 1712872800
 << checkpaint >>
 rect 0 0 1260 5368
 << locali >>
@@ -52,16 +52,16 @@ rect 828 2315 912 2349
 rect 912 3767 1044 3801
 rect 912 2315 946 3801
 << m3 >>
-rect 1091 1963 1125 3375
-rect 178 2271 270 2305
-rect 523 2286 557 2378
-rect 594 2726 628 2818
-rect 673 3166 707 3258
-rect 1062 1963 1154 2055
-rect 774 0 866 5368
-rect 378 0 470 5368
-rect 774 0 866 5368
-rect 378 0 470 5368
+rect 1095 1963 1129 3383
+rect 170 2269 270 2307
+rect 527 2282 565 2382
+rect 607 2722 645 2822
+rect 695 3162 733 3262
+rect 1062 1963 1162 2063
+rect 774 0 874 5368
+rect 378 0 478 5368
+rect 774 0 874 5368
+rect 378 0 478 5368
 << m2 >>
 rect 178 1127 270 1161
 rect 178 247 270 281
@@ -130,17 +130,17 @@ use SUNSAR_cut_M1M2_2x1 xcut7
 transform 1 0 990 0 1 3767
 box 990 3767 1082 3801
 use SUNSAR_cut_M1M4_2x1 xcut8 
-transform 1 0 178 0 1 2271
-box 178 2271 270 2305
+transform 1 0 170 0 1 2269
+box 170 2269 270 2307
 use SUNSAR_cut_M1M4_1x2 xcut9 
-transform 1 0 523 0 1 2286
-box 523 2286 557 2378
+transform 1 0 527 0 1 2282
+box 527 2282 565 2382
 use SUNSAR_cut_M1M4_1x2 xcut10 
-transform 1 0 594 0 1 2726
-box 594 2726 628 2818
+transform 1 0 607 0 1 2722
+box 607 2722 645 2822
 use SUNSAR_cut_M1M4_1x2 xcut11 
-transform 1 0 673 0 1 3166
-box 673 3166 707 3258
+transform 1 0 695 0 1 3162
+box 695 3162 733 3262
 use SUNSAR_cut_M2M3_2x1 xcut12 
 transform 1 0 790 0 1 379
 box 790 379 882 413
@@ -167,13 +167,13 @@ flabel locali s 162 1479 270 1513 0 FreeSans 400 0 0 0 CMP_ON
 port 2 nsew signal bidirectional
 flabel m2 s 790 379 882 413 0 FreeSans 400 0 0 0 ENO
 port 5 nsew signal bidirectional
-flabel m3 s 178 2271 270 2305 0 FreeSans 400 0 0 0 CN1
+flabel m3 s 170 2269 270 2307 0 FreeSans 400 0 0 0 CN1
 port 10 nsew signal bidirectional
-flabel m3 s 523 2286 557 2378 0 FreeSans 400 0 0 0 CP1
+flabel m3 s 527 2282 565 2382 0 FreeSans 400 0 0 0 CP1
 port 8 nsew signal bidirectional
-flabel m3 s 594 2726 628 2818 0 FreeSans 400 0 0 0 CP0
+flabel m3 s 607 2722 645 2822 0 FreeSans 400 0 0 0 CP0
 port 7 nsew signal bidirectional
-flabel m3 s 673 3166 707 3258 0 FreeSans 400 0 0 0 CN0
+flabel m3 s 695 3162 733 3262 0 FreeSans 400 0 0 0 CN0
 port 9 nsew signal bidirectional
 flabel locali s 162 4911 270 4945 0 FreeSans 400 0 0 0 CEIN
 port 11 nsew signal bidirectional
@@ -183,11 +183,11 @@ flabel locali s 162 3679 270 3713 0 FreeSans 400 0 0 0 CKS
 port 13 nsew signal bidirectional
 flabel locali s 378 4251 486 4285 0 FreeSans 400 0 0 0 DONE
 port 6 nsew signal bidirectional
-flabel m3 s 1062 1963 1154 2055 0 FreeSans 400 0 0 0 VREF
+flabel m3 s 1062 1963 1162 2063 0 FreeSans 400 0 0 0 VREF
 port 14 nsew signal bidirectional
-flabel m3 s 774 0 866 5368 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 774 0 874 5368 0 FreeSans 400 0 0 0 AVDD
 port 15 nsew signal bidirectional
-flabel m3 s 378 0 470 5368 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 378 0 478 5368 0 FreeSans 400 0 0 0 AVSS
 port 16 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1260 5368

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1712786400
+timestamp 1712872800
 << checkpaint >>
 rect 0 0 5724 2400
 << m1 >>
@@ -55,18 +55,18 @@ rect 716 907 1152 941
 rect 216 423 716 457
 rect 716 423 750 941
 rect 1548 555 1632 589
-rect 1632 -20 2188 14
+rect 1632 -20 2192 14
 rect 1632 -20 1666 589
 << m3 >>
 rect 2078 1340 3924 1374
-rect 1756 819 2078 853
+rect 1760 819 2078 853
 rect 2078 819 2112 1374
-rect 394 115 486 149
-rect 838 1435 930 1469
-rect 1494 0 1586 2400
-rect 1098 0 1190 2400
-rect 1494 0 1586 2400
-rect 1098 0 1190 2400
+rect 386 113 486 151
+rect 806 1433 906 1471
+rect 1494 0 1594 2400
+rect 1098 0 1198 2400
+rect 1494 0 1594 2400
+rect 1098 0 1198 2400
 use SUNSAR_NCHDLR M1 
 transform 1 0 0 0 1 0
 box 0 0 720 176
@@ -123,7 +123,7 @@ transform 1 0 1494 0 1 819
 box 1494 819 1586 853
 use SUNSAR_cut_M2M4_2x1 xcut1 
 transform 1 0 1710 0 1 819
-box 1710 819 1802 853
+box 1710 819 1810 857
 use SUNSAR_cut_M1M2_2x1 xcut2 
 transform 1 0 1494 0 1 291
 box 1494 291 1586 325
@@ -165,17 +165,17 @@ transform 1 0 1494 0 1 555
 box 1494 555 1586 589
 use SUNSAR_cut_M3M4_2x1 xcut15 
 transform 1 0 2142 0 1 -20
-box 2142 -20 2234 14
+box 2142 -20 2242 18
 use SUNSAR_cut_M1M4_2x1 xcut16 
-transform 1 0 394 0 1 115
-box 394 115 486 149
+transform 1 0 386 0 1 113
+box 386 113 486 151
 use SUNSAR_cut_M2M4_2x1 xcut17 
-transform 1 0 838 0 1 1435
-box 838 1435 930 1469
+transform 1 0 806 0 1 1433
+box 806 1433 906 1471
 << labels >>
-flabel m3 s 394 115 486 149 0 FreeSans 400 0 0 0 VI
+flabel m3 s 386 113 486 151 0 FreeSans 400 0 0 0 VI
 port 1 nsew signal bidirectional
-flabel m3 s 838 1435 930 1469 0 FreeSans 400 0 0 0 TIE_L
+flabel m3 s 806 1433 906 1471 0 FreeSans 400 0 0 0 TIE_L
 port 4 nsew signal bidirectional
 flabel locali s 882 247 990 281 0 FreeSans 400 0 0 0 CK
 port 2 nsew signal bidirectional
@@ -185,9 +185,9 @@ flabel locali s 378 555 486 589 0 FreeSans 400 0 0 0 VO1
 port 5 nsew signal bidirectional
 flabel locali s 378 1259 486 1293 0 FreeSans 400 0 0 0 VO2
 port 6 nsew signal bidirectional
-flabel m3 s 1494 0 1586 2400 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 1494 0 1594 2400 0 FreeSans 400 0 0 0 AVDD
 port 7 nsew signal bidirectional
-flabel m3 s 1098 0 1190 2400 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 1098 0 1198 2400 0 FreeSans 400 0 0 0 AVSS
 port 8 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 5724 2400

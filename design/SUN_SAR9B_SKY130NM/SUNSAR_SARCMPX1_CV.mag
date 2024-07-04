@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1712786400
+timestamp 1712872800
 << checkpaint >>
 rect 0 0 1260 4928
 << locali >>
@@ -52,10 +52,10 @@ rect 216 3943 300 3977
 rect 300 4251 432 4285
 rect 300 3943 334 4285
 << m3 >>
-rect 774 0 866 4928
-rect 378 0 470 4928
-rect 774 0 866 4928
-rect 378 0 470 4928
+rect 774 0 874 4928
+rect 378 0 478 4928
+rect 774 0 874 4928
+rect 378 0 478 4928
 use SUNSAR_TAPCELLB_CV XA0 
 transform 1 0 0 0 1 0
 box 0 0 1260 176
@@ -143,9 +143,9 @@ flabel locali s 162 687 270 721 0 FreeSans 400 0 0 0 CPI
 port 1 nsew signal bidirectional
 flabel locali s 162 2975 270 3009 0 FreeSans 400 0 0 0 CNI
 port 2 nsew signal bidirectional
-flabel m3 s 774 0 866 4928 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 774 0 874 4928 0 FreeSans 400 0 0 0 AVDD
 port 8 nsew signal bidirectional
-flabel m3 s 378 0 470 4928 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 378 0 478 4928 0 FreeSans 400 0 0 0 AVSS
 port 9 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1260 4928

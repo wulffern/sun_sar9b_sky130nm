@@ -781,29 +781,29 @@
          "afterPlace" : [
 
              {"addPowerRings" :[
-                 ["M1","AVSS"],
-                 ["M1","AVDD"],
-                 ["M1","VREF","t"]
+                 ["M2","AVSS"],
+                 ["M2","AVDD"],
+                 ["M2","VREF","t"]
              ]},
              { "addRouteRings" :[
-                 ["M1","CK_SAMPLE_BSSW","rb"],
-                 ["M1","CEIN","lb"]
+                 ["M2","CK_SAMPLE_BSSW","rb"],
+                 ["M2","CEIN","lb"]
              ]}
          ],
          "beforeRoute" : {
              "addRouteConnections" : [
-                 ["CK_SAMPLE_BSSW","XB","bottom","M2"],
-                 ["CEIN","XA0$","left","M2"],
+                 ["CK_SAMPLE_BSSW","XB","bottom","M3"],
+                 ["CEIN","XA0$","left","M3"],
                  ["CEIN","XB","bottom","M4"]
              ],
              "addDirectedRoutes" : [
-                 ["M3","CMP_OP","XA20$:CPO--|-XA8$:CMP_OP","offsethighend,startoffsetcuthigh,track1"],
-                 ["M3","CMP_ON","XA20$:XA3a:MP0:D--|-XA8$:CMP_ON","noendcut,offsethighend,startoffsetcuthigh"],
+                 ["M3","CMP_OP","XA20$:CPO--|-XA8$:CMP_OP","offsethighend,startoffsetcuthigh,track16"],
+                 ["M3","CMP_ON","XA20$:XA3a:MP0:D--|-XA8$:CMP_ON","noendcut,offsethighend,startoffsetcuthigh,track8"],
                  ["M3","CK_SAMPLE","XA20$:XA11:MP0:G-|--XA8$:XA6:MN3:G"],
                  ["M3","CK_CMP","XA20$:XA12:MP0:G--|-XA8$:CEO","endoffsetcuthigh"],
                  ["M2","DONE","XA20$:XA11:MP1:G--|-XA8$:DONE"],
-                 ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts"],
-                 ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna"],
+                 ["M4","SARP","XB1:VO1--|-XDAC1:XC1$:CTOP","2cuts,antenna,nostartcuts,track2"],
+                 ["M4","SARN","XB2:VO1-|--XDAC2:XC1$:CTOP","2cuts,antenna,track2"],
                  ["M3","SARN","XB1:VO2-|--XB2:VO1","2cuts"],
                  ["M4","SARP","XB1:VO1-|--XB2:VO2","2cuts"],
                  ["M3","EN","XA0:XA1:XA5:EN-XA0:RST_N","offsethigh,noendcut"],
