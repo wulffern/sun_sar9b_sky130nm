@@ -1,0 +1,25 @@
+name: GDS
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "gds"
+  cancel-in-progress: true
+
+jobs:
+  gds:
+    runs-on: ubuntu-latest
+    container:
+      image: wulffern/aicex:24.04_0.1.4
+      options: --user root
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: GDS
+        uses: analogicus/jnw-gds-action@main
+        with:
+          cell: "SUNSAR_SAR9B_CV"
+          library: "SUN_SAR9B_SKY130NM"

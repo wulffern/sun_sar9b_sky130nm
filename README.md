@@ -1,5 +1,9 @@
 # SUN_SAR9B_SKY130NM
 
+[![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
+[![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
+[![LVS/LPE](../../actions/workflows/lvslpe.yaml/badge.svg)](../../actions/workflows/lvslpe.yaml)
+
 # Who
 Carsten Wulff carsten@wulff.no
 
