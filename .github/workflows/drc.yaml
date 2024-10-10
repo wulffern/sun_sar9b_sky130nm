@@ -19,7 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: DRC
-        uses: analogicus/jnw-drc-action@main
+        uses: analogicus/jnw-actions/info@main
+        id: info
+      - name: DRC
+        uses: analogicus/jnw-actions/drc@main
         with:
-          cell: "SUNSAR_SAR9B_CV"
-          library: "SUN_SAR9B_SKY130NM"
+          library: ${{steps.info.outputs.library}}
+          cell: ${{steps.info.outputs.cell}}

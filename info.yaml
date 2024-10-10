@@ -1,0 +1,10 @@
+library: SUN_SAR9B_SKY130NM
+cell: SUN_SAR9B_CV
+author: Carsten Wulff
+tagline: "9 bit and 8 bit SAR ADC"
+email: carsten@wulff.no
+url: analogicus.com
+doc:
+  dir: documents
+  libraries:
+    - SUN_SAR9B_SKY130NM

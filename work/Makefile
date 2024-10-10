@@ -25,14 +25,24 @@
 ##
 ######################################################################
 
+# What schematics to write documentation for
+SCHS= ../design/${LIB}/SUNSAR_SAR8B_CV \
+	../design/${LIB}/SUNSAR_SAR9B_CV \
+	../design/${LIB}/SUNSAR_SARBSSW_CV \
+	../design/${LIB}/SUNSAR_SARBSSWCTRL_CV \
+	../design/${LIB}/SUNSAR_SARCMPX1_CV \
+	../design/${LIB}/SUNSAR_SARCMPHX1_CV \
+	../design/${LIB}/SUNSAR_SAREMX1_CV \
+	../design/${LIB}/SUNSAR_SARDIGEX4_CV
 
 include ../tech/make/core.make
 
 LIB=SUN_SAR9B_SKY130NM
 CELL=SUNSAR_SAR9B_CV
-
-
 CICVIEWS = --spice --verilog --magic --xschem
+
+
+
 
 #----------------------------------------------------------------------------
 # REGRESSION

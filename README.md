@@ -1,8 +1,7 @@
-# SUN_SAR9B_SKY130NM
 
-[![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
-[![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
-[![LVS/LPE](../../actions/workflows/lvslpe.yaml/badge.svg)](../../actions/workflows/lvslpe.yaml)
+[![GDS](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/gds.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/gds.yaml)
+[![DRC](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/drc.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/drc.yaml)
+[![LVS](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/lvslpe.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/lvslpe.yaml) 
 
 # Who
 Carsten Wulff carsten@wulff.no
@@ -32,13 +31,14 @@ cic
 
  
 # What
-| What               | Path                                   | Comment          |
-|:-------------------|:---------------------------------------|:-----------------|
+
+| What               | Path                                                                                           | Comment          |
+|:-------------------|:-----------------------------------------------------------------------------------------------|:-----------------|
 | Schematic          | [design/SUN_SAR9B_SKY130NM/SUNSAR_SAR9B_CV.sch](design/SUN_SAR9B_SKY130NM/SUNSAR_SAR9B_CV.sch) | Not fully tested |
 | Layout             | [design/SUN_SAR9B_SKY130NM/SUNSAR_SAR9B_CV.mag](design/SUN_SAR9B_SKY130NM/SUNSAR_SAR9B_CV.mag) |                  |
-| Verilog            | [design/SUN_SAR9B_SKY130NM.v](design/SUN_SAR9B_SKY130NM.v)            | Not tested       |
-| Simulation netlist | [design/SUN_SAR9B_SKY130NM.spice](design/SUN_SAR9B_SKY130NM.spice)        |                  |
-| LVS netlist        | [design/SUN_SAR9B_SKY130NM.spi](design/SUN_SAR9B_SKY130NM.spi)          |                  |
+| Verilog            | [design/SUN_SAR9B_SKY130NM.v](design/SUN_SAR9B_SKY130NM.v)                                     | Not tested       |
+| Simulation netlist | [design/SUN_SAR9B_SKY130NM.spice](design/SUN_SAR9B_SKY130NM.spice)                             |                  |
+| LVS netlist        | [design/SUN_SAR9B_SKY130NM.spi](design/SUN_SAR9B_SKY130NM.spi)                                 |                  |
 
 
 # Compiling ADC
@@ -77,12 +77,13 @@ make test
 
 # Testbenches
 
-| Name              | Purpose                                                       | Notes                                      |
-|:------------------|---------------------------------------------------------------|--------------------------------------------|
-| sim/SAR9B/tran.spi          | Full simulation of SAR, takes 1.5 hours on my Macbook pro     | python3 plot.py <runfile> to plot FFT      |
+| Name               | Purpose                                                   | Notes                                 |
+|:-------------------|-----------------------------------------------------------|---------------------------------------|
+| sim/SAR9B/tran.spi | Full simulation of SAR, takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
 
 
 # Key parameters
+
 | Parameter                             | Min  | Typ     | Max   | Unit |
 |:--------------------------------------|:----:|:-------:|:-----:|:----:|
 | Technology                            |      | SKY130NM |       |      |
