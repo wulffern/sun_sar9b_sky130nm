@@ -18,11 +18,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: DRC
+      - name: Info
         uses: analogicus/jnw-actions/info@main
         id: info
       - name: DRC
         uses: analogicus/jnw-actions/drc@main
         with:
-          library: ${{steps.info.outputs.library}}
-          cell: ${{steps.info.outputs.cell}}
+          library: ${{steps.info.outputs.LIBRARY}}
+          cell: ${{steps.info.outputs.CELL}}
