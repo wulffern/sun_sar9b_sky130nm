@@ -1,8 +1,8 @@
 name: DRC
 
 on:
-  push:
-    branches: ["main"]
+  #push:
+  #  branches: ["main"]
   workflow_dispatch:
 
 concurrency:
@@ -24,5 +24,5 @@ jobs:
       - name: DRC
         uses: analogicus/jnw-actions/drc@main
         with:
-          library: ${{steps.info.outputs.LIBRARY}}
-          cell: ${{steps.info.outputs.CELL}}
+          library: ${{steps.info.outputs.library}}
+          cell: ${{steps.info.outputs.cell}}

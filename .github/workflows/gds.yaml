@@ -1,8 +1,8 @@
 name: GDS
 
 on:
-  push:
-    branches: ["main"]
+  #push:
+  #  branches: ["main"]
   workflow_dispatch:
 
 concurrency:
@@ -11,18 +11,5 @@ concurrency:
 
 jobs:
   gds:
-    runs-on: ubuntu-latest
-    container:
-      image: wulffern/aicex:24.04_0.1.4
-      options: --user root
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Info
-        uses: analogicus/jnw-actions/info@main
-        id: info
-      - name: GDS
-        uses: analogicus/jnw-actions/gds@main
-        with:
-          library: ${{steps.info.outputs.LIBRARY}}
-          cell: ${{steps.info.outputs.CELL}}
+    uses: analogicus/jnw-actions/.github/workflows/gds.yaml@main
+    #uses: ./tmp/.github/workflows/gds.yaml
