@@ -17,4 +17,7 @@ concurrency:
 jobs:
   docs:
     uses: analogicus/jnw-actions/.github/workflows/docs.yaml@main
-    #uses: ./tmp/.github/workflows/docs.yaml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
