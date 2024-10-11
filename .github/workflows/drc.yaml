@@ -10,19 +10,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  drc:
-    runs-on: ubuntu-latest
-    container:
-      image: wulffern/aicex:24.04_0.1.4
-      options: --user root
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Info
-        uses: analogicus/jnw-actions/info@main
-        id: info
-      - name: DRC
-        uses: analogicus/jnw-actions/drc@main
-        with:
-          library: ${{steps.info.outputs.library}}
-          cell: ${{steps.info.outputs.cell}}
+  gds:
+    uses: analogicus/jnw-actions/.github/workflows/drc.yaml@main
+    #uses: ./tmp/.github/workflows/drc.yaml

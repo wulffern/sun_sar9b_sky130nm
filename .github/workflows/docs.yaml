@@ -1,39 +1,15 @@
-name: Docs
+name: DOCS
 
 on:
   #push:
   #  branches: ["main"]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-
 concurrency:
-  group: "pages"
+  group: "docs"
   cancel-in-progress: true
 
 jobs:
-
-  build:
-    runs-on: ubuntu-latest
-    container:
-      image: wulffern/aicex:24.04_0.1.4
-      options: --user root
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: doc
-        uses: analogicus/jnw-actions/doc@main
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  gds:
+    uses: analogicus/jnw-actions/.github/workflows/docs.yaml@main
+    #uses: ./tmp/.github/workflows/docs.yaml
