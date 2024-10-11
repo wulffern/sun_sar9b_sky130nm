@@ -12,4 +12,3 @@ concurrency:
 jobs:
   lvs:
     uses: analogicus/jnw-actions/.github/workflows/lvs.yaml@main
-    #uses: ./tmp/.github/workflows/lvs.yaml
