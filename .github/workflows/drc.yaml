@@ -1,8 +1,8 @@
 name: DRC
 
 on:
-  #push:
-  #  branches: ["main"]
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:
@@ -10,6 +10,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  gds:
+  drc:
     uses: analogicus/jnw-actions/.github/workflows/drc.yaml@main
     #uses: ./tmp/.github/workflows/drc.yaml

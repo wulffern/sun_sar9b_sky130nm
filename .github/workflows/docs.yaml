@@ -1,8 +1,8 @@
 name: DOCS
 
 on:
-  #push:
-  #  branches: ["main"]
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:
@@ -10,6 +10,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  gds:
+  docs:
     uses: analogicus/jnw-actions/.github/workflows/docs.yaml@main
     #uses: ./tmp/.github/workflows/docs.yaml
