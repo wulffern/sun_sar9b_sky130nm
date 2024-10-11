@@ -5,7 +5,6 @@ tagline: "9 bit and 8 bit SAR ADC"
 email: carsten@wulff.no
 url: analogicus.com
 doc:
-  src: documents
   dest: docs
   libraries:
     - SUN_SAR9B_SKY130NM
