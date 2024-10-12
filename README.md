@@ -80,7 +80,7 @@ make test
 
 | Name               | Purpose                                                   | Notes                                 |
 |:-------------------|-----------------------------------------------------------|---------------------------------------|
-| sim/SAR9B/tran.spi | Full simulation of SAR, takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
+| sim/SAR9B/tran.spi | Full simulation of SAR takes 1.5 hours on my Macbook pro | python3 plot.py <runfile> to plot FFT |
 
 
 # Key parameters
@@ -97,25 +97,6 @@ make test
 | SNDR without device noise             | 48.8 | 50.4    | 50.87 | dBFS |
 | SFDR                                  | 57   | 59      | 61    | dBc  |
 | ENOB without device noise             | 7.8  | 8.08    | 8.16  | bit  |
-
-
-
-# Status
-
-| Stage                | TYPE | Status             | Comment |
-|:---------------------|:----:|:------------------:|:-------:|
-| Specification        | DOC  | :white_check_mark: |         |
-| Verilog model        | VIEW | :x:                |         |
-| Schematic            | VIEW | :x:                |         |
-| Schematic simulation | VER  | :x:                |         |
-| Spice simulation     | VER  | :white_check_mark: |         |
-| Layout               | VIEW | :white_check_mark: |         |
-| LPE simulation       | VER  | :white_check_mark: |         |
-| LVS                  | VER  | :white_check_mark: |         |
-| DRC                  | VER  | :white_check_mark: |         |
-| ERC                  | VER  | :x:                |         |
-| ANT                  | VER  | :x:                |         |
-
 
 # Results
 

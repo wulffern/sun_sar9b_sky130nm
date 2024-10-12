@@ -7,4 +7,10 @@ url: analogicus.com
 doc:
   dest: docs
   libraries:
-    - SUN_SAR9B_SKY130NM
+    SUN_SAR9B_SKY130NM:
+      - SUNSAR_SAR9B_CV
+      - SUNSAR_SARBSSW_CV
+      - SUNSAR_SARCMPX1_CV
+      - SUNSAR_SARCMPHX1_CV
+      - SUNSAR_SARKICKHX1_CV
+      - SUNSAR_SARDIGEX4_CV
