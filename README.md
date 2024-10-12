@@ -3,6 +3,7 @@
 [![DRC](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/drc.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/drc.yaml)
 [![LVS](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/lvs.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/lvs.yaml) 
 [![DOCS](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/docs.yaml/badge.svg)](https://analogicus.com/sun_sar9b_sky130nm) 
+[![SIM](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/sim.yaml/badge.svg)](https://github.com/wulffern/sun_sar9b_sky130nm/actions/workflows/sim.yaml) 
 
 # Who
 Carsten Wulff carsten@wulff.no

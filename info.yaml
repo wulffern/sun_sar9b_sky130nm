@@ -14,3 +14,7 @@ doc:
       - SUNSAR_SARCMPHX1_CV
       - SUNSAR_SARKICKHX1_CV
       - SUNSAR_SARDIGEX4_CV
+
+#- What simulation jobs to run
+sim:
+  SAR9B: make test

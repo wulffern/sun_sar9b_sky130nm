@@ -30,6 +30,9 @@
 
 test:
 	${MAKE} typical OPT="Debug"
+	python3 plot_sar.py tran_DebugLayGtKttTtVt.run
+	-mkdir results
+	cp tran_DebugLayGtKttTtVt.pdf results
 
 TB=tran
 VIEW=Lay

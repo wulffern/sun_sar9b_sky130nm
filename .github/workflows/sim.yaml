@@ -1,0 +1,15 @@
+name: SIM
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "sim"
+  cancel-in-progress: true
+
+jobs:
+  sim:
+    uses: analogicus/jnw-actions/.github/workflows/sim.yaml@main
+    #uses: ./tmp/.github/workflows/drc.yaml
