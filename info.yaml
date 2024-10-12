@@ -17,4 +17,4 @@ doc:
 
 #- What simulation jobs to run
 sim:
-  SAR9B: make test
+  SUNSAR_SARBSSW_CV: make test

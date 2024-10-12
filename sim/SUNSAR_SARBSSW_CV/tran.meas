@@ -1,0 +1,14 @@
+* Measure SUNSAR_SARBSSW_CV
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+
+meas tran vcm_off find sar_cm when v(ck)=0.5 rise=2
+meas tran vcm_on find sar_cm when v(ck)=0.5 fall=2
+meas tran in find sar_in when v(ck)=0.5 fall=2
+meas tran diff find sar_diff when v(ck)=0.5 rise=3
+
+echo "MEAS_END"
+.endc

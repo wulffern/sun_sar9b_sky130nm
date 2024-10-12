@@ -1,0 +1,6 @@
+corner:
+  Lay: ''
+  Sch: ''
+ngspice:
+  library: SUN_SAR9B_SKY130NM
+  cell: SUNSAR_SARBSSW_CV
