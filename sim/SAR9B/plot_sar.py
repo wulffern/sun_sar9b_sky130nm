@@ -30,7 +30,7 @@ idsqs = list()
 
 tsample = 100
 
-f,axes = plt.subplots(3,1,sharex=False)
+f,axes = plt.subplots(3,1,sharex=True)
 
 #axes = list()
 #axes.append(ax)
@@ -41,7 +41,7 @@ for f in files:
     df = dfs[0]
 
     df.set_index("time",inplace=True)
-    df.index = pd.to_datetime(df.index,unit='s')
+    #df.index = pd.to_datetime(df.index,unit='s')
 
 
     fullscale_in = 1.5
@@ -49,18 +49,25 @@ for f in files:
     sigi = df["v(sar_ip)"] - df["v(sar_in)"]
     sigibssw = df["v(sarp)"] - df["v(sarn)"]
     saro = df["v(ro)"]
+    axes[0].plot(df.index,20*np.log10(np.abs(sigibssw)),linestyle='solid',label="CDAC top plate")
+    axes[0].plot(df.index,20*np.log10(np.abs(sigi)),linestyle='solid',label="input")
 
 
-    axes[0].plot(20*np.log10(np.abs(sigibssw)),linestyle='solid')
-    axes[0].plot(20*np.log10(np.abs(sigi)),linestyle='solid')
-
-    axes[1].plot(sigibssw,linestyle='solid')
-    axes[1].plot(sigi,linestyle='solid')
-
-    axes[2].plot(saro,linestyle='solid')
+    axes[1].plot(df.index,sigibssw,linestyle='solid',label="CDAC top plate")
+    axes[1].plot(df.index,sigi,linestyle='solid',label="Input")
 
 
-axes[0].grid()
+    axes[2].plot(df.index,saro,linestyle='solid',label="Output")
+
+axes[0].set_ylabel("Magnitude [dB10]")
+axes[1].set_ylabel("Voltage [V]")
+axes[2].set_ylabel("Two's complement dout/2**(bits-1) ")
+
+for a in axes:
+    a.grid()
+    a.legend()
+
+axes[2].set_xlabel("Seconds")
 plt.tight_layout()
 
 if(len(sys.argv)> 2):
