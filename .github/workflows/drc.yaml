@@ -3,6 +3,8 @@ name: DRC
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'design/**.mag'
   workflow_dispatch:
 
 concurrency:

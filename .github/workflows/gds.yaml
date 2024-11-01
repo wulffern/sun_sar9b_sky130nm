@@ -3,6 +3,8 @@ name: GDS
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'design/**.mag'
   workflow_dispatch:
 
 concurrency:

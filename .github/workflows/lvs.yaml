@@ -3,7 +3,12 @@ name: LVS
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'design/**.mag'
+      - 'design/**.sch'
+      - 'design/**.sym'
   workflow_dispatch:
+
 
 concurrency:
   group: "lvs"
