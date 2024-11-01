@@ -3,6 +3,11 @@ name: DOCS
 on:
   push:
     branches: ["main"]
+    paths:
+      - '**.md'
+      - 'documents/**'
+      - 'media/**'
+      - 'design/**'
   workflow_dispatch:
 
 permissions:
