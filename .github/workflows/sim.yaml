@@ -3,6 +3,11 @@ name: SIM
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'design/**.sch'
+      - 'design/**.mag'
+      - 'design/**.sym'
+      - 'sim/**'
   workflow_dispatch:
 
 concurrency:
