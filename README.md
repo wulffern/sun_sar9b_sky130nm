@@ -31,6 +31,9 @@ cic
 └── sky130.tech                  # Technology file for Skywater 130 nm
 ```
 
+I've also made a video that could be worth a look 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/shGSKpBpAjc?si=Z2h4zZt0n2l_BSQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
 # What
 
